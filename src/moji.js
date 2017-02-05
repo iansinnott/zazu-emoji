@@ -21,6 +21,3 @@ const searchByQuery = query =>
     .fold(debug, x => x);
 
 module.exports = searchByQuery;
-console.log(
-  searchByQuery(process.argv[2]).map(R.prop('char'))
-);

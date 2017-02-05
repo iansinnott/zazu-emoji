@@ -1,25 +1,41 @@
 const fs = require('fs');
 const path = require('path');
 const emojiDict = require('emojilib').lib;
+const emojiKeys = require('emojilib').ordered;
 const R = require('ramda');
 const debug = require('debug')('zazu-emoji:buildKeywordIndex');
 const { IO } = require('shirt');
 
-// Turn into one large map of keywords to arrays
-// All possible keywords, in a list
+// Having the full output of the emoji lib is helpf for debugging
+if (process.env.DEBUG) {
+  IO(() => [emojiKeys, emojiDict])
+    .map(R.map(x => JSON.stringify(x, null, 2)))
+    .fold(debug, ([keys, dict]) => {
+      fs.writeFileSync(path.resolve(__dirname, 'keys.json'), keys, { encoding: 'utf8' });
+      fs.writeFileSync(path.resolve(__dirname, 'dict.json'), dict, { encoding: 'utf8' });
+    });
+}
+
+/**
+ * Turn into one large map of keywords to arrays All possible keywords, in a
+ * list
+ *
+ * NOTE: This is important. If the keyword itself is in the dictionary then we
+ * want to add it to its own list of matching keywowrds. Otherwise we end up
+ * with an odd situation where you get things like "cat": []. Where a keyword
+ * maps to nothing, even though it is itself a valid emoji
+ */
 const keywordsToInitialDict = R.compose(
   R.fromPairs,
-  R.map(keyword =>
-    IO(() => !!emojiDict[keyword])
-      .map(x => (x ? Right(true) : Left(false)))
-      .map(R.tap(debug))
-      .fold(R.always([keyword, []]), R.always([keyword, [keyword]])))
+  R.tap(debug),
+  R.map(keyword => [keyword, (emojiDict[keyword] ? [keyword] : [])]) // See NOTE
 );
 
 const combineUniqueKeywords = R.compose(
   keywordsToInitialDict,
-  R.uniq, // Uniqify everything
-  R.chain(([key, entry]) => entry.keywords.concat(key)), // Gimme dem keywords + keys
+  R.uniq,
+  R.flatten,
+  R.map(([key, entry]) => entry.keywords.concat(key)), // Gimme dem keywords + keys
   R.toPairs
 );
 
