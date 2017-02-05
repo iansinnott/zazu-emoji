@@ -8,7 +8,7 @@ const search = require('./moji.js')({ limit: 20 });
  */
 const fromRaw = ({ char, name }) => ({
   id: char, // Does this work? Just using the emoji itself as an id?
-  icon: char, // Emoji img. Passing char directly doesn't seem to work
+  icon: `./emoji-images/${name}.png`, // Emoji img. Passing char directly doesn't seem to work
   title: `${char} ${name}`, // Official emoji title
   subtitle: `Copy "${char}" to clipboard`,
   value: char, // Emoji
