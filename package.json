@@ -4,16 +4,27 @@
   "description": "Zazu Template for starting your own plugin.",
   "main": "zazu.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint src",
     "test": "mocha ./test"
   },
   "license": "Unlicense",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "chai": "^3.5.0",
-    "eslint": "^3.13.0",
+    "eslint": "^3.15.0",
     "eslint-config-standard": "^6.2.1",
+    "eslint-config-zen": "^2.0.3",
+    "eslint-plugin-flowtype": "^2.30.0",
     "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
     "eslint-plugin-standard": "^2.0.1",
+    "eslint_d": "^4.2.1",
     "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "debug": "^2.6.0",
+    "emojilib": "^2.0.6",
+    "ramda": "^0.23.0",
+    "shirt": "^0.2.1"
   }
 }

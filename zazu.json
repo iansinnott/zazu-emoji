@@ -1,44 +1,25 @@
 {
-  "name": "zazu-template",
-  "version": "1.0.0",
-  "description": "Zazu Template for starting your own plugin.",
+  "name": "zazu-emoji",
+  "version": "0.1.0",
+  "icon": "fa-hand-spock-o",
+  "description": "Emoji for Zazu",
   "blocks": {
     "input": [
       {
-        "id": "template",
-        "type": "Keyword",
-        "keyword": "template",
-        "title": "Zazu Template",
-        "subtitle": "Goto Zazu Template GitHub Repo",
-        "icon": "fa-files-o",
-        "connections": [
-          "GoHome"
-        ]
-      },
-      {
-        "id": "hello",
-        "type": "Keyword",
-        "keyword": "hello",
-        "title": "Hello!",
-        "subtitle": "Please type your name!",
-        "icon": "fa-hand-spock-o",
-        "connections": ["GoHome"]
-      },
-      {
-        "id": "hello-name",
+        "id": "emoji",
         "type": "PrefixScript",
-        "prefix": "hello",
+        "prefix": "moji",
         "space": true,
         "args": "Required",
-        "script": "src/hello.js",
-        "connections": ["GoHome"]
+        "script": "src/zazu.js",
+        "connections": ["copy"]
       }
     ],
     "output": [
       {
-        "id": "GoHome",
-        "type": "OpenInBrowser",
-        "url": "https://github.com/tinytacoteam/zazu-template"
+        "id": "copy",
+        "type": "CopyToClipboard",
+        "text": "{value}"
       }
     ]
   }
