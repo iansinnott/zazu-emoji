@@ -23,13 +23,13 @@ const DEFAULT_LIMIT = 250;
  */
 const search = (query) => R.filter(x => x.includes(query));
 
-const searchByQuery = (query, limit = DEFAULT_LIMIT) =>
+const searchByQuery = R.curry((opts, query) =>
   IO.of(keywordIndex)
     .map(Object.keys) // We will match against keys on the index
     .map(search(query)) // The actual search
     .map(R.chain(x => keywordIndex[x])) // Each key to its list of emoji names
-    .map(R.take(limit)) // Limit the number returned
+    .map(R.take(opts.limit || DEFAULT_LIMIT)) // Limit the number returned
     .map(R.map(x => Object.assign({}, { name: x }, emojiDict[x])))
-    .fold(debug, x => x);
+    .fold(debug, x => x));
 
 module.exports = searchByQuery;

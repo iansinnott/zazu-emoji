@@ -2,7 +2,9 @@ import test from 'ava';
 import { lib as emojiDict } from 'emojilib';
 import { prop } from 'ramda';
 
-import search from './moji.js';
+import makeSearch from './moji.js';
+
+const search = makeSearch({});
 
 test('Moji search', t => {
   t.deepEqual(search('funny').map(prop('char')).sort(), ['😃', '😄'].sort());
