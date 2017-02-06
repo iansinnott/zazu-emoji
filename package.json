@@ -9,6 +9,9 @@
     "postinstall": "npm run build",
     "test": "ava"
   },
+  "engines": {
+    "node": ">= 6.9.1"
+  },
   "license": "Unlicense",
   "devDependencies": {
     "ava": "^0.18.1",
