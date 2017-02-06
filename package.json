@@ -7,6 +7,8 @@
     "lint": "eslint src",
     "build": "node ./src/buildKeywordIndex.js",
     "postinstall": "npm run build",
+    "bump": "npm version patch -m 'v%s'",
+    "postversion": "git push && git push --tags",
     "test": "ava"
   },
   "engines": {
