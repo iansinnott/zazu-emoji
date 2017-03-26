@@ -43,8 +43,8 @@
     "poodle"
   ],
   "911": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "ambulance",
     "rotating_light",
     "oncoming_police_car",
@@ -142,11 +142,11 @@
     "nine",
     "keycap_ten",
     "arrow_forward",
-    "double_vertical_bar",
-    "black_right_pointing_triangle_with_double_vertical_bar",
-    "black_square_for_stop",
-    "black_circle_for_record",
-    "black_right_pointing_double_triangle_with_vertical_bar",
+    "pause_button",
+    "next_track_button",
+    "stop_button",
+    "record_button",
+    "play_or_pause_button",
     "fast_forward",
     "rewind",
     "twisted_rightwards_arrows",
@@ -183,6 +183,7 @@
     "grimacing",
     "grin",
     "joy",
+    "rofl",
     "smiley",
     "smile",
     "sweat_smile",
@@ -190,8 +191,8 @@
     "innocent",
     "wink",
     "blush",
-    "slightly_smiling",
-    "upside_down",
+    "slightly_smiling_face",
+    "upside_down_face",
     "relaxed",
     "yum",
     "relieved",
@@ -203,23 +204,26 @@
     "stuck_out_tongue_winking_eye",
     "stuck_out_tongue_closed_eyes",
     "stuck_out_tongue",
-    "money_mouth",
-    "nerd",
+    "money_mouth_face",
+    "nerd_face",
     "sunglasses",
-    "hugging",
+    "clown_face",
+    "cowboy_hat_face",
+    "hugs",
     "smirk",
     "no_mouth",
     "expressionless",
-    "rolling_eyes",
+    "roll_eyes",
     "thinking",
+    "lying_face",
     "flushed",
     "disappointed",
     "worried",
     "angry",
     "pensive",
     "confused",
-    "slightly_sad",
-    "white_frowning",
+    "slightly_frowning_face",
+    "frowning_face",
     "persevere",
     "confounded",
     "weary",
@@ -233,18 +237,21 @@
     "anguished",
     "cry",
     "disappointed_relieved",
+    "drooling_face",
     "sleepy",
     "sweat",
     "sob",
     "astonished",
-    "zipper_mouth",
+    "zipper_mouth_face",
+    "nauseated_face",
+    "sneezing_face",
     "mask",
     "sleeping",
     "ear",
     "eye",
     "kiss",
     "dark_sunglasses",
-    "fox",
+    "fox_face",
     "bowtie",
     "neckbeard"
   ],
@@ -256,14 +263,14 @@
     "sweat_smile",
     "wink",
     "blush",
-    "slightly_smiling",
-    "upside_down",
+    "slightly_smiling_face",
+    "upside_down_face",
     "yum",
     "stuck_out_tongue_winking_eye",
     "stuck_out_tongue_closed_eyes",
     "stuck_out_tongue",
     "sunglasses",
-    "hugging",
+    "hugs",
     "smirk",
     "smiley_cat",
     "smile_cat"
@@ -339,11 +346,29 @@
   ],
   "haha": [
     "joy",
+    "rofl",
     "smiley",
     "smile",
     "laughing",
     "joy_cat",
     "see_no_evil"
+  ],
+  "rolling": [
+    "rofl"
+  ],
+  "floor": [
+    "rofl"
+  ],
+  "laughing": [
+    "laughing",
+    "rofl"
+  ],
+  "lol": [
+    "rofl",
+    "laughing"
+  ],
+  "rofl": [
+    "rofl"
   ],
   ":)": [
     "smiley",
@@ -372,12 +397,12 @@
     "couple",
     "two_men_holding_hands",
     "two_women_holding_hands",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man",
     "kiss",
     "love_hotel",
     "wedding",
@@ -419,9 +444,6 @@
   "sweat_smile": [
     "sweat_smile"
   ],
-  "lol": [
-    "laughing"
-  ],
   "satisfied": [
     "laughing"
   ],
@@ -429,9 +451,6 @@
     "laughing"
   ],
   "XD": [
-    "laughing"
-  ],
-  "laughing": [
     "laughing"
   ],
   "angel": [
@@ -458,7 +477,7 @@
   "secret": [
     "secret",
     "wink",
-    "zipper_mouth",
+    "zipper_mouth_face",
     "lock_with_ink_pen"
   ],
   ";)": [
@@ -488,21 +507,20 @@
     "relaxed",
     "flushed"
   ],
-  "slightly_smiling": [
-    "slightly_smiling"
+  "slightly_smiling_face": [
+    "slightly_smiling_face"
   ],
   "flipped": [
-    "upside_down"
+    "upside_down_face"
   ],
   "silly": [
-    "upside_down",
+    "upside_down_face",
     "yum"
   ],
-  "upside_down": [
-    "upside_down"
+  "upside_down_face": [
+    "upside_down_face"
   ],
   "massage": [
-    "massage",
     "relaxed",
     "relieved"
   ],
@@ -547,12 +565,12 @@
     "couple",
     "two_men_holding_hands",
     "two_women_holding_hands",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man",
     "kiss",
     "rose",
     "wedding",
@@ -561,7 +579,7 @@
     "green_heart",
     "blue_heart",
     "purple_heart",
-    "heavy_heart_exclamation_mark_ornament",
+    "heavy_heart_exclamation",
     "two_hearts",
     "revolving_hearts",
     "heartbeat",
@@ -578,9 +596,9 @@
     "kissing_closed_eyes",
     "heart_eyes_cat",
     "couple",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
     "kiss",
     "love_hotel",
     "wedding",
@@ -604,12 +622,12 @@
     "kissing_closed_eyes",
     "heart_eyes_cat",
     "couple",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man",
     "kiss",
     "ring",
     "rose",
@@ -693,11 +711,11 @@
     "stuck_out_tongue"
   ],
   "rich": [
-    "money_mouth"
+    "money_mouth_face"
   ],
   "dollar": [
     "dollar",
-    "money_mouth",
+    "money_mouth_face",
     "money_with_wings",
     "yen",
     "euro",
@@ -706,7 +724,7 @@
     "currency_exchange"
   ],
   "money": [
-    "money_mouth",
+    "money_mouth_face",
     "purse",
     "bank",
     "dollar",
@@ -720,24 +738,24 @@
     "heavy_dollar_sign",
     "currency_exchange"
   ],
-  "money_mouth": [
-    "money_mouth"
+  "money_mouth_face": [
+    "money_mouth_face"
   ],
   "nerdy": [
-    "nerd",
+    "nerd_face",
     "eyeglasses",
     "neckbeard"
   ],
   "geek": [
-    "nerd",
+    "nerd_face",
     "eyeglasses"
   ],
   "dork": [
-    "nerd",
+    "nerd_face",
     "eyeglasses"
   ],
-  "nerd": [
-    "nerd"
+  "nerd_face": [
+    "nerd_face"
   ],
   "cool": [
     "cool",
@@ -763,15 +781,15 @@
     "tropical_drink",
     "golf",
     "fishing_pole_and_fish",
-    "woman_swimming",
-    "swimmer",
-    "woman_surfing",
-    "surfer",
-    "boat",
+    "swimming_woman",
+    "swimming_man",
+    "surfing_woman",
+    "surfing_man",
+    "sailboat",
     "speedboat",
     "fountain",
-    "beach_with_umbrella",
-    "umbrella_on_ground",
+    "beach_umbrella",
+    "parasol_on_ground",
     "low_brightness"
   ],
   "beach": [
@@ -788,8 +806,8 @@
     "sunny",
     "fish_cake",
     "tropical_drink",
-    "woman_surfing",
-    "surfer"
+    "surfing_woman",
+    "surfing_man"
   ],
   "sunglass": [
     "sunglasses"
@@ -797,11 +815,24 @@
   "sunglasses": [
     "sunglasses"
   ],
-  "hug": [
-    "hugging"
+  "clown_face": [
+    "clown_face"
   ],
-  "hugging": [
-    "hugging"
+  "cowgirl": [
+    "cowboy_hat_face"
+  ],
+  "hat": [
+    "cowboy_hat_face",
+    "mortar_board"
+  ],
+  "cowboy_hat_face": [
+    "cowboy_hat_face"
+  ],
+  "hug": [
+    "hugs"
+  ],
+  "hugs": [
+    "hugs"
   ],
   "mean": [
     "smirk"
@@ -843,7 +874,7 @@
   ],
   "indifferent": [
     "expressionless",
-    "person_shrugging",
+    "woman_shrugging",
     "man_shrugging"
   ],
   "-_-": [
@@ -868,16 +899,16 @@
     "unamused"
   ],
   "eyeroll": [
-    "rolling_eyes"
+    "roll_eyes"
   ],
   "frustrated": [
-    "rolling_eyes",
+    "roll_eyes",
     "angry",
     "tired_face",
     "weary"
   ],
-  "rolling_eyes": [
-    "rolling_eyes"
+  "roll_eyes": [
+    "roll_eyes"
   ],
   "hmmm": [
     "thinking",
@@ -894,28 +925,37 @@
     "thought_balloon",
     "right_anger_bubble"
   ],
+  "lie": [
+    "lying_face"
+  ],
+  "pinocchio": [
+    "lying_face"
+  ],
+  "lying_face": [
+    "lying_face"
+  ],
   "flattered": [
     "flushed"
   ],
   "sad": [
     "disappointed",
     "pensive",
-    "slightly_sad",
-    "white_frowning",
+    "slightly_frowning_face",
+    "frowning_face",
     "weary",
     "cry",
     "sweat",
     "sob",
     "crying_cat_face",
-    "person_frowning",
-    "man_frowning",
+    "frowning_woman",
+    "frowning_man",
     "broken_heart"
   ],
   "upset": [
     "disappointed",
     "pensive",
-    "slightly_sad",
-    "white_frowning",
+    "slightly_frowning_face",
+    "frowning_face",
     "persevere",
     "tired_face",
     "weary",
@@ -928,8 +968,8 @@
     "pensive",
     "cry",
     "sob",
-    "person_frowning",
-    "man_frowning"
+    "frowning_woman",
+    "frowning_man"
   ],
   ":(": [
     "disappointed",
@@ -937,7 +977,7 @@
   ],
   "disappointed": [
     "disappointed",
-    "slightly_sad"
+    "slightly_frowning_face"
   ],
   "concern": [
     "worried"
@@ -1017,38 +1057,37 @@
   "confused": [
     "confused",
     "confounded",
-    "person_shrugging",
+    "woman_shrugging",
     "man_shrugging",
     "question",
     "grey_question"
   ],
   "frowning": [
     "frowning",
-    "slightly_sad"
+    "slightly_frowning_face"
   ],
-  "slightly_sad": [
-    "slightly_sad"
+  "slightly_frowning_face": [
+    "slightly_frowning_face"
   ],
   "frown": [
-    "white_frowning"
+    "frowning_face"
   ],
-  "white_frowning": [
-    "white_frowning"
+  "frowning_face": [
+    "frowning_face"
   ],
   "sick": [
     "persevere",
     "confounded",
     "tired_face",
     "mask",
-    "thermometer_face"
+    "face_with_thermometer"
   ],
   "no": [
-    "no",
     "persevere",
     "-1",
     "x",
     "negative_squared_cross_mark",
-    "fu"
+    "norway"
   ],
   "oops": [
     "persevere",
@@ -1162,8 +1201,8 @@
     "hushed"
   ],
   "aw": [
-    "aw",
-    "frowning"
+    "frowning",
+    "aruba"
   ],
   "what": [
     "frowning"
@@ -1180,9 +1219,12 @@
   "disappointed_relieved": [
     "disappointed_relieved"
   ],
+  "drooling_face": [
+    "drooling_face"
+  ],
   "rest": [
     "sleepy",
-    "sleeping_accommodation",
+    "sleeping_bed",
     "bed"
   ],
   "nap": [
@@ -1190,14 +1232,14 @@
   ],
   "exercise": [
     "sweat",
-    "woman_running",
-    "runner",
-    "woman_swimming",
-    "swimmer",
-    "woman_weight_lifting",
-    "weight_lifter",
-    "woman_biking",
-    "bicyclist",
+    "running_woman",
+    "running_man",
+    "swimming_woman",
+    "swimming_man",
+    "weight_lifting_woman",
+    "weight_lifting_man",
+    "biking_woman",
+    "biking_man",
     "bike"
   ],
   "sob": [
@@ -1230,13 +1272,28 @@
     "astonished"
   ],
   "sealed": [
-    "zipper_mouth"
+    "zipper_mouth_face"
   ],
   "zipper": [
-    "zipper_mouth"
+    "zipper_mouth_face"
   ],
-  "zipper_mouth": [
-    "zipper_mouth"
+  "zipper_mouth_face": [
+    "zipper_mouth_face"
+  ],
+  "vomit": [
+    "nauseated_face"
+  ],
+  "nauseated_face": [
+    "nauseated_face"
+  ],
+  "gesundheit": [
+    "sneezing_face"
+  ],
+  "sneeze": [
+    "sneezing_face"
+  ],
+  "sneezing_face": [
+    "sneezing_face"
   ],
   "ill": [
     "mask"
@@ -1250,41 +1307,41 @@
     "japanese_goblin"
   ],
   "temperature": [
-    "thermometer_face",
+    "face_with_thermometer",
     "thermometer"
   ],
   "thermometer": [
     "thermometer",
-    "thermometer_face"
+    "face_with_thermometer"
   ],
   "cold": [
-    "thermometer_face",
+    "face_with_thermometer",
     "snowflake",
     "snowman",
     "snowman_with_snow",
     "ski",
-    "snow_capped_mountain",
+    "mountain_snow",
     "thermometer"
   ],
-  "thermometer_face": [
-    "thermometer_face"
+  "face_with_thermometer": [
+    "face_with_thermometer"
   ],
   "injured": [
-    "bandage_face",
+    "face_with_head_bandage",
     "hurtrealbad"
   ],
   "clumsy": [
-    "bandage_face"
+    "face_with_head_bandage"
   ],
   "bandage": [
-    "bandage_face"
+    "face_with_head_bandage"
   ],
   "hurt": [
-    "bandage_face",
+    "face_with_head_bandage",
     "goberserk"
   ],
-  "bandage_face": [
-    "bandage_face"
+  "face_with_head_bandage": [
+    "face_with_head_bandage"
   ],
   "night": [
     "sleeping",
@@ -1295,7 +1352,7 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
@@ -1315,24 +1372,24 @@
   "sleeping": [
     "sleeping"
   ],
-  "poop": [
-    "hankey"
+  "hankey": [
+    "poop"
   ],
   "shitface": [
-    "hankey"
+    "poop"
   ],
   "fail": [
-    "hankey",
-    "waving_white_flag"
+    "poop",
+    "white_flag"
   ],
   "turd": [
-    "hankey"
+    "poop"
   ],
   "shit": [
-    "hankey"
+    "poop"
   ],
-  "hankey": [
-    "hankey"
+  "poop": [
+    "poop"
   ],
   "devil": [
     "smiling_imp",
@@ -1357,7 +1414,7 @@
   "red": [
     "japanese_ogre",
     "japanese_goblin",
-    "car",
+    "red_car",
     "flower_playing_cards"
   ],
   "halloween": [
@@ -1422,7 +1479,8 @@
   ],
   "evil": [
     "japanese_goblin",
-    "snake"
+    "snake",
+    "black_heart"
   ],
   "goblin": [
     "japanese_goblin"
@@ -1487,12 +1545,12 @@
     "mouse",
     "hamster",
     "rabbit",
-    "fox",
+    "fox_face",
     "bear",
     "panda_face",
     "koala",
     "tiger",
-    "lion_face",
+    "lion",
     "cow",
     "pig",
     "pig_nose",
@@ -1519,8 +1577,8 @@
     "wolf",
     "boar",
     "horse",
-    "unicorn_face",
-    "bee",
+    "unicorn",
+    "honeybee",
     "bug",
     "butterfly",
     "snail",
@@ -1559,13 +1617,13 @@
     "mouse2",
     "rooster",
     "turkey",
-    "dove_of_peace",
+    "dove",
     "dog2",
     "poodle",
     "cat2",
     "rabbit2",
     "chipmunk",
-    "feet",
+    "paw_prints",
     "dragon",
     "dragon_face",
     "spider_web",
@@ -1615,7 +1673,8 @@
   ],
   "gesture": [
     "raised_hands",
-    "wave"
+    "wave",
+    "call_me_hand"
   ],
   "hooray": [
     "raised_hands"
@@ -1626,12 +1685,14 @@
   "celebration": [
     "raised_hands",
     "christmas_tree",
+    "champagne",
     "balloon"
   ],
   "hands": [
     "raised_hands",
     "clap",
     "wave",
+    "call_me_hand",
     "open_hands"
   ],
   "raised_hands": [
@@ -1666,12 +1727,15 @@
   ],
   "palm": [
     "wave",
-    "hand",
-    "splayed_fingers"
+    "raised_hand",
+    "raised_hand_with_fingers_splayed"
   ],
   "wave": [
     "wave",
     "ocean"
+  ],
+  "call_me_hand": [
+    "call_me_hand"
   ],
   "thumbsup": [
     "+1"
@@ -1691,7 +1755,7 @@
   ],
   "good": [
     "+1",
-    "fingers_crossed",
+    "crossed_fingers",
     "star2",
     "sparkles",
     "meat_on_bone",
@@ -1712,11 +1776,12 @@
     "+1"
   ],
   "hand": [
-    "hand",
     "+1",
     "-1",
     "facepunch",
     "fist",
+    "fist_left",
+    "fist_right",
     "v",
     "muscle",
     "point_up",
@@ -1724,21 +1789,19 @@
     "point_down",
     "point_left",
     "point_right",
-    "middle_finger",
-    "splayed_fingers",
-    "sign_of_horns",
+    "fu",
+    "raised_hand_with_fingers_splayed",
+    "metal",
     "vulcan_salute"
   ],
   "+1": [
     "+1"
   ],
   "thumbsdown": [
-    "-1",
-    "fu"
+    "-1"
   ],
   "dislike": [
-    "-1",
-    "fu"
+    "-1"
   ],
   "-1": [
     "-1"
@@ -1764,21 +1827,31 @@
     "fist",
     "v",
     "ok_hand",
-    "hand",
+    "raised_hand",
+    "raised_back_of_hand",
     "open_hands",
     "point_up",
     "point_up_2",
     "point_down",
     "point_left",
     "point_right",
-    "middle_finger",
-    "splayed_fingers",
-    "sign_of_horns",
-    "vulcan_salute",
-    "metal"
+    "fu",
+    "raised_hand_with_fingers_splayed",
+    "metal",
+    "vulcan_salute"
   ],
   "grasp": [
     "fist"
+  ],
+  "fistbump": [
+    "fist_left",
+    "fist_right"
+  ],
+  "fist_left": [
+    "fist_left"
+  ],
+  "fist_right": [
+    "fist_right"
   ],
   "ohyeah": [
     "v"
@@ -1811,19 +1884,29 @@
     "ok_hand"
   ],
   "stop": [
-    "hand",
+    "raised_hand",
     "no_entry",
-    "no_entry_sign"
+    "no_entry_sign",
+    "stop_sign"
   ],
   "highfive": [
-    "hand",
+    "raised_hand",
     "pray"
   ],
   "ban": [
-    "hand"
+    "raised_hand"
   ],
   "raised_hand": [
-    "hand"
+    "raised_hand"
+  ],
+  "raised": [
+    "raised_back_of_hand"
+  ],
+  "backhand": [
+    "raised_back_of_hand"
+  ],
+  "raised_back_of_hand": [
+    "raised_back_of_hand"
   ],
   "butterfly": [
     "butterfly",
@@ -1864,6 +1947,15 @@
   ],
   "pray": [
     "pray"
+  ],
+  "agreement": [
+    "handshake"
+  ],
+  "shake": [
+    "handshake"
+  ],
+  "handshake": [
+    "handshake"
   ],
   "direction": [
     "point_up",
@@ -1925,33 +2017,32 @@
     "point_right"
   ],
   "rude": [
-    "middle_finger"
+    "fu"
   ],
-  "middle_finger": [
-    "middle_finger"
+  "fu": [
+    "fu"
   ],
-  "splayed_fingers": [
-    "splayed_fingers"
+  "raised_hand_with_fingers_splayed": [
+    "raised_hand_with_fingers_splayed"
   ],
   "evil_eye": [
-    "sign_of_horns"
-  ],
-  "metal": [
-    "metal",
-    "sign_of_horns"
-  ],
-  "rock_on": [
-    "sign_of_horns"
+    "metal"
   ],
   "sign_of_horns": [
-    "sign_of_horns"
+    "metal"
+  ],
+  "rock_on": [
+    "metal"
+  ],
+  "metal": [
+    "metal"
   ],
   "lucky": [
-    "fingers_crossed",
+    "crossed_fingers",
     "four_leaf_clover"
   ],
-  "fingers_crossed": [
-    "fingers_crossed"
+  "crossed_fingers": [
+    "crossed_fingers"
   ],
   "spock": [
     "vulcan_salute"
@@ -1962,41 +2053,53 @@
   "vulcan_salute": [
     "vulcan_salute"
   ],
-  "pen": [
-    "writing_hand",
-    "black_nib"
+  "lower_left_ballpoint_pen": [
+    "writing_hand"
   ],
   "stationery": [
     "writing_hand",
     "card_index",
     "card_file_box",
     "clipboard",
-    "spiral_note_pad",
+    "spiral_notepad",
     "card_index_dividers",
     "notebook",
     "paperclip",
-    "linked_paperclips",
+    "paperclips",
     "scissors",
     "triangular_ruler",
     "straight_ruler",
     "pushpin",
     "round_pushpin",
-    "lower_left_ballpoint_pen",
-    "lower_left_fountain_pen",
+    "pen",
+    "fountain_pen",
     "black_nib",
     "memo",
     "pencil2"
   ],
   "write": [
     "writing_hand",
-    "lower_left_ballpoint_pen",
-    "lower_left_fountain_pen",
+    "pen",
+    "fountain_pen",
     "black_nib",
     "memo",
     "pencil2"
   ],
   "writing_hand": [
     "writing_hand"
+  ],
+  "camera": [
+    "camera",
+    "selfie"
+  ],
+  "phone": [
+    "phone",
+    "selfie",
+    "vibration_mode",
+    "signal_strength"
+  ],
+  "selfie": [
+    "selfie"
   ],
   "beauty": [
     "nail_care"
@@ -2005,13 +2108,12 @@
     "nail_care"
   ],
   "finger": [
-    "nail_care",
-    "fu"
+    "nail_care"
   ],
   "fashion": [
     "nail_care",
     "womans_clothes",
-    "shirt",
+    "tshirt",
     "jeans",
     "necktie",
     "dress",
@@ -2113,7 +2215,7 @@
     "busts_in_silhouette",
     "speaking_head",
     "blonde_woman",
-    "person_with_blond_hair"
+    "blonde_man"
   ],
   "human": [
     "bust_in_silhouette",
@@ -2121,37 +2223,69 @@
     "speaking_head",
     "older_man",
     "older_woman",
-    "female_construction_worker",
-    "construction_worker",
-    "female_sleuth",
-    "sleuth",
-    "woman_walking",
-    "walking",
+    "construction_worker_woman",
+    "construction_worker_man",
+    "female_detective",
+    "male_detective",
+    "woman_health_worker",
+    "man_health_worker",
+    "woman_farmer",
+    "man_farmer",
+    "woman_cook",
+    "man_cook",
+    "woman_student",
+    "man_student",
+    "woman_singer",
+    "man_singer",
+    "woman_teacher",
+    "man_teacher",
+    "woman_factory_worker",
+    "man_factory_worker",
+    "woman_technologist",
+    "man_technologist",
+    "woman_office_worker",
+    "man_office_worker",
+    "woman_mechanic",
+    "man_mechanic",
+    "woman_scientist",
+    "man_scientist",
+    "woman_artist",
+    "man_artist",
+    "woman_firefighter",
+    "man_firefighter",
+    "woman_pilot",
+    "man_pilot",
+    "woman_astronaut",
+    "man_astronaut",
+    "woman_judge",
+    "man_judge",
+    "walking_woman",
+    "walking_man",
     "couple",
     "two_men_holding_hands",
     "two_women_holding_hands",
-    "information_desk_person",
-    "man_tipping_hand",
+    "tipping_hand_woman",
+    "tipping_hand_man",
     "ok_woman",
-    "man_gesturing_ok",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "family",
+    "ok_man",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "family_man_woman_boy",
     "family_man_woman_girl",
     "family_man_woman_girl_boy",
-    "family_man_woman_boys",
-    "family_man_woman_girls",
-    "family_women_boy",
-    "family_women_girl",
-    "family_women_girl_boy",
-    "family_women_boys",
-    "family_women_girls",
-    "family_men_boy",
-    "family_men_girl",
-    "family_men_girl_boy",
-    "family_men_boys",
-    "family_men_girls",
+    "family_man_woman_boy_boy",
+    "family_man_woman_girl_girl",
+    "family_woman_woman_boy",
+    "family_woman_woman_girl",
+    "family_woman_woman_girl_boy",
+    "family_woman_woman_boy_boy",
+    "family_woman_woman_girl_girl",
+    "family_man_man_boy",
+    "family_man_man_girl",
+    "family_man_man_girl_boy",
+    "family_man_man_boy_boy",
+    "family_man_man_girl_girl",
     "family_woman_boy",
     "family_woman_girl",
     "family_woman_girl_boy",
@@ -2162,12 +2296,12 @@
     "family_man_girl_boy",
     "family_man_boy_boy",
     "family_man_girl_girl",
-    "woman_swimming",
-    "swimmer",
-    "woman_with_ball",
-    "person_with_ball",
-    "woman_mountain_biking",
-    "mountain_bicyclist",
+    "swimming_woman",
+    "swimming_man",
+    "basketball_woman",
+    "basketball_man",
+    "mountain_biking_woman",
+    "mountain_biking_man",
     "put_litter_in_its_place"
   ],
   "bust_in_silhouette": [
@@ -2188,7 +2322,7 @@
   ],
   "child": [
     "baby",
-    "family",
+    "family_man_woman_boy",
     "family_man_woman_girl",
     "family_woman_boy",
     "family_woman_girl",
@@ -2199,19 +2333,21 @@
   "boy": [
     "boy",
     "baby",
-    "person_with_blond_hair",
+    "blonde_man",
     "man_with_gua_pi_mao",
-    "bow",
-    "person_facepalming",
+    "prince",
+    "man_dancing",
+    "bowing_man",
+    "man_facepalming",
     "man_shrugging",
-    "man_tipping_hand",
-    "man_gesturing_not_ok",
-    "man_gesturing_ok",
-    "man_raising_hand",
-    "man_pouting",
-    "man_frowning",
-    "man_getting_haircut",
-    "man_getting_face_massage"
+    "tipping_hand_man",
+    "no_good_man",
+    "ok_man",
+    "raising_hand_man",
+    "pouting_man",
+    "frowning_man",
+    "haircut_man",
+    "massage_man"
   ],
   "girl": [
     "girl",
@@ -2219,17 +2355,17 @@
     "blonde_woman",
     "princess",
     "dancer",
-    "woman_bowing_deeply",
+    "bowing_woman",
     "woman_facepalming",
-    "person_shrugging",
-    "information_desk_person",
-    "no_good",
+    "woman_shrugging",
+    "tipping_hand_woman",
+    "no_good_woman",
     "ok_woman",
-    "raising_hand",
-    "person_with_pouting_face",
-    "person_frowning",
-    "haircut",
-    "massage",
+    "raising_hand_woman",
+    "pouting_woman",
+    "frowning_woman",
+    "haircut_woman",
+    "massage_woman",
     "bikini",
     "lipstick",
     "ribbon"
@@ -2239,58 +2375,78 @@
   ],
   "baby": [
     "baby",
+    "pregnant_woman",
     "hatching_chick",
     "hatched_chick"
   ],
   "man": [
     "man",
     "boy",
-    "person_with_blond_hair",
-    "cop",
+    "blonde_man",
+    "policeman",
+    "man_health_worker",
+    "man_farmer",
+    "man_cook",
+    "man_student",
+    "man_singer",
+    "man_teacher",
+    "man_factory_worker",
+    "man_technologist",
+    "man_office_worker",
+    "man_mechanic",
+    "man_scientist",
+    "man_artist",
+    "man_firefighter",
+    "man_pilot",
+    "man_astronaut",
+    "man_judge",
     "santa",
-    "runner",
-    "bow",
-    "person_facepalming",
+    "prince",
+    "running_man",
+    "bowing_man",
+    "man_facepalming",
     "man_shrugging",
-    "man_tipping_hand",
-    "man_gesturing_not_ok",
-    "man_gesturing_ok",
-    "man_raising_hand",
-    "man_pouting",
-    "man_frowning",
-    "man_getting_haircut",
-    "man_getting_face_massage",
-    "im"
+    "tipping_hand_man",
+    "no_good_man",
+    "ok_man",
+    "raising_hand_man",
+    "pouting_man",
+    "frowning_man",
+    "haircut_man",
+    "massage_man",
+    "isle_of_man"
   ],
   "male": [
     "boy",
-    "person_with_blond_hair",
+    "blonde_man",
     "older_man",
     "man_with_gua_pi_mao",
     "man_with_turban",
-    "construction_worker",
+    "construction_worker_man",
     "guardsman",
     "santa",
-    "men_with_bunny_ears",
-    "bow",
-    "person_facepalming",
+    "prince",
+    "man_dancing",
+    "dancing_men",
+    "bowing_man",
+    "man_facepalming",
     "man_shrugging",
-    "man_tipping_hand",
-    "man_gesturing_not_ok",
-    "man_gesturing_ok",
-    "man_raising_hand",
-    "man_pouting",
-    "man_frowning",
-    "man_getting_haircut",
-    "man_getting_face_massage",
+    "tipping_hand_man",
+    "no_good_man",
+    "ok_man",
+    "raising_hand_man",
+    "pouting_man",
+    "frowning_man",
+    "haircut_man",
+    "massage_man",
     "mans_shoe",
     "mens"
   ],
   "guy": [
     "boy",
     "man",
-    "person_with_blond_hair",
-    "construction_worker",
+    "blonde_man",
+    "construction_worker_man",
     "guardsman"
   ],
   "teenager": [
@@ -2303,41 +2459,42 @@
     "blonde_woman",
     "older_woman",
     "woman_with_turban",
-    "woman_police_officer",
-    "female_construction_worker",
-    "female_guard",
-    "female_sleuth",
+    "policewoman",
+    "construction_worker_woman",
+    "guardswoman",
+    "female_detective",
+    "mrs_claus",
     "princess",
-    "woman_running",
-    "woman_walking",
+    "running_woman",
+    "walking_woman",
     "dancer",
-    "dancers",
+    "dancing_women",
     "two_women_holding_hands",
-    "woman_bowing_deeply",
+    "bowing_woman",
     "woman_facepalming",
-    "person_shrugging",
-    "information_desk_person",
-    "no_good",
+    "woman_shrugging",
+    "tipping_hand_woman",
+    "no_good_woman",
     "ok_woman",
-    "raising_hand",
-    "person_with_pouting_face",
-    "person_frowning",
-    "haircut",
-    "massage",
+    "raising_hand_woman",
+    "pouting_woman",
+    "frowning_woman",
+    "haircut_woman",
+    "massage_woman",
     "womans_clothes",
     "bikini",
     "kimono",
     "lipstick",
     "high_heel",
     "womans_hat",
-    "woman_golfing",
-    "woman_rowing_boat",
-    "woman_swimming",
-    "woman_surfing",
-    "woman_with_ball",
-    "woman_weight_lifting",
-    "woman_biking",
-    "woman_mountain_biking",
+    "golfing_woman",
+    "rowing_woman",
+    "swimming_woman",
+    "surfing_woman",
+    "basketball_woman",
+    "weight_lifting_woman",
+    "biking_woman",
+    "mountain_biking_woman",
     "womens"
   ],
   "woman": [
@@ -2345,36 +2502,53 @@
     "girl",
     "blonde_woman",
     "woman_with_turban",
-    "woman_police_officer",
-    "female_construction_worker",
-    "female_guard",
-    "female_sleuth",
+    "policewoman",
+    "construction_worker_woman",
+    "guardswoman",
+    "female_detective",
+    "woman_health_worker",
+    "woman_farmer",
+    "woman_cook",
+    "woman_student",
+    "woman_singer",
+    "woman_teacher",
+    "woman_factory_worker",
+    "woman_technologist",
+    "woman_office_worker",
+    "woman_mechanic",
+    "woman_scientist",
+    "woman_artist",
+    "woman_firefighter",
+    "woman_pilot",
+    "woman_astronaut",
+    "woman_judge",
+    "mrs_claus",
     "princess",
     "bride_with_veil",
-    "woman_running",
-    "woman_walking",
+    "running_woman",
+    "walking_woman",
     "dancer",
-    "woman_bowing_deeply",
+    "bowing_woman",
     "woman_facepalming",
-    "person_shrugging",
-    "information_desk_person",
-    "no_good",
+    "woman_shrugging",
+    "tipping_hand_woman",
+    "no_good_woman",
     "ok_woman",
-    "raising_hand",
-    "person_with_pouting_face",
-    "person_frowning",
-    "haircut",
-    "massage",
+    "raising_hand_woman",
+    "pouting_woman",
+    "frowning_woman",
+    "haircut_woman",
+    "massage_woman",
     "bikini",
     "lipstick",
-    "woman_golfing",
-    "woman_rowing_boat",
-    "woman_swimming",
-    "woman_surfing",
-    "woman_with_ball",
-    "woman_weight_lifting",
-    "woman_biking",
-    "woman_mountain_biking",
+    "golfing_woman",
+    "rowing_woman",
+    "swimming_woman",
+    "surfing_woman",
+    "basketball_woman",
+    "weight_lifting_woman",
+    "biking_woman",
+    "mountain_biking_woman",
     "womens"
   ],
   "mustache": [
@@ -2383,11 +2557,11 @@
   ],
   "father": [
     "man",
-    "family"
+    "family_man_woman_boy"
   ],
   "dad": [
     "man",
-    "family"
+    "family_man_woman_boy"
   ],
   "classy": [
     "man",
@@ -2403,7 +2577,7 @@
   ],
   "girls": [
     "woman",
-    "dancers"
+    "dancing_women"
   ],
   "lady": [
     "woman",
@@ -2412,18 +2586,18 @@
   ],
   "blonde": [
     "blonde_woman",
-    "person_with_blond_hair"
+    "blonde_man"
   ],
   "blonde_woman": [
     "blonde_woman"
   ],
-  "person_with_blond_hair": [
-    "person_with_blond_hair"
+  "blonde_man": [
+    "blonde_man"
   ],
   "men": [
     "older_man",
-    "men_with_bunny_ears",
-    "man_gesturing_ok"
+    "dancing_men",
+    "ok_man"
   ],
   "old": [
     "older_man",
@@ -2443,7 +2617,7 @@
   ],
   "women": [
     "older_woman",
-    "dancers",
+    "dancing_women",
     "ok_woman",
     "kimono"
   ],
@@ -2478,12 +2652,12 @@
     "woman_with_turban",
     "man_with_turban",
     "curry",
-    "io"
+    "british_indian_ocean_territory"
   ],
   "hinduism": [
     "woman_with_turban",
     "man_with_turban",
-    "om_symbol",
+    "om",
     "wheel_of_dharma"
   ],
   "arabs": [
@@ -2497,24 +2671,24 @@
     "man_with_turban"
   ],
   "police": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "rotating_light"
   ],
   "law": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "briefcase",
     "police_car",
     "rotating_light",
     "oncoming_police_car",
-    "scales",
+    "balance_scale",
     "copyright",
     "tm"
   ],
   "legal": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "mortar_board",
     "briefcase",
     "police_car",
@@ -2525,112 +2699,372 @@
     "tm"
   ],
   "enforcement": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "police_car",
     "oncoming_police_car"
   ],
   "arrest": [
-    "woman_police_officer",
-    "cop",
+    "policewoman",
+    "policeman",
     "chains"
   ],
-  "woman_police_officer": [
-    "woman_police_officer"
+  "policewoman": [
+    "policewoman"
   ],
-  "cop": [
-    "cop"
+  "policeman": [
+    "policeman"
   ],
   "wip": [
-    "female_construction_worker",
-    "construction_worker",
+    "construction_worker_woman",
+    "construction_worker_man",
     "construction",
     "building_construction",
     "warning"
   ],
   "build": [
-    "female_construction_worker",
-    "construction_worker",
-    "helmet",
+    "construction_worker_woman",
+    "construction_worker_man",
+    "rescue_worker_helmet",
     "hammer",
     "hammer_and_pick",
     "hammer_and_wrench"
   ],
   "construction": [
     "construction",
-    "female_construction_worker",
-    "construction_worker",
-    "helmet"
+    "construction_worker_woman",
+    "construction_worker_man",
+    "rescue_worker_helmet"
   ],
   "worker": [
-    "female_construction_worker",
-    "construction_worker"
+    "construction_worker_woman",
+    "construction_worker_man"
   ],
   "labor": [
-    "female_construction_worker",
-    "construction_worker"
+    "construction_worker_woman",
+    "construction_worker_man"
   ],
-  "female_construction_worker": [
-    "female_construction_worker"
+  "construction_worker_woman": [
+    "construction_worker_woman"
   ],
-  "construction_worker": [
-    "construction_worker"
+  "construction_worker_man": [
+    "construction_worker_man"
   ],
   "uk": [
-    "female_guard",
+    "uk",
+    "guardswoman",
     "guardsman",
     "pound"
   ],
   "gb": [
-    "gb",
-    "female_guard",
+    "guardswoman",
     "guardsman"
   ],
   "british": [
-    "female_guard",
+    "guardswoman",
     "guardsman",
     "tea",
     "pound",
-    "io",
-    "vg",
-    "gb"
+    "british_indian_ocean_territory",
+    "british_virgin_islands",
+    "uk"
   ],
   "royal": [
-    "female_guard",
+    "guardswoman",
     "guardsman",
-    "princess"
+    "princess",
+    "prince"
   ],
-  "female_guard": [
-    "female_guard"
+  "guardswoman": [
+    "guardswoman"
   ],
   "guardsman": [
     "guardsman"
   ],
   "spy": [
-    "female_sleuth",
-    "sleuth"
+    "female_detective",
+    "male_detective"
   ],
   "detective": [
-    "female_sleuth",
-    "sleuth",
+    "female_detective",
+    "male_detective",
     "mag",
     "mag_right",
     "shipit"
   ],
-  "female_sleuth": [
-    "female_sleuth"
+  "female_detective": [
+    "female_detective"
   ],
-  "sleuth": [
-    "sleuth"
+  "male_detective": [
+    "male_detective"
   ],
-  "festival": [
-    "santa",
-    "christmas_tree",
-    "circus_tent",
-    "fireworks",
-    "confetti_ball"
+  "doctor": [
+    "woman_health_worker",
+    "man_health_worker",
+    "hospital",
+    "pill",
+    "syringe"
+  ],
+  "nurse": [
+    "woman_health_worker",
+    "man_health_worker",
+    "syringe"
+  ],
+  "therapist": [
+    "woman_health_worker",
+    "man_health_worker"
+  ],
+  "healthcare": [
+    "woman_health_worker",
+    "man_health_worker"
+  ],
+  "woman_health_worker": [
+    "woman_health_worker"
+  ],
+  "man_health_worker": [
+    "man_health_worker"
+  ],
+  "rancher": [
+    "woman_farmer",
+    "man_farmer"
+  ],
+  "gardener": [
+    "woman_farmer",
+    "man_farmer"
+  ],
+  "woman_farmer": [
+    "woman_farmer"
+  ],
+  "man_farmer": [
+    "man_farmer"
+  ],
+  "chef": [
+    "woman_cook",
+    "man_cook"
+  ],
+  "woman_cook": [
+    "woman_cook"
+  ],
+  "man_cook": [
+    "man_cook"
+  ],
+  "graduate": [
+    "woman_student",
+    "man_student"
+  ],
+  "woman_student": [
+    "woman_student"
+  ],
+  "man_student": [
+    "man_student"
+  ],
+  "rockstar": [
+    "woman_singer",
+    "man_singer"
+  ],
+  "entertainer": [
+    "woman_singer",
+    "man_singer"
+  ],
+  "woman_singer": [
+    "woman_singer"
+  ],
+  "man_singer": [
+    "man_singer"
+  ],
+  "instructor": [
+    "woman_teacher",
+    "man_teacher"
+  ],
+  "professor": [
+    "woman_teacher",
+    "man_teacher"
+  ],
+  "woman_teacher": [
+    "woman_teacher"
+  ],
+  "man_teacher": [
+    "man_teacher"
+  ],
+  "assembly": [
+    "woman_factory_worker",
+    "man_factory_worker"
+  ],
+  "industrial": [
+    "woman_factory_worker",
+    "man_factory_worker"
+  ],
+  "woman_factory_worker": [
+    "woman_factory_worker"
+  ],
+  "man_factory_worker": [
+    "man_factory_worker"
+  ],
+  "coder": [
+    "woman_technologist",
+    "man_technologist"
+  ],
+  "developer": [
+    "woman_technologist",
+    "man_technologist"
+  ],
+  "engineer": [
+    "woman_technologist",
+    "man_technologist",
+    "woman_scientist",
+    "man_scientist"
+  ],
+  "programmer": [
+    "woman_technologist",
+    "man_technologist"
+  ],
+  "software": [
+    "woman_technologist",
+    "man_technologist"
+  ],
+  "woman_technologist": [
+    "woman_technologist"
+  ],
+  "man_technologist": [
+    "man_technologist"
+  ],
+  "business": [
+    "woman_office_worker",
+    "man_office_worker",
+    "necktie",
+    "briefcase",
+    "golf",
+    "golfing_woman",
+    "golfing_man",
+    "business_suit_levitating",
+    "bank",
+    "chart_with_upwards_trend",
+    "chart_with_downwards_trend",
+    "card_index",
+    "card_file_box",
+    "file_folder",
+    "card_index_dividers",
+    "part_alternation_mark"
+  ],
+  "manager": [
+    "woman_office_worker",
+    "man_office_worker"
+  ],
+  "woman_office_worker": [
+    "woman_office_worker"
+  ],
+  "man_office_worker": [
+    "man_office_worker"
+  ],
+  "plumber": [
+    "woman_mechanic",
+    "man_mechanic"
+  ],
+  "woman_mechanic": [
+    "woman_mechanic"
+  ],
+  "man_mechanic": [
+    "man_mechanic"
+  ],
+  "biologist": [
+    "woman_scientist",
+    "man_scientist"
+  ],
+  "chemist": [
+    "woman_scientist",
+    "man_scientist"
+  ],
+  "physicist": [
+    "woman_scientist",
+    "man_scientist"
+  ],
+  "woman_scientist": [
+    "woman_scientist"
+  ],
+  "man_scientist": [
+    "man_scientist"
+  ],
+  "painter": [
+    "woman_artist",
+    "man_artist"
+  ],
+  "woman_artist": [
+    "woman_artist"
+  ],
+  "man_artist": [
+    "man_artist"
+  ],
+  "fireman": [
+    "woman_firefighter",
+    "man_firefighter"
+  ],
+  "woman_firefighter": [
+    "woman_firefighter"
+  ],
+  "man_firefighter": [
+    "man_firefighter"
+  ],
+  "aviator": [
+    "woman_pilot",
+    "man_pilot"
+  ],
+  "plane": [
+    "woman_pilot",
+    "man_pilot"
+  ],
+  "woman_pilot": [
+    "woman_pilot"
+  ],
+  "man_pilot": [
+    "man_pilot"
+  ],
+  "space": [
+    "woman_astronaut",
+    "man_astronaut",
+    "full_moon",
+    "waning_gibbous_moon",
+    "last_quarter_moon",
+    "waning_crescent_moon",
+    "new_moon",
+    "waxing_crescent_moon",
+    "first_quarter_moon",
+    "waxing_gibbous_moon",
+    "new_moon_with_face",
+    "full_moon_with_face",
+    "first_quarter_moon_with_face",
+    "last_quarter_moon_with_face",
+    "comet",
+    "milky_way",
+    "satellite",
+    "telescope"
+  ],
+  "rocket": [
+    "rocket",
+    "woman_astronaut",
+    "man_astronaut"
+  ],
+  "woman_astronaut": [
+    "woman_astronaut"
+  ],
+  "man_astronaut": [
+    "man_astronaut"
+  ],
+  "justice": [
+    "woman_judge",
+    "man_judge"
+  ],
+  "court": [
+    "woman_judge",
+    "man_judge"
+  ],
+  "woman_judge": [
+    "woman_judge"
+  ],
+  "man_judge": [
+    "man_judge"
   ],
   "xmas": [
+    "mrs_claus",
     "santa",
     "christmas_tree",
     "snowflake",
@@ -2638,6 +3072,19 @@
     "snowman_with_snow",
     "gift",
     "bell"
+  ],
+  "mother christmas": [
+    "mrs_claus"
+  ],
+  "mrs_claus": [
+    "mrs_claus"
+  ],
+  "festival": [
+    "santa",
+    "christmas_tree",
+    "circus_tent",
+    "fireworks",
+    "confetti_ball"
   ],
   "father christmas": [
     "santa"
@@ -2648,12 +3095,16 @@
   "wings": [
     "angel"
   ],
+  "pregnant_woman": [
+    "pregnant_woman"
+  ],
   "blond": [
     "princess"
   ],
   "crown": [
     "crown",
-    "princess"
+    "princess",
+    "prince"
   ],
   "queen": [
     "princess"
@@ -2661,28 +3112,38 @@
   "princess": [
     "princess"
   ],
+  "king": [
+    "prince",
+    "crown"
+  ],
+  "prince": [
+    "prince"
+  ],
   "couple": [
     "couple",
     "bride_with_veil",
+    "man_in_tuxedo",
     "two_men_holding_hands",
     "two_women_holding_hands",
     "wedding"
   ],
   "marriage": [
     "bride_with_veil",
+    "man_in_tuxedo",
     "couple",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man",
     "ring",
     "wedding"
   ],
   "wedding": [
     "wedding",
     "bride_with_veil",
+    "man_in_tuxedo",
     "ring"
   ],
   "bride": [
@@ -2692,97 +3153,111 @@
   "bride_with_veil": [
     "bride_with_veil"
   ],
+  "groom": [
+    "man_in_tuxedo",
+    "wedding"
+  ],
+  "man_in_tuxedo": [
+    "man_in_tuxedo"
+  ],
   "walking": [
-    "walking",
-    "woman_running",
-    "runner",
+    "running_woman",
+    "running_man",
     "footprints",
     "no_pedestrians"
   ],
   "race": [
-    "woman_running",
-    "runner",
-    "woman_mountain_biking",
-    "mountain_bicyclist",
+    "running_woman",
+    "running_man",
+    "mountain_biking_woman",
+    "mountain_biking_man",
     "racing_car",
-    "racing_motorcycle",
+    "motorcycle",
     "checkered_flag"
   ],
   "running": [
-    "woman_running",
-    "runner"
+    "running_woman",
+    "running_man"
   ],
-  "woman_running": [
-    "woman_running"
+  "running_woman": [
+    "running_woman"
   ],
-  "runner": [
-    "runner"
+  "running_man": [
+    "running_man"
   ],
   "feet": [
-    "feet",
-    "woman_walking",
-    "walking",
-    "footprints"
+    "walking_woman",
+    "walking_man",
+    "footprints",
+    "paw_prints"
   ],
   "steps": [
-    "woman_walking",
-    "walking"
+    "walking_woman",
+    "walking_man"
   ],
-  "woman_walking": [
-    "woman_walking"
+  "walking_woman": [
+    "walking_woman"
+  ],
+  "walking_man": [
+    "walking_man"
   ],
   "fun": [
     "dancer",
+    "man_dancing",
     "bowling",
     "roller_coaster"
   ],
   "dancer": [
-    "dancer"
+    "dancer",
+    "man_dancing"
+  ],
+  "man_dancing": [
+    "man_dancing"
   ],
   "bunny": [
-    "dancers",
-    "men_with_bunny_ears",
+    "dancing_women",
+    "dancing_men",
     "rabbit"
   ],
-  "dancers": [
-    "dancers"
+  "dancing_women": [
+    "dancing_women"
   ],
   "boys": [
-    "men_with_bunny_ears"
+    "dancing_men"
   ],
-  "men_with_bunny_ears": [
-    "men_with_bunny_ears"
+  "dancing_men": [
+    "dancing_men"
   ],
   "pair": [
     "couple",
     "two_men_holding_hands",
     "two_women_holding_hands",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss"
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man"
   ],
   "people": [
     "couple",
     "two_men_holding_hands",
     "two_women_holding_hands",
-    "family",
+    "family_man_woman_boy",
     "family_man_woman_girl",
     "family_man_woman_girl_boy",
-    "family_man_woman_boys",
-    "family_man_woman_girls",
-    "family_women_boy",
-    "family_women_girl",
-    "family_women_girl_boy",
-    "family_women_boys",
-    "family_women_girls",
-    "family_men_boy",
-    "family_men_girl",
-    "family_men_girl_boy",
-    "family_men_boys",
-    "family_men_girls",
+    "family_man_woman_boy_boy",
+    "family_man_woman_girl_girl",
+    "family_woman_woman_boy",
+    "family_woman_woman_girl",
+    "family_woman_woman_girl_boy",
+    "family_woman_woman_boy_boy",
+    "family_woman_woman_girl_girl",
+    "family_man_man_boy",
+    "family_man_man_girl",
+    "family_man_man_girl_boy",
+    "family_man_man_boy_boy",
+    "family_man_man_girl_girl",
     "family_woman_boy",
     "family_woman_girl",
     "family_woman_girl_boy",
@@ -2798,16 +3273,16 @@
     "date",
     "couple",
     "calendar",
-    "spiral_calendar_pad"
+    "spiral_calendar"
   ],
   "dating": [
     "couple",
-    "couple_with_heart",
-    "female_couple_with_heart",
-    "male_couple_with_heart",
-    "couplekiss",
-    "female_couplekiss",
-    "male_couplekiss",
+    "couple_with_heart_woman_man",
+    "couple_with_heart_woman_woman",
+    "couple_with_heart_man_man",
+    "couplekiss_man_woman",
+    "couplekiss_woman_woman",
+    "couplekiss_man_man",
     "love_hotel"
   ],
   "bromance": [
@@ -2823,53 +3298,53 @@
   "two_women_holding_hands": [
     "two_women_holding_hands"
   ],
-  "woman_bowing_deeply": [
-    "woman_bowing_deeply"
+  "bowing_woman": [
+    "bowing_woman"
   ],
-  "bow": [
-    "bow"
+  "bowing_man": [
+    "bowing_man"
   ],
   "disbelief": [
-    "person_facepalming",
+    "man_facepalming",
     "woman_facepalming"
   ],
-  "person_facepalming": [
-    "person_facepalming"
+  "man_facepalming": [
+    "man_facepalming"
   ],
   "woman_facepalming": [
     "woman_facepalming"
   ],
   "doubt": [
-    "person_shrugging",
+    "woman_shrugging",
     "man_shrugging",
     "question"
   ],
-  "person_shrugging": [
-    "person_shrugging"
+  "woman_shrugging": [
+    "woman_shrugging"
   ],
   "man_shrugging": [
     "man_shrugging"
   ],
   "information": [
-    "information_desk_person",
-    "man_tipping_hand",
+    "tipping_hand_woman",
+    "tipping_hand_man",
     "page_facing_up"
   ],
-  "information_desk_person": [
-    "information_desk_person"
+  "tipping_hand_woman": [
+    "tipping_hand_woman"
   ],
-  "man_tipping_hand": [
-    "man_tipping_hand"
+  "tipping_hand_man": [
+    "tipping_hand_man"
   ],
   "nope": [
-    "no_good",
-    "man_gesturing_not_ok"
+    "no_good_woman",
+    "no_good_man"
   ],
-  "no_good": [
-    "no_good"
+  "no_good_woman": [
+    "no_good_woman"
   ],
-  "man_gesturing_not_ok": [
-    "man_gesturing_not_ok"
+  "no_good_man": [
+    "no_good_man"
   ],
   "pink": [
     "ok_woman",
@@ -2881,87 +3356,90 @@
     "ok_woman"
   ],
   "blue": [
-    "man_gesturing_ok",
+    "ok_man",
     "gem",
     "diamond_shape_with_a_dot_inside",
     "cyclone"
   ],
-  "man_gesturing_ok": [
-    "man_gesturing_ok"
+  "ok_man": [
+    "ok_man"
   ],
-  "raising_hand": [
-    "raising_hand"
+  "raising_hand_woman": [
+    "raising_hand_woman"
   ],
-  "man_raising_hand": [
-    "man_raising_hand"
+  "raising_hand_man": [
+    "raising_hand_man"
   ],
-  "person_with_pouting_face": [
-    "person_with_pouting_face"
+  "pouting_woman": [
+    "pouting_woman"
   ],
-  "man_pouting": [
-    "man_pouting"
+  "pouting_man": [
+    "pouting_man"
   ],
   "discouraged": [
-    "person_frowning",
-    "man_frowning"
+    "frowning_woman",
+    "frowning_man"
   ],
   "unhappy": [
-    "person_frowning",
-    "man_frowning"
+    "frowning_woman",
+    "frowning_man"
   ],
-  "person_frowning": [
-    "person_frowning"
+  "frowning_woman": [
+    "frowning_woman"
   ],
-  "man_frowning": [
-    "man_frowning"
+  "frowning_man": [
+    "frowning_man"
   ],
-  "haircut": [
-    "haircut"
+  "haircut_woman": [
+    "haircut_woman"
   ],
-  "man_getting_haircut": [
-    "man_getting_haircut"
+  "haircut_man": [
+    "haircut_man"
   ],
   "head": [
-    "massage",
-    "man_getting_face_massage"
+    "massage_woman",
+    "massage_man"
   ],
-  "man_getting_face_massage": [
-    "man_getting_face_massage"
+  "massage_woman": [
+    "massage_woman"
   ],
-  "couple_with_heart": [
-    "couple_with_heart"
+  "massage_man": [
+    "massage_man"
   ],
-  "female_couple_with_heart": [
-    "female_couple_with_heart"
+  "couple_with_heart_woman_man": [
+    "couple_with_heart_woman_man"
   ],
-  "male_couple_with_heart": [
-    "male_couple_with_heart"
+  "couple_with_heart_woman_woman": [
+    "couple_with_heart_woman_woman"
   ],
-  "couplekiss": [
-    "couplekiss"
+  "couple_with_heart_man_man": [
+    "couple_with_heart_man_man"
   ],
-  "female_couplekiss": [
-    "female_couplekiss"
+  "couplekiss_man_woman": [
+    "couplekiss_man_woman"
   ],
-  "male_couplekiss": [
-    "male_couplekiss"
+  "couplekiss_woman_woman": [
+    "couplekiss_woman_woman"
+  ],
+  "couplekiss_man_man": [
+    "couplekiss_man_man"
   ],
   "home": [
-    "family",
+    "family_man_woman_boy",
     "family_man_woman_girl",
     "family_man_woman_girl_boy",
-    "family_man_woman_boys",
-    "family_man_woman_girls",
-    "family_women_boy",
-    "family_women_girl",
-    "family_women_girl_boy",
-    "family_women_boys",
-    "family_women_girls",
-    "family_men_boy",
-    "family_men_girl",
-    "family_men_girl_boy",
-    "family_men_boys",
-    "family_men_girls",
+    "family_man_woman_boy_boy",
+    "family_man_woman_girl_girl",
+    "family_woman_woman_boy",
+    "family_woman_woman_girl",
+    "family_woman_woman_girl_boy",
+    "family_woman_woman_boy_boy",
+    "family_woman_woman_girl_girl",
+    "family_man_man_boy",
+    "family_man_man_girl",
+    "family_man_man_girl_boy",
+    "family_man_man_boy_boy",
+    "family_man_man_girl_girl",
     "family_woman_boy",
     "family_woman_girl",
     "family_woman_girl_boy",
@@ -2976,48 +3454,48 @@
     "house_with_garden"
   ],
   "parents": [
-    "family",
+    "family_man_woman_boy",
     "family_man_woman_girl",
     "family_man_woman_girl_boy",
-    "family_man_woman_boys",
-    "family_man_woman_girls",
-    "family_women_boy",
-    "family_women_girl",
-    "family_women_girl_boy",
-    "family_women_boys",
-    "family_women_girls",
-    "family_men_boy",
-    "family_men_girl",
-    "family_men_girl_boy",
-    "family_men_boys",
-    "family_men_girls"
+    "family_man_woman_boy_boy",
+    "family_man_woman_girl_girl",
+    "family_woman_woman_boy",
+    "family_woman_woman_girl",
+    "family_woman_woman_girl_boy",
+    "family_woman_woman_boy_boy",
+    "family_woman_woman_girl_girl",
+    "family_man_man_boy",
+    "family_man_man_girl",
+    "family_man_man_girl_boy",
+    "family_man_man_boy_boy",
+    "family_man_man_girl_girl"
   ],
   "mom": [
-    "family"
+    "family_man_woman_boy"
   ],
   "mother": [
-    "family"
+    "family_man_woman_boy"
   ],
-  "family": [
-    "family"
+  "family_man_woman_boy": [
+    "family_man_woman_boy"
   ],
   "family_man_woman_girl": [
     "family_man_woman_girl"
   ],
   "children": [
     "family_man_woman_girl_boy",
-    "family_man_woman_boys",
-    "family_man_woman_girls",
-    "family_women_boy",
-    "family_women_girl",
-    "family_women_girl_boy",
-    "family_women_boys",
-    "family_women_girls",
-    "family_men_boy",
-    "family_men_girl",
-    "family_men_girl_boy",
-    "family_men_boys",
-    "family_men_girls",
+    "family_man_woman_boy_boy",
+    "family_man_woman_girl_girl",
+    "family_woman_woman_boy",
+    "family_woman_woman_girl",
+    "family_woman_woman_girl_boy",
+    "family_woman_woman_boy_boy",
+    "family_woman_woman_girl_girl",
+    "family_man_man_boy",
+    "family_man_man_girl",
+    "family_man_man_girl_boy",
+    "family_man_man_boy_boy",
+    "family_man_man_girl_girl",
     "family_woman_girl_boy",
     "family_woman_boy_boy",
     "family_woman_girl_girl",
@@ -3028,41 +3506,41 @@
   "family_man_woman_girl_boy": [
     "family_man_woman_girl_boy"
   ],
-  "family_man_woman_boys": [
-    "family_man_woman_boys"
+  "family_man_woman_boy_boy": [
+    "family_man_woman_boy_boy"
   ],
-  "family_man_woman_girls": [
-    "family_man_woman_girls"
+  "family_man_woman_girl_girl": [
+    "family_man_woman_girl_girl"
   ],
-  "family_women_boy": [
-    "family_women_boy"
+  "family_woman_woman_boy": [
+    "family_woman_woman_boy"
   ],
-  "family_women_girl": [
-    "family_women_girl"
+  "family_woman_woman_girl": [
+    "family_woman_woman_girl"
   ],
-  "family_women_girl_boy": [
-    "family_women_girl_boy"
+  "family_woman_woman_girl_boy": [
+    "family_woman_woman_girl_boy"
   ],
-  "family_women_boys": [
-    "family_women_boys"
+  "family_woman_woman_boy_boy": [
+    "family_woman_woman_boy_boy"
   ],
-  "family_women_girls": [
-    "family_women_girls"
+  "family_woman_woman_girl_girl": [
+    "family_woman_woman_girl_girl"
   ],
-  "family_men_boy": [
-    "family_men_boy"
+  "family_man_man_boy": [
+    "family_man_man_boy"
   ],
-  "family_men_girl": [
-    "family_men_girl"
+  "family_man_man_girl": [
+    "family_man_man_girl"
   ],
-  "family_men_girl_boy": [
-    "family_men_girl_boy"
+  "family_man_man_girl_boy": [
+    "family_man_man_girl_boy"
   ],
-  "family_men_boys": [
-    "family_men_boys"
+  "family_man_man_boy_boy": [
+    "family_man_man_boy_boy"
   ],
-  "family_men_girls": [
-    "family_men_girls"
+  "family_man_man_girl_girl": [
+    "family_man_man_girl_girl"
   ],
   "parent": [
     "family_woman_boy",
@@ -3106,8 +3584,31 @@
   "family_man_girl_girl": [
     "family_man_girl_girl"
   ],
+  "shopping_bags": [
+    "womans_clothes"
+  ],
+  "womans_clothes": [
+    "womans_clothes"
+  ],
+  "cloth": [
+    "tshirt",
+    "necktie"
+  ],
+  "casual": [
+    "tshirt"
+  ],
+  "shirt": [
+    "tshirt",
+    "necktie"
+  ],
+  "tee": [
+    "tshirt"
+  ],
+  "tshirt": [
+    "tshirt"
+  ],
   "shopping": [
-    "womans_clothes",
+    "shopping",
     "jeans",
     "dress",
     "pouch",
@@ -3116,26 +3617,6 @@
     "department_store",
     "convenience_store",
     "credit_card"
-  ],
-  "womans_clothes": [
-    "womans_clothes"
-  ],
-  "cloth": [
-    "shirt",
-    "necktie"
-  ],
-  "casual": [
-    "shirt"
-  ],
-  "tshirt": [
-    "shirt"
-  ],
-  "tee": [
-    "shirt"
-  ],
-  "shirt": [
-    "shirt",
-    "necktie"
   ],
   "jeans": [
     "jeans"
@@ -3146,22 +3627,6 @@
   "formal": [
     "necktie",
     "bowtie"
-  ],
-  "business": [
-    "necktie",
-    "briefcase",
-    "golf",
-    "woman_golfing",
-    "golfer",
-    "man_levitating",
-    "bank",
-    "chart_with_upwards_trend",
-    "chart_with_downwards_trend",
-    "card_index",
-    "card_file_box",
-    "file_folder",
-    "card_index_dividers",
-    "part_alternation_mark"
   ],
   "necktie": [
     "necktie"
@@ -3188,11 +3653,11 @@
   ],
   "tracking": [
     "footprints",
-    "feet"
+    "paw_prints"
   ],
   "footprints": [
     "footprints",
-    "feet"
+    "paw_prints"
   ],
   "shoes": [
     "high_heel",
@@ -3231,37 +3696,46 @@
     "volleyball",
     "rugby_football",
     "golf",
-    "woman_golfing",
-    "golfer",
-    "table_tennis",
+    "golfing_woman",
+    "golfing_man",
+    "ping_pong",
     "badminton",
+    "goal_net",
     "ice_hockey",
     "field_hockey",
     "cricket",
     "ski",
     "skier",
     "snowboarder",
+    "person_fencing",
+    "women_wrestling",
+    "men_wrestling",
+    "woman_playing_handball",
+    "man_playing_handball",
     "ice_skate",
     "bow_and_arrow",
-    "woman_rowing_boat",
-    "rowboat",
-    "woman_swimming",
-    "swimmer",
-    "woman_surfing",
-    "surfer",
-    "woman_with_ball",
-    "person_with_ball",
-    "woman_weight_lifting",
-    "weight_lifter",
-    "woman_biking",
-    "bicyclist",
-    "woman_mountain_biking",
-    "mountain_bicyclist",
+    "boxing_glove",
+    "rowing_woman",
+    "rowing_man",
+    "swimming_woman",
+    "swimming_man",
+    "woman_playing_water_polo",
+    "man_playing_water_polo",
+    "surfing_woman",
+    "surfing_man",
+    "basketball_woman",
+    "basketball_man",
+    "weight_lifting_woman",
+    "weight_lifting_man",
+    "biking_woman",
+    "biking_man",
+    "mountain_biking_woman",
+    "mountain_biking_man",
     "reminder_ribbon",
-    "admission_ticket",
+    "tickets",
     "bowling",
     "racing_car",
-    "racing_motorcycle",
+    "motorcycle",
     "bike",
     "stadium"
   ],
@@ -3284,7 +3758,7 @@
     "womans_hat",
     "rabbit",
     "bird",
-    "bee",
+    "honeybee",
     "rabbit2",
     "seedling",
     "leaves",
@@ -3294,7 +3768,7 @@
     "bouquet",
     "sunny",
     "partly_sunny",
-    "umbrella_without_rain",
+    "open_umbrella",
     "umbrella",
     "droplet",
     "rainbow",
@@ -3340,8 +3814,8 @@
   "tophat": [
     "tophat"
   ],
-  "helmet": [
-    "helmet"
+  "rescue_worker_helmet": [
+    "rescue_worker_helmet"
   ],
   "school": [
     "school",
@@ -3366,15 +3840,12 @@
   "cap": [
     "mortar_board"
   ],
-  "hat": [
-    "mortar_board"
-  ],
   "learn": [
     "mortar_board",
     "school",
     "closed_book",
     "blue_book",
-    "book"
+    "open_book"
   ],
   "education": [
     "mortar_board",
@@ -3383,9 +3854,6 @@
   ],
   "mortar_board": [
     "mortar_board"
-  ],
-  "king": [
-    "crown"
   ],
   "kod": [
     "crown"
@@ -3450,7 +3918,7 @@
     "file_folder",
     "open_file_folder",
     "paperclip",
-    "linked_paperclips",
+    "paperclips",
     "memo"
   ],
   "work": [
@@ -3498,26 +3966,26 @@
   "weather": [
     "closed_umbrella",
     "sunny",
-    "white_sun_with_small_cloud",
+    "sun_behind_small_cloud",
     "partly_sunny",
-    "white_sun_behind_cloud",
-    "white_sun_behind_cloud_with_rain",
+    "sun_behind_large_cloud",
+    "sun_behind_rain_cloud",
     "cloud",
     "cloud_with_rain",
-    "thunder_cloud_and_rain",
+    "cloud_with_lightning_and_rain",
     "cloud_with_lightning",
     "zap",
     "snowflake",
     "cloud_with_snow",
     "snowman",
     "snowman_with_snow",
-    "cloud_with_tornado",
+    "tornado",
     "fog",
-    "umbrella_without_rain",
+    "open_umbrella",
     "umbrella",
-    "beach_with_umbrella",
+    "beach_umbrella",
     "thermometer",
-    "umbrella_on_ground",
+    "parasol_on_ground",
     "cyclone"
   ],
   "rain": [
@@ -3539,12 +4007,12 @@
     "mouse",
     "hamster",
     "rabbit",
-    "fox",
+    "fox_face",
     "bear",
     "panda_face",
     "koala",
     "tiger",
-    "lion_face",
+    "lion",
     "cow",
     "pig",
     "frog",
@@ -3567,8 +4035,8 @@
     "wolf",
     "boar",
     "horse",
-    "unicorn_face",
-    "bee",
+    "unicorn",
+    "honeybee",
     "bug",
     "butterfly",
     "beetle",
@@ -3617,7 +4085,7 @@
     "maple_leaf",
     "ear_of_rice",
     "sunflower",
-    "wilted_rose",
+    "wilted_flower",
     "tulip",
     "blossom",
     "cherry_blossom",
@@ -3630,7 +4098,7 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
@@ -3651,7 +4119,7 @@
     "eggplant",
     "sweet_potato",
     "mountain",
-    "snow_capped_mountain",
+    "mountain_snow",
     "mount_fuji",
     "volcano",
     "national_park",
@@ -3673,7 +4141,7 @@
     "poodle",
     "cat2",
     "rabbit2",
-    "feet"
+    "paw_prints"
   ],
   "faithful": [
     "dog",
@@ -3682,7 +4150,7 @@
   "dog": [
     "dog",
     "poodle",
-    "feet"
+    "paw_prints"
   ],
   "meow": [
     "cat",
@@ -3694,9 +4162,9 @@
   "cat": [
     "cat",
     "tiger",
-    "feet"
+    "paw_prints"
   ],
-  "cheese": [
+  "cheese_wedge": [
     "mouse"
   ],
   "rodent": [
@@ -3715,8 +4183,8 @@
   "rabbit": [
     "rabbit"
   ],
-  "fox": [
-    "fox"
+  "fox_face": [
+    "fox_face"
   ],
   "wild": [
     "bear",
@@ -3739,8 +4207,8 @@
   "danger": [
     "tiger",
     "skull_and_crossbones",
-    "radioactive_sign",
-    "biohazard_sign",
+    "radioactive",
+    "biohazard",
     "exclamation",
     "children_crossing",
     "red_circle"
@@ -3752,8 +4220,8 @@
   "tiger": [
     "tiger"
   ],
-  "lion_face": [
-    "lion_face"
+  "lion": [
+    "lion"
   ],
   "beef": [
     "cow",
@@ -3779,14 +4247,16 @@
   "cow": [
     "cow",
     "water_buffalo",
-    "ox"
+    "ox",
+    "milk_glass"
   ],
   "oink": [
     "pig",
     "pig_nose"
   ],
   "pig": [
-    "pig"
+    "pig",
+    "bacon"
   ],
   "pig_nose": [
     "pig_nose"
@@ -3811,9 +4281,9 @@
     "shark",
     "whale",
     "whale2",
-    "woman_surfing",
-    "surfer",
-    "io"
+    "surfing_woman",
+    "surfing_man",
+    "british_indian_ocean_territory"
   ],
   "sea": [
     "squid",
@@ -3826,8 +4296,8 @@
     "shell",
     "ocean",
     "fish_cake",
-    "woman_surfing",
-    "surfer",
+    "surfing_woman",
+    "surfing_man",
     "anchor"
   ],
   "squid": [
@@ -3885,7 +4355,7 @@
     "eagle",
     "owl",
     "turkey",
-    "dove_of_peace",
+    "dove",
     "poultry_leg"
   ],
   "chicken": [
@@ -3894,6 +4364,7 @@
     "hatching_chick",
     "hatched_chick",
     "rooster",
+    "egg",
     "poultry_leg"
   ],
   "penguin": [
@@ -3915,7 +4386,8 @@
   ],
   "egg": [
     "egg",
-    "hatching_chick"
+    "hatching_chick",
+    "fried_egg"
   ],
   "born": [
     "hatching_chick"
@@ -3964,13 +4436,13 @@
     "horse"
   ],
   "mystical": [
-    "unicorn_face"
+    "unicorn"
   ],
-  "unicorn_face": [
-    "unicorn_face"
+  "unicorn": [
+    "unicorn"
   ],
   "insect": [
-    "bee",
+    "honeybee",
     "bug",
     "butterfly",
     "beetle",
@@ -3979,14 +4451,14 @@
   ],
   "bug": [
     "bug",
-    "bee",
+    "honeybee",
     "ant"
   ],
   "honey": [
-    "bee"
+    "honeybee"
   ],
-  "bee": [
-    "bee"
+  "honeybee": [
+    "honeybee"
   ],
   "worm": [
     "bug"
@@ -4077,22 +4549,36 @@
     "cherries",
     "peach",
     "pineapple",
+    "kiwi_fruit",
+    "avocado",
     "tomato",
     "eggplant",
+    "cucumber",
+    "carrot",
     "hot_pepper",
+    "potato",
     "corn",
     "sweet_potato",
+    "peanuts",
+    "croissant",
     "bread",
-    "cheese_wedge",
+    "baguette_bread",
+    "cheese",
+    "egg",
+    "bacon",
+    "pancakes",
     "poultry_leg",
     "meat_on_bone",
     "fried_shrimp",
-    "egg",
-    "hot_dog",
+    "fried_egg",
+    "stuffed_flatbread",
+    "hotdog",
     "pizza",
     "spaghetti",
     "taco",
     "burrito",
+    "green_salad",
+    "shallow_pan_of_food",
     "ramen",
     "stew",
     "fish_cake",
@@ -4115,7 +4601,7 @@
     "doughnut",
     "cookie",
     "baby_bottle",
-    "fork_and_knife_with_plate",
+    "plate_with_cutlery",
     "fishing_pole_and_fish"
   ],
   "fish": [
@@ -4189,9 +4675,9 @@
   "camel": [
     "camel"
   ],
-  "thailand": [
+  "th": [
     "elephant",
-    "th"
+    "thailand"
   ],
   "elephant": [
     "elephant"
@@ -4250,8 +4736,8 @@
     "poultry_leg",
     "tr"
   ],
-  "dove_of_peace": [
-    "dove_of_peace"
+  "dove": [
+    "dove"
   ],
   "doge": [
     "dog2"
@@ -4277,7 +4763,7 @@
     "chipmunk"
   ],
   "paw_prints": [
-    "feet"
+    "paw_prints"
   ],
   "myth": [
     "dragon",
@@ -4309,6 +4795,7 @@
     "mushroom",
     "tomato",
     "eggplant",
+    "carrot",
     "corn"
   ],
   "plant": [
@@ -4328,7 +4815,7 @@
     "ear_of_rice",
     "hibiscus",
     "sunflower",
-    "wilted_rose",
+    "wilted_flower",
     "tulip",
     "cherry_blossom",
     "mushroom",
@@ -4359,7 +4846,7 @@
     "palm_tree",
     "cocktail",
     "tropical_drink",
-    "beach_with_umbrella",
+    "beach_umbrella",
     "desert_island"
   ],
   "tropical": [
@@ -4428,9 +4915,9 @@
   "fallen_leaf": [
     "fallen_leaf"
   ],
-  "canada": [
+  "ca": [
     "maple_leaf",
-    "ca"
+    "canada"
   ],
   "fall": [
     "maple_leaf",
@@ -4461,12 +4948,12 @@
     "rose"
   ],
   "flower": [
-    "wilted_rose",
+    "wilted_flower",
     "cherry_blossom",
     "rosette"
   ],
-  "wilted_rose": [
-    "wilted_rose"
+  "wilted_flower": [
+    "wilted_flower"
   ],
   "tulip": [
     "tulip"
@@ -4549,7 +5036,7 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
@@ -4563,29 +5050,11 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
     "last_quarter_moon_with_face"
-  ],
-  "space": [
-    "full_moon",
-    "waning_gibbous_moon",
-    "last_quarter_moon",
-    "waning_crescent_moon",
-    "new_moon",
-    "waxing_crescent_moon",
-    "first_quarter_moon",
-    "moon",
-    "new_moon_with_face",
-    "full_moon_with_face",
-    "first_quarter_moon_with_face",
-    "last_quarter_moon_with_face",
-    "comet",
-    "milky_way",
-    "satellite",
-    "telescope"
   ],
   "evening": [
     "full_moon",
@@ -4595,7 +5064,7 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
@@ -4612,7 +5081,7 @@
     "new_moon",
     "waxing_crescent_moon",
     "first_quarter_moon",
-    "moon",
+    "waxing_gibbous_moon",
     "new_moon_with_face",
     "full_moon_with_face",
     "first_quarter_moon_with_face",
@@ -4624,6 +5093,7 @@
     "full_moon"
   ],
   "waxing_gibbous_moon": [
+    "waxing_gibbous_moon",
     "waning_gibbous_moon"
   ],
   "waning_gibbous_moon": [
@@ -4645,7 +5115,7 @@
     "first_quarter_moon"
   ],
   "sky": [
-    "moon",
+    "waxing_gibbous_moon",
     "sun_with_face",
     "crescent_moon",
     "cloud",
@@ -4654,13 +5124,9 @@
     "u7a7a"
   ],
   "gray": [
-    "moon",
+    "waxing_gibbous_moon",
     "grey_exclamation",
     "grey_question"
-  ],
-  "moon": [
-    "moon",
-    "u6708"
   ],
   "new_moon_with_face": [
     "new_moon_with_face"
@@ -4688,7 +5154,8 @@
   "star": [
     "star",
     "dizzy",
-    "eight_spoked_asterisk"
+    "eight_spoked_asterisk",
+    "asterisk"
   ],
   "sparkle": [
     "sparkle",
@@ -4728,10 +5195,10 @@
   ],
   "sunny": [
     "sunny",
-    "beach_with_umbrella"
+    "beach_umbrella"
   ],
-  "white_sun_with_small_cloud": [
-    "white_sun_with_small_cloud"
+  "sun_behind_small_cloud": [
+    "sun_behind_small_cloud"
   ],
   "cloudy": [
     "partly_sunny"
@@ -4739,11 +5206,11 @@
   "partly_sunny": [
     "partly_sunny"
   ],
-  "white_sun_behind_cloud": [
-    "white_sun_behind_cloud"
+  "sun_behind_large_cloud": [
+    "sun_behind_large_cloud"
   ],
-  "white_sun_behind_cloud_with_rain": [
-    "white_sun_behind_cloud_with_rain"
+  "sun_behind_rain_cloud": [
+    "sun_behind_rain_cloud"
   ],
   "cloud": [
     "cloud",
@@ -4754,10 +5221,10 @@
     "cloud_with_rain"
   ],
   "lightning": [
-    "thunder_cloud_and_rain"
+    "cloud_with_lightning_and_rain"
   ],
-  "thunder_cloud_and_rain": [
-    "thunder_cloud_and_rain"
+  "cloud_with_lightning_and_rain": [
+    "cloud_with_lightning_and_rain"
   ],
   "thunder": [
     "cloud_with_lightning",
@@ -4773,7 +5240,7 @@
     "zap",
     "dash",
     "racing_car",
-    "racing_motorcycle",
+    "motorcycle",
     "bullettrain_front"
   ],
   "zap": [
@@ -4781,7 +5248,7 @@
   ],
   "cook": [
     "fire",
-    "ck"
+    "cook_islands"
   ],
   "flame": [
     "fire"
@@ -4820,7 +5287,7 @@
     "ski",
     "skier",
     "snowboarder",
-    "snow_capped_mountain"
+    "mountain_snow"
   ],
   "season": [
     "snowflake",
@@ -4833,7 +5300,7 @@
     "snowman_with_snow",
     "gift",
     "bell",
-    "cx"
+    "christmas_island"
   ],
   "snowflake": [
     "snowflake"
@@ -4855,14 +5322,14 @@
     "snowman_with_snow"
   ],
   "gust": [
-    "wind_blowing_face"
+    "wind_face"
   ],
   "air": [
-    "wind_blowing_face",
+    "wind_face",
     "dash"
   ],
-  "wind_blowing_face": [
-    "wind_blowing_face"
+  "wind_face": [
+    "wind_face"
   ],
   "wind": [
     "dash"
@@ -4887,19 +5354,19 @@
   ],
   "cyclone": [
     "cyclone",
-    "cloud_with_tornado"
+    "tornado"
   ],
   "twister": [
-    "cloud_with_tornado"
+    "tornado"
   ],
-  "cloud_with_tornado": [
-    "cloud_with_tornado"
+  "tornado": [
+    "tornado"
   ],
   "fog": [
     "fog"
   ],
-  "umbrella_without_rain": [
-    "umbrella_without_rain"
+  "open_umbrella": [
+    "open_umbrella"
   ],
   "rainy": [
     "umbrella"
@@ -4911,11 +5378,12 @@
     "droplet",
     "sweat_drops",
     "ocean",
-    "woman_rowing_boat",
-    "rowboat",
-    "woman_swimming",
-    "swimmer",
-    "boat",
+    "rowing_woman",
+    "rowing_man",
+    "swimming_woman",
+    "swimming_man",
+    "sailboat",
+    "canoe",
     "fountain",
     "shower"
   ],
@@ -4955,7 +5423,10 @@
     "cherries",
     "peach",
     "pineapple",
-    "tomato"
+    "kiwi_fruit",
+    "avocado",
+    "tomato",
+    "cucumber"
   ],
   "green_apple": [
     "green_apple"
@@ -4971,7 +5442,8 @@
     "pear"
   ],
   "orange": [
-    "tangerine"
+    "tangerine",
+    "carrot"
   ],
   "tangerine": [
     "tangerine"
@@ -4987,7 +5459,7 @@
   ],
   "wine": [
     "grapes",
-    "bottle",
+    "champagne",
     "sake"
   ],
   "grapes": [
@@ -5008,6 +5480,12 @@
   "pineapple": [
     "pineapple"
   ],
+  "kiwi_fruit": [
+    "kiwi_fruit"
+  ],
+  "avocado": [
+    "avocado"
+  ],
   "tomato": [
     "tomato"
   ],
@@ -5016,6 +5494,15 @@
   ],
   "eggplant": [
     "eggplant"
+  ],
+  "pickle": [
+    "cucumber"
+  ],
+  "cucumber": [
+    "cucumber"
+  ],
+  "carrot": [
+    "carrot"
   ],
   "spicy": [
     "hot_pepper",
@@ -5030,11 +5517,29 @@
   "hot_pepper": [
     "hot_pepper"
   ],
+  "tuber": [
+    "potato"
+  ],
+  "vegatable": [
+    "potato"
+  ],
+  "starch": [
+    "potato"
+  ],
+  "potato": [
+    "potato"
+  ],
   "corn": [
     "corn"
   ],
   "sweet_potato": [
     "sweet_potato"
+  ],
+  "nut": [
+    "peanuts"
+  ],
+  "peanuts": [
+    "peanuts"
   ],
   "bees": [
     "honey_pot"
@@ -5050,12 +5555,29 @@
   ],
   "kitchen": [
     "honey_pot",
-    "egg",
+    "fried_egg",
+    "spoon",
     "fork_and_knife",
     "hocho"
   ],
   "honey_pot": [
     "honey_pot"
+  ],
+  "bread": [
+    "bread",
+    "croissant",
+    "baguette_bread"
+  ],
+  "french": [
+    "croissant",
+    "baguette_bread",
+    "fr",
+    "french_guiana",
+    "french_polynesia",
+    "french_southern_territories"
+  ],
+  "croissant": [
+    "croissant"
   ],
   "wheat": [
     "bread"
@@ -5063,25 +5585,44 @@
   "breakfast": [
     "bread",
     "egg",
+    "bacon",
+    "pancakes",
+    "fried_egg",
     "tea"
   ],
   "toast": [
     "bread"
   ],
-  "bread": [
-    "bread"
+  "baguette_bread": [
+    "baguette_bread"
   ],
   "chadder": [
-    "cheese_wedge"
+    "cheese"
   ],
-  "cheese_wedge": [
-    "cheese_wedge"
+  "cheese": [
+    "cheese"
+  ],
+  "pork": [
+    "bacon"
   ],
   "meat": [
+    "bacon",
     "poultry_leg",
     "hamburger",
     "stew",
     "dango"
+  ],
+  "bacon": [
+    "bacon"
+  ],
+  "flapjacks": [
+    "pancakes"
+  ],
+  "hotcakes": [
+    "pancakes"
+  ],
+  "pancakes": [
+    "pancakes"
   ],
   "drumstick": [
     "poultry_leg",
@@ -5098,6 +5639,9 @@
   ],
   "fried_shrimp": [
     "fried_shrimp"
+  ],
+  "fried_egg": [
+    "fried_egg"
   ],
   "fast food": [
     "hamburger",
@@ -5130,19 +5674,29 @@
   "fries": [
     "fries"
   ],
+  "flatbread": [
+    "stuffed_flatbread"
+  ],
+  "stuffed": [
+    "stuffed_flatbread"
+  ],
+  "gyro": [
+    "stuffed_flatbread"
+  ],
+  "stuffed_flatbread": [
+    "stuffed_flatbread"
+  ],
   "frankfurter": [
-    "hot_dog"
+    "hotdog"
   ],
   "hotdog": [
-    "hot_dog"
-  ],
-  "hot_dog": [
-    "hot_dog"
+    "hotdog"
   ],
   "party": [
     "pizza",
     "beer",
     "beers",
+    "clinking_glasses",
     "circus_tent",
     "crystal_ball",
     "balloon",
@@ -5171,6 +5725,27 @@
   ],
   "burrito": [
     "burrito"
+  ],
+  "healthy": [
+    "green_salad"
+  ],
+  "lettuce": [
+    "green_salad"
+  ],
+  "green_salad": [
+    "green_salad"
+  ],
+  "cooking": [
+    "shallow_pan_of_food"
+  ],
+  "casserole": [
+    "shallow_pan_of_food"
+  ],
+  "paella": [
+    "shallow_pan_of_food"
+  ],
+  "shallow_pan_of_food": [
+    "shallow_pan_of_food"
   ],
   "chopsticks": [
     "ramen"
@@ -5305,35 +5880,45 @@
   "cookie": [
     "cookie"
   ],
-  "relax": [
-    "beer",
-    "beers",
-    "hotsprings"
-  ],
   "beverage": [
+    "milk_glass",
     "beer",
     "beers",
+    "clinking_glasses",
     "wine_glass",
+    "tumbler_glass",
     "cocktail",
     "tropical_drink",
     "sake",
     "coffee"
   ],
   "drink": [
+    "milk_glass",
     "beer",
     "beers",
+    "clinking_glasses",
     "wine_glass",
+    "tumbler_glass",
     "cocktail",
-    "bottle",
+    "champagne",
     "sake",
     "tea",
     "non-potable_water",
     "underage"
   ],
+  "milk_glass": [
+    "milk_glass"
+  ],
+  "relax": [
+    "beer",
+    "beers",
+    "hotsprings"
+  ],
   "drunk": [
     "beer",
     "beers",
     "wine_glass",
+    "tumbler_glass",
     "cocktail",
     "sake"
   ],
@@ -5345,7 +5930,9 @@
   "alcohol": [
     "beer",
     "beers",
+    "clinking_glasses",
     "wine_glass",
+    "tumbler_glass",
     "cocktail",
     "tropical_drink",
     "sake"
@@ -5354,6 +5941,7 @@
     "beer",
     "beers",
     "wine_glass",
+    "tumbler_glass",
     "cocktail",
     "tropical_drink",
     "sake"
@@ -5364,8 +5952,38 @@
   "beers": [
     "beers"
   ],
+  "celebrate": [
+    "clinking_glasses"
+  ],
+  "cheers": [
+    "clinking_glasses"
+  ],
+  "clinking_glasses": [
+    "clinking_glasses"
+  ],
   "wine_glass": [
     "wine_glass"
+  ],
+  "liquor": [
+    "tumbler_glass"
+  ],
+  "bourbon": [
+    "tumbler_glass"
+  ],
+  "scotch": [
+    "tumbler_glass"
+  ],
+  "whisky": [
+    "tumbler_glass"
+  ],
+  "glass": [
+    "tumbler_glass"
+  ],
+  "shot": [
+    "tumbler_glass"
+  ],
+  "tumbler_glass": [
+    "tumbler_glass"
   ],
   "cocktail": [
     "cocktail",
@@ -5374,11 +5992,11 @@
   "tropical_drink": [
     "tropical_drink"
   ],
-  "champagne": [
-    "bottle"
-  ],
   "bottle": [
-    "bottle"
+    "champagne"
+  ],
+  "champagne": [
+    "champagne"
   ],
   "sake": [
     "sake"
@@ -5408,29 +6026,36 @@
     "baby_bottle"
   ],
   "cutlery": [
+    "spoon",
     "fork_and_knife",
     "hocho"
+  ],
+  "tableware": [
+    "spoon"
+  ],
+  "spoon": [
+    "spoon"
   ],
   "fork_and_knife": [
     "fork_and_knife"
   ],
   "eat": [
-    "fork_and_knife_with_plate"
+    "plate_with_cutlery"
   ],
   "meal": [
-    "fork_and_knife_with_plate"
+    "plate_with_cutlery"
   ],
   "lunch": [
-    "fork_and_knife_with_plate"
+    "plate_with_cutlery"
   ],
   "dinner": [
-    "fork_and_knife_with_plate"
+    "plate_with_cutlery"
   ],
   "restaurant": [
-    "fork_and_knife_with_plate"
+    "plate_with_cutlery"
   ],
-  "fork_and_knife_with_plate": [
-    "fork_and_knife_with_plate"
+  "plate_with_cutlery": [
+    "plate_with_cutlery"
   ],
   "football": [
     "football",
@@ -5468,13 +6093,15 @@
     "rugby_football"
   ],
   "pool": [
-    "8ball"
+    "8ball",
+    "woman_playing_water_polo",
+    "man_playing_water_polo"
   ],
   "hobby": [
     "8ball",
     "fishing_pole_and_fish",
-    "woman_rowing_boat",
-    "rowboat"
+    "rowing_woman",
+    "rowing_man"
   ],
   "game": [
     "8ball",
@@ -5491,253 +6118,253 @@
   "flag": [
     "golf",
     "rainbow_flag",
-    "af",
-    "ax",
-    "al",
-    "dz",
-    "as",
-    "ad",
-    "ao",
-    "ai",
-    "aq",
-    "ag",
-    "ar",
-    "am",
-    "aw",
-    "au",
-    "at",
-    "az",
-    "bs",
-    "bh",
-    "bd",
-    "bb",
-    "by",
-    "be",
-    "bz",
-    "bj",
-    "bm",
-    "bt",
-    "bo",
-    "bq",
-    "ba",
-    "bw",
-    "br",
-    "io",
-    "vg",
-    "bn",
-    "bg",
-    "bf",
-    "bi",
-    "cv",
-    "kh",
-    "cm",
-    "ca",
-    "ic",
-    "ky",
-    "cf",
-    "td",
+    "afghanistan",
+    "aland_islands",
+    "albania",
+    "algeria",
+    "american_samoa",
+    "andorra",
+    "angola",
+    "anguilla",
+    "antarctica",
+    "antigua_barbuda",
+    "argentina",
+    "armenia",
+    "aruba",
+    "australia",
+    "austria",
+    "azerbaijan",
+    "bahamas",
+    "bahrain",
+    "bangladesh",
+    "barbados",
+    "belarus",
+    "belgium",
+    "belize",
+    "benin",
+    "bermuda",
+    "bhutan",
+    "bolivia",
+    "caribbean_netherlands",
+    "bosnia_herzegovina",
+    "botswana",
+    "brazil",
+    "british_indian_ocean_territory",
+    "british_virgin_islands",
+    "brunei",
+    "bulgaria",
+    "burkina_faso",
+    "burundi",
+    "cape_verde",
+    "cambodia",
+    "cameroon",
+    "canada",
+    "canary_islands",
+    "cayman_islands",
+    "central_african_republic",
+    "chad",
     "chile",
     "cn",
-    "cx",
-    "cc",
-    "co",
-    "km",
-    "cg",
-    "drc",
-    "ck",
-    "cr",
-    "hr",
-    "cu",
-    "cw",
-    "cy",
-    "cz",
-    "dk",
-    "dj",
-    "dm",
-    "do",
-    "ec",
-    "eg",
-    "sv",
-    "gq",
-    "er",
-    "ee",
-    "et",
+    "christmas_island",
+    "cocos_islands",
+    "colombia",
+    "comoros",
+    "congo_brazzaville",
+    "congo_kinshasa",
+    "cook_islands",
+    "costa_rica",
+    "croatia",
+    "cuba",
+    "curacao",
+    "cyprus",
+    "czech_republic",
+    "denmark",
+    "djibouti",
+    "dominica",
+    "dominican_republic",
+    "ecuador",
+    "egypt",
+    "el_salvador",
+    "equatorial_guinea",
+    "eritrea",
+    "estonia",
+    "ethiopia",
     "eu",
-    "fk",
-    "fo",
-    "fj",
-    "fi",
+    "falkland_islands",
+    "faroe_islands",
+    "fiji",
+    "finland",
     "fr",
-    "gf",
-    "pf",
-    "tf",
-    "ga",
-    "gm",
-    "ge",
+    "french_guiana",
+    "french_polynesia",
+    "french_southern_territories",
+    "gabon",
+    "gambia",
+    "georgia",
     "de",
-    "gh",
-    "gi",
-    "gr",
-    "gl",
-    "gd",
-    "gp",
-    "gu",
-    "gt",
-    "gg",
-    "gn",
-    "gw",
-    "gy",
-    "ht",
-    "hn",
-    "hk",
-    "hu",
-    "is",
-    "in",
+    "ghana",
+    "gibraltar",
+    "greece",
+    "greenland",
+    "grenada",
+    "guadeloupe",
+    "guam",
+    "guatemala",
+    "guernsey",
+    "guinea",
+    "guinea_bissau",
+    "guyana",
+    "haiti",
+    "honduras",
+    "hong_kong",
+    "hungary",
+    "iceland",
+    "india",
     "indonesia",
-    "ir",
-    "iq",
-    "ie",
-    "im",
-    "il",
+    "iran",
+    "iraq",
+    "ireland",
+    "isle_of_man",
+    "israel",
     "it",
-    "ci",
-    "jm",
+    "cote_divoire",
+    "jamaica",
     "jp",
-    "je",
-    "jo",
-    "kz",
-    "ke",
-    "ki",
-    "xk",
-    "kw",
-    "kg",
-    "la",
-    "lv",
-    "lb",
-    "ls",
-    "lr",
-    "ly",
-    "li",
-    "lt",
-    "lu",
-    "mo",
-    "mk",
-    "mg",
-    "mw",
-    "my",
-    "mv",
-    "ml",
-    "mt",
-    "mh",
-    "mq",
-    "mr",
-    "mu",
-    "yt",
-    "mx",
-    "fm",
-    "md",
-    "mc",
-    "mn",
-    "me",
-    "ms",
-    "ma",
-    "mz",
-    "mm",
-    "na",
-    "nr",
-    "np",
-    "nl",
-    "nc",
-    "nz",
-    "ni",
-    "ne",
+    "jersey",
+    "jordan",
+    "kazakhstan",
+    "kenya",
+    "kiribati",
+    "kosovo",
+    "kuwait",
+    "kyrgyzstan",
+    "laos",
+    "latvia",
+    "lebanon",
+    "lesotho",
+    "liberia",
+    "libya",
+    "liechtenstein",
+    "lithuania",
+    "luxembourg",
+    "macau",
+    "macedonia",
+    "madagascar",
+    "malawi",
+    "malaysia",
+    "maldives",
+    "mali",
+    "malta",
+    "marshall_islands",
+    "martinique",
+    "mauritania",
+    "mauritius",
+    "mayotte",
+    "mexico",
+    "micronesia",
+    "moldova",
+    "monaco",
+    "mongolia",
+    "montenegro",
+    "montserrat",
+    "morocco",
+    "mozambique",
+    "myanmar",
+    "namibia",
+    "nauru",
+    "nepal",
+    "netherlands",
+    "new_caledonia",
+    "new_zealand",
+    "nicaragua",
+    "niger",
     "nigeria",
-    "nu",
-    "nf",
-    "mp",
-    "kp",
-    "no",
-    "om",
-    "pk",
-    "pw",
-    "ps",
-    "pa",
-    "pg",
-    "py",
-    "pe",
-    "ph",
-    "pn",
-    "pl",
-    "pt",
-    "pr",
-    "qa",
-    "re",
-    "ro",
+    "niue",
+    "norfolk_island",
+    "northern_mariana_islands",
+    "north_korea",
+    "norway",
+    "oman",
+    "pakistan",
+    "palau",
+    "palestinian_territories",
+    "panama",
+    "papua_new_guinea",
+    "paraguay",
+    "peru",
+    "philippines",
+    "pitcairn_islands",
+    "poland",
+    "portugal",
+    "puerto_rico",
+    "qatar",
+    "reunion",
+    "romania",
     "ru",
-    "rw",
-    "bl",
-    "sh",
-    "kn",
-    "lc",
-    "pm",
-    "vc",
-    "ws",
-    "sm",
-    "st",
+    "rwanda",
+    "st_barthelemy",
+    "st_helena",
+    "st_kitts_nevis",
+    "st_lucia",
+    "st_pierre_miquelon",
+    "st_vincent_grenadines",
+    "samoa",
+    "san_marino",
+    "sao_tome_principe",
     "saudi_arabia",
-    "sn",
-    "rs",
-    "sc",
-    "sl",
-    "sg",
-    "sx",
-    "sk",
-    "si",
-    "sb",
-    "so",
-    "za",
-    "gs",
+    "senegal",
+    "serbia",
+    "seychelles",
+    "sierra_leone",
+    "singapore",
+    "sint_maarten",
+    "slovakia",
+    "slovenia",
+    "solomon_islands",
+    "somalia",
+    "south_africa",
+    "south_georgia_south_sandwich_islands",
     "kr",
-    "ss",
+    "south_sudan",
     "es",
-    "lk",
-    "sd",
-    "sr",
-    "sz",
-    "se",
-    "ch",
-    "sy",
-    "tw",
-    "tj",
-    "tz",
-    "th",
-    "tl",
-    "tg",
-    "tk",
-    "to",
-    "tt",
-    "tn",
+    "sri_lanka",
+    "sudan",
+    "suriname",
+    "swaziland",
+    "sweden",
+    "switzerland",
+    "syria",
+    "taiwan",
+    "tajikistan",
+    "tanzania",
+    "thailand",
+    "timor_leste",
+    "togo",
+    "tokelau",
+    "tonga",
+    "trinidad_tobago",
+    "tunisia",
     "tr",
     "turkmenistan",
-    "tc",
+    "turks_caicos_islands",
     "tuvalu",
-    "ug",
-    "ua",
-    "ae",
-    "gb",
+    "uganda",
+    "ukraine",
+    "united_arab_emirates",
+    "uk",
     "us",
-    "vi",
-    "uy",
-    "uz",
-    "vu",
-    "va",
-    "ve",
-    "vn",
-    "wf",
-    "eh",
-    "ye",
-    "zm",
-    "zw"
+    "us_virgin_islands",
+    "uruguay",
+    "uzbekistan",
+    "vanuatu",
+    "vatican_city",
+    "venezuela",
+    "vietnam",
+    "wallis_futuna",
+    "western_sahara",
+    "yemen",
+    "zambia",
+    "zimbabwe"
   ],
   "hole": [
     "hole",
@@ -5746,20 +6373,23 @@
   "golf": [
     "golf"
   ],
-  "woman_golfing": [
-    "woman_golfing"
+  "golfing_woman": [
+    "golfing_woman"
   ],
-  "golfer": [
-    "golfer"
+  "golfing_man": [
+    "golfing_man"
   ],
   "pingpong": [
-    "table_tennis"
+    "ping_pong"
   ],
-  "table_tennis": [
-    "table_tennis"
+  "ping_pong": [
+    "ping_pong"
   ],
   "badminton": [
     "badminton"
+  ],
+  "goal_net": [
+    "goal_net"
   ],
   "ice_hockey": [
     "ice_hockey"
@@ -5785,6 +6415,41 @@
   "snowboarder": [
     "snowboarder"
   ],
+  "fencing": [
+    "person_fencing"
+  ],
+  "sword": [
+    "person_fencing"
+  ],
+  "person_fencing": [
+    "person_fencing"
+  ],
+  "wrestlers": [
+    "women_wrestling",
+    "men_wrestling"
+  ],
+  "women_wrestling": [
+    "women_wrestling"
+  ],
+  "men_wrestling": [
+    "men_wrestling"
+  ],
+  "gymnastics": [
+    "woman_cartwheeling",
+    "man_cartwheeling"
+  ],
+  "woman_cartwheeling": [
+    "woman_cartwheeling"
+  ],
+  "man_cartwheeling": [
+    "man_cartwheeling"
+  ],
+  "woman_playing_handball": [
+    "woman_playing_handball"
+  ],
+  "man_playing_handball": [
+    "man_playing_handball"
+  ],
   "ice_skate": [
     "ice_skate"
   ],
@@ -5794,38 +6459,63 @@
   "fishing_pole_and_fish": [
     "fishing_pole_and_fish"
   ],
+  "fighting": [
+    "boxing_glove"
+  ],
+  "boxing_glove": [
+    "boxing_glove"
+  ],
+  "judo": [
+    "martial_arts_uniform"
+  ],
+  "karate": [
+    "martial_arts_uniform"
+  ],
+  "taekwondo": [
+    "martial_arts_uniform"
+  ],
+  "martial_arts_uniform": [
+    "martial_arts_uniform"
+  ],
   "ship": [
     "ship",
-    "woman_rowing_boat",
-    "rowboat",
-    "boat",
+    "rowing_woman",
+    "rowing_man",
+    "sailboat",
     "motor_boat",
     "speedboat",
     "ferry",
     "rocket",
+    "canoe",
     "anchor"
   ],
-  "woman_rowing_boat": [
-    "woman_rowing_boat"
+  "rowing_woman": [
+    "rowing_woman"
   ],
-  "rowboat": [
-    "rowboat"
+  "rowing_man": [
+    "rowing_man"
   ],
   "athlete": [
-    "woman_swimming",
-    "swimmer"
+    "swimming_woman",
+    "swimming_man"
   ],
-  "woman_swimming": [
-    "woman_swimming"
+  "swimming_woman": [
+    "swimming_woman"
   ],
-  "swimmer": [
-    "swimmer"
+  "swimming_man": [
+    "swimming_man"
   ],
-  "woman_surfing": [
-    "woman_surfing"
+  "woman_playing_water_polo": [
+    "woman_playing_water_polo"
   ],
-  "surfer": [
-    "surfer"
+  "man_playing_water_polo": [
+    "man_playing_water_polo"
+  ],
+  "surfing_woman": [
+    "surfing_woman"
+  ],
+  "surfing_man": [
+    "surfing_man"
   ],
   "clean": [
     "bath",
@@ -5847,44 +6537,44 @@
     "bath",
     "hotsprings"
   ],
-  "woman_with_ball": [
-    "woman_with_ball"
+  "basketball_woman": [
+    "basketball_woman"
   ],
-  "person_with_ball": [
-    "person_with_ball"
+  "basketball_man": [
+    "basketball_man"
   ],
   "training": [
-    "woman_weight_lifting",
-    "weight_lifter"
+    "weight_lifting_woman",
+    "weight_lifting_man"
   ],
-  "woman_weight_lifting": [
-    "woman_weight_lifting"
+  "weight_lifting_woman": [
+    "weight_lifting_woman"
   ],
-  "weight_lifter": [
-    "weight_lifter"
+  "weight_lifting_man": [
+    "weight_lifting_man"
   ],
   "bike": [
     "bike",
-    "woman_biking",
-    "bicyclist",
-    "woman_mountain_biking",
-    "mountain_bicyclist"
+    "biking_woman",
+    "biking_man",
+    "mountain_biking_woman",
+    "mountain_biking_man"
   ],
   "hipster": [
-    "woman_biking",
-    "bicyclist",
+    "biking_woman",
+    "biking_man",
     "bike"
   ],
-  "woman_biking": [
-    "woman_biking"
+  "biking_woman": [
+    "biking_woman"
   ],
-  "bicyclist": [
-    "bicyclist"
+  "biking_man": [
+    "biking_man"
   ],
   "transportation": [
-    "woman_mountain_biking",
-    "mountain_bicyclist",
-    "car",
+    "mountain_biking_woman",
+    "mountain_biking_man",
+    "red_car",
     "taxi",
     "blue_car",
     "bus",
@@ -5914,7 +6604,7 @@
     "helicopter",
     "small_airplane",
     "airplane",
-    "boat",
+    "sailboat",
     "speedboat",
     "busstop",
     "vertical_traffic_light",
@@ -5922,11 +6612,11 @@
     "ship",
     "railway_track"
   ],
-  "woman_mountain_biking": [
-    "woman_mountain_biking"
+  "mountain_biking_woman": [
+    "mountain_biking_woman"
   ],
-  "mountain_bicyclist": [
-    "mountain_bicyclist"
+  "mountain_biking_man": [
+    "mountain_biking_man"
   ],
   "betting": [
     "horse_racing"
@@ -5941,28 +6631,31 @@
     "horse_racing"
   ],
   "suit": [
-    "man_levitating",
+    "business_suit_levitating",
     "bowtie"
   ],
   "levitate": [
-    "man_levitating"
+    "business_suit_levitating"
   ],
   "hover": [
-    "man_levitating"
+    "business_suit_levitating"
   ],
   "jump": [
-    "man_levitating"
+    "business_suit_levitating"
   ],
-  "man_levitating": [
-    "man_levitating"
+  "business_suit_levitating": [
+    "business_suit_levitating"
   ],
   "win": [
     "trophy"
   ],
   "award": [
     "trophy",
-    "sports_medal",
-    "military_medal"
+    "medal_sports",
+    "medal_military",
+    "1st_place_medal",
+    "2nd_place_medal",
+    "3rd_place_medal"
   ],
   "contest": [
     "trophy",
@@ -5991,7 +6684,7 @@
     "bowling",
     "joystick",
     "arrow_forward",
-    "black_right_pointing_double_triangle_with_vertical_bar",
+    "play_or_pause_button",
     "fast_forward",
     "rewind",
     "black_joker",
@@ -6004,17 +6697,36 @@
     "running_shirt_with_sash"
   ],
   "winning": [
-    "sports_medal",
-    "military_medal"
+    "medal_sports",
+    "medal_military",
+    "1st_place_medal"
   ],
-  "sports_medal": [
-    "sports_medal"
+  "medal_sports": [
+    "medal_sports"
   ],
   "army": [
-    "military_medal"
+    "medal_military"
   ],
-  "military_medal": [
-    "military_medal"
+  "medal_military": [
+    "medal_military"
+  ],
+  "first": [
+    "1st_place_medal"
+  ],
+  "1st_place_medal": [
+    "1st_place_medal"
+  ],
+  "second": [
+    "2nd_place_medal"
+  ],
+  "2nd_place_medal": [
+    "2nd_place_medal"
+  ],
+  "third": [
+    "3rd_place_medal"
+  ],
+  "3rd_place_medal": [
+    "3rd_place_medal"
   ],
   "cause": [
     "reminder_ribbon"
@@ -6031,7 +6743,7 @@
   "decoration": [
     "rosette",
     "ribbon",
-    "heavy_heart_exclamation_mark_ornament"
+    "heavy_heart_exclamation"
   ],
   "military": [
     "rosette"
@@ -6044,18 +6756,17 @@
   ],
   "concert": [
     "ticket",
-    "admission_ticket",
-    "stadium",
-    "metal"
+    "tickets",
+    "stadium"
   ],
   "ticket": [
     "ticket"
   ],
   "entrance": [
-    "admission_ticket"
+    "tickets"
   ],
-  "admission_ticket": [
-    "admission_ticket"
+  "tickets": [
+    "tickets"
   ],
   "acting": [
     "performing_arts"
@@ -6086,8 +6797,8 @@
   ],
   "art": [
     "art",
-    "museum",
-    "lower_left_paintbrush"
+    "classical_building",
+    "paintbrush"
   ],
   "carnival": [
     "circus_tent",
@@ -6099,9 +6810,33 @@
   "circus_tent": [
     "circus_tent"
   ],
+  "juggle": [
+    "woman_juggling",
+    "man_juggling"
+  ],
+  "balance": [
+    "woman_juggling",
+    "man_juggling",
+    "yin_yang"
+  ],
+  "skill": [
+    "woman_juggling",
+    "man_juggling"
+  ],
+  "multitask": [
+    "woman_juggling",
+    "man_juggling"
+  ],
+  "woman_juggling": [
+    "woman_juggling"
+  ],
+  "man_juggling": [
+    "man_juggling"
+  ],
   "music": [
     "microphone",
     "headphones",
+    "drum",
     "saxophone",
     "trumpet",
     "guitar",
@@ -6123,7 +6858,7 @@
     "headphones",
     "iphone",
     "camera",
-    "camera_with_flash"
+    "camera_flash"
   ],
   "headphones": [
     "headphones"
@@ -6142,6 +6877,7 @@
   ],
   "instrument": [
     "musical_keyboard",
+    "drum",
     "saxophone",
     "guitar",
     "violin",
@@ -6149,6 +6885,12 @@
   ],
   "musical_keyboard": [
     "musical_keyboard"
+  ],
+  "drumsticks": [
+    "drum"
+  ],
+  "drum": [
+    "drum"
   ],
   "jazz": [
     "saxophone"
@@ -6180,7 +6922,7 @@
   "movie": [
     "clapper",
     "film_projector",
-    "film_frames",
+    "film_strip",
     "cinema"
   ],
   "film": [
@@ -6260,7 +7002,7 @@
     "bowling"
   ],
   "vehicle": [
-    "car",
+    "red_car",
     "taxi",
     "blue_car",
     "bus",
@@ -6270,6 +7012,8 @@
     "minibus",
     "articulated_lorry",
     "tractor",
+    "kick_scooter",
+    "motor_scooter",
     "oncoming_police_car",
     "oncoming_bus",
     "oncoming_automobile",
@@ -6293,12 +7037,8 @@
     "airplane",
     "speedboat"
   ],
-  "car": [
-    "car",
-    "bus",
-    "minibus",
-    "tractor",
-    "oncoming_automobile"
+  "red_car": [
+    "red_car"
   ],
   "uber": [
     "taxi",
@@ -6318,6 +7058,12 @@
   ],
   "blue_car": [
     "blue_car"
+  ],
+  "car": [
+    "bus",
+    "minibus",
+    "tractor",
+    "oncoming_automobile"
   ],
   "bus": [
     "bus",
@@ -6380,11 +7126,29 @@
   "tractor": [
     "tractor"
   ],
-  "racing_motorcycle": [
-    "racing_motorcycle"
+  "kick": [
+    "kick_scooter"
+  ],
+  "razor": [
+    "kick_scooter"
+  ],
+  "kick_scooter": [
+    "kick_scooter"
+  ],
+  "motorcycle": [
+    "motorcycle"
   ],
   "bicycle": [
     "bike"
+  ],
+  "vespa": [
+    "motor_scooter"
+  ],
+  "sasha": [
+    "motor_scooter"
+  ],
+  "motor_scooter": [
+    "motor_scooter"
   ],
   "emergency": [
     "rotating_light",
@@ -6497,8 +7261,8 @@
   "flight": [
     "small_airplane",
     "airplane",
-    "airplane_departure",
-    "airplane_arrival",
+    "flight_departure",
+    "flight_arrival",
     "seat"
   ],
   "small_airplane": [
@@ -6509,38 +7273,38 @@
     "seat"
   ],
   "airport": [
-    "airplane_departure",
-    "airplane_arrival",
+    "flight_departure",
+    "flight_arrival",
     "baggage_claim"
   ],
   "landing": [
-    "airplane_departure"
+    "flight_departure"
   ],
-  "airplane_departure": [
-    "airplane_departure"
+  "flight_departure": [
+    "flight_departure"
   ],
   "boarding": [
-    "airplane_arrival"
+    "flight_arrival"
   ],
-  "airplane_arrival": [
-    "airplane_arrival"
+  "flight_arrival": [
+    "flight_arrival"
   ],
   "sailing": [
-    "boat"
+    "sailboat"
   ],
   "sailboat": [
-    "boat"
-  ],
-  "boat": [
-    "boat",
-    "ferry",
-    "anchor"
+    "sailboat"
   ],
   "motor_boat": [
     "motor_boat"
   ],
   "speedboat": [
     "speedboat"
+  ],
+  "boat": [
+    "ferry",
+    "canoe",
+    "anchor"
   ],
   "yacht": [
     "ferry",
@@ -6570,9 +7334,6 @@
   "outer space": [
     "rocket"
   ],
-  "rocket": [
-    "rocket"
-  ],
   "communication": [
     "artificial_satellite",
     "post_office",
@@ -6581,9 +7342,9 @@
     "fax",
     "radio",
     "satellite",
-    "envelope",
-    "envelope_with_arrow",
     "email",
+    "envelope_with_arrow",
+    "e-mail",
     "mailbox_closed",
     "mailbox",
     "mailbox_with_mail"
@@ -6612,6 +7373,12 @@
   ],
   "seat": [
     "seat"
+  ],
+  "paddle": [
+    "canoe"
+  ],
+  "canoe": [
+    "canoe"
   ],
   "anchor": [
     "anchor"
@@ -6682,7 +7449,7 @@
     "fountain",
     "rice_scene",
     "mountain",
-    "snow_capped_mountain",
+    "mountain_snow",
     "mount_fuji",
     "volcano",
     "camping",
@@ -6700,7 +7467,7 @@
     "stars",
     "fireworks",
     "rainbow",
-    "buildings",
+    "houses",
     "japanese_castle",
     "stadium"
   ],
@@ -6780,12 +7547,12 @@
   ],
   "environment": [
     "mountain",
-    "snow_capped_mountain",
+    "mountain_snow",
     "national_park",
     "recycle"
   ],
-  "snow_capped_mountain": [
-    "snow_capped_mountain"
+  "mountain_snow": [
+    "mountain_snow"
   ],
   "mount_fuji": [
     "mount_fuji"
@@ -6796,502 +7563,502 @@
   "nation": [
     "japan",
     "crossed_flags",
-    "af",
-    "ax",
-    "al",
-    "dz",
-    "as",
-    "ad",
-    "ao",
-    "ai",
-    "aq",
-    "ag",
-    "ar",
-    "am",
-    "aw",
-    "au",
-    "at",
-    "az",
-    "bs",
-    "bh",
-    "bd",
-    "bb",
-    "by",
-    "be",
-    "bz",
-    "bj",
-    "bm",
-    "bt",
-    "bo",
-    "bq",
-    "ba",
-    "bw",
-    "br",
-    "io",
-    "vg",
-    "bn",
-    "bg",
-    "bf",
-    "bi",
-    "cv",
-    "kh",
-    "cm",
-    "ca",
-    "ic",
-    "ky",
-    "cf",
-    "td",
+    "afghanistan",
+    "aland_islands",
+    "albania",
+    "algeria",
+    "american_samoa",
+    "andorra",
+    "angola",
+    "anguilla",
+    "antarctica",
+    "antigua_barbuda",
+    "argentina",
+    "armenia",
+    "aruba",
+    "australia",
+    "austria",
+    "azerbaijan",
+    "bahamas",
+    "bahrain",
+    "bangladesh",
+    "barbados",
+    "belarus",
+    "belgium",
+    "belize",
+    "benin",
+    "bermuda",
+    "bhutan",
+    "bolivia",
+    "caribbean_netherlands",
+    "bosnia_herzegovina",
+    "botswana",
+    "brazil",
+    "british_indian_ocean_territory",
+    "british_virgin_islands",
+    "brunei",
+    "bulgaria",
+    "burkina_faso",
+    "burundi",
+    "cape_verde",
+    "cambodia",
+    "cameroon",
+    "canada",
+    "canary_islands",
+    "cayman_islands",
+    "central_african_republic",
+    "chad",
     "chile",
     "cn",
-    "cx",
-    "cc",
-    "co",
-    "km",
-    "cg",
-    "drc",
-    "ck",
-    "cr",
-    "hr",
-    "cu",
-    "cw",
-    "cy",
-    "cz",
-    "dk",
-    "dj",
-    "dm",
-    "do",
-    "ec",
-    "eg",
-    "sv",
-    "gq",
-    "er",
-    "ee",
-    "et",
-    "fk",
-    "fo",
-    "fj",
-    "fi",
+    "christmas_island",
+    "cocos_islands",
+    "colombia",
+    "comoros",
+    "congo_brazzaville",
+    "congo_kinshasa",
+    "cook_islands",
+    "costa_rica",
+    "croatia",
+    "cuba",
+    "curacao",
+    "cyprus",
+    "czech_republic",
+    "denmark",
+    "djibouti",
+    "dominica",
+    "dominican_republic",
+    "ecuador",
+    "egypt",
+    "el_salvador",
+    "equatorial_guinea",
+    "eritrea",
+    "estonia",
+    "ethiopia",
+    "falkland_islands",
+    "faroe_islands",
+    "fiji",
+    "finland",
     "fr",
-    "gf",
-    "pf",
-    "tf",
-    "ga",
-    "gm",
-    "ge",
+    "french_guiana",
+    "french_polynesia",
+    "french_southern_territories",
+    "gabon",
+    "gambia",
+    "georgia",
     "de",
-    "gh",
-    "gi",
-    "gr",
-    "gl",
-    "gd",
-    "gp",
-    "gu",
-    "gt",
-    "gg",
-    "gn",
-    "gw",
-    "gy",
-    "ht",
-    "hn",
-    "hk",
-    "hu",
-    "is",
-    "in",
+    "ghana",
+    "gibraltar",
+    "greece",
+    "greenland",
+    "grenada",
+    "guadeloupe",
+    "guam",
+    "guatemala",
+    "guernsey",
+    "guinea",
+    "guinea_bissau",
+    "guyana",
+    "haiti",
+    "honduras",
+    "hong_kong",
+    "hungary",
+    "iceland",
+    "india",
     "indonesia",
-    "ir",
-    "iq",
-    "ie",
-    "im",
-    "il",
+    "iran",
+    "iraq",
+    "ireland",
+    "isle_of_man",
+    "israel",
     "it",
-    "ci",
-    "jm",
+    "cote_divoire",
+    "jamaica",
     "jp",
-    "je",
-    "jo",
-    "kz",
-    "ke",
-    "ki",
-    "xk",
-    "kw",
-    "kg",
-    "la",
-    "lv",
-    "lb",
-    "ls",
-    "lr",
-    "ly",
-    "li",
-    "lt",
-    "lu",
-    "mo",
-    "mk",
-    "mg",
-    "mw",
-    "my",
-    "mv",
-    "ml",
-    "mt",
-    "mh",
-    "mq",
-    "mr",
-    "mu",
-    "yt",
-    "mx",
-    "fm",
-    "md",
-    "mc",
-    "mn",
-    "me",
-    "ms",
-    "ma",
-    "mz",
-    "mm",
-    "na",
-    "nr",
-    "np",
-    "nl",
-    "nc",
-    "nz",
-    "ni",
-    "ne",
+    "jersey",
+    "jordan",
+    "kazakhstan",
+    "kenya",
+    "kiribati",
+    "kosovo",
+    "kuwait",
+    "kyrgyzstan",
+    "laos",
+    "latvia",
+    "lebanon",
+    "lesotho",
+    "liberia",
+    "libya",
+    "liechtenstein",
+    "lithuania",
+    "luxembourg",
+    "macau",
+    "macedonia",
+    "madagascar",
+    "malawi",
+    "malaysia",
+    "maldives",
+    "mali",
+    "malta",
+    "marshall_islands",
+    "martinique",
+    "mauritania",
+    "mauritius",
+    "mayotte",
+    "mexico",
+    "micronesia",
+    "moldova",
+    "monaco",
+    "mongolia",
+    "montenegro",
+    "montserrat",
+    "morocco",
+    "mozambique",
+    "myanmar",
+    "namibia",
+    "nauru",
+    "nepal",
+    "netherlands",
+    "new_caledonia",
+    "new_zealand",
+    "nicaragua",
+    "niger",
     "nigeria",
-    "nu",
-    "nf",
-    "mp",
-    "kp",
-    "no",
-    "om",
-    "pk",
-    "pw",
-    "ps",
-    "pa",
-    "pg",
-    "py",
-    "pe",
-    "ph",
-    "pn",
-    "pl",
-    "pt",
-    "pr",
-    "qa",
-    "re",
-    "ro",
+    "niue",
+    "norfolk_island",
+    "northern_mariana_islands",
+    "north_korea",
+    "norway",
+    "oman",
+    "pakistan",
+    "palau",
+    "palestinian_territories",
+    "panama",
+    "papua_new_guinea",
+    "paraguay",
+    "peru",
+    "philippines",
+    "pitcairn_islands",
+    "poland",
+    "portugal",
+    "puerto_rico",
+    "qatar",
+    "reunion",
+    "romania",
     "ru",
-    "rw",
-    "bl",
-    "sh",
-    "kn",
-    "lc",
-    "pm",
-    "vc",
-    "ws",
-    "sm",
-    "st",
+    "rwanda",
+    "st_barthelemy",
+    "st_helena",
+    "st_kitts_nevis",
+    "st_lucia",
+    "st_pierre_miquelon",
+    "st_vincent_grenadines",
+    "samoa",
+    "san_marino",
+    "sao_tome_principe",
     "saudi_arabia",
-    "sn",
-    "rs",
-    "sc",
-    "sl",
-    "sg",
-    "sx",
-    "sk",
-    "si",
-    "sb",
-    "so",
-    "za",
-    "gs",
+    "senegal",
+    "serbia",
+    "seychelles",
+    "sierra_leone",
+    "singapore",
+    "sint_maarten",
+    "slovakia",
+    "slovenia",
+    "solomon_islands",
+    "somalia",
+    "south_africa",
+    "south_georgia_south_sandwich_islands",
     "kr",
-    "ss",
+    "south_sudan",
     "es",
-    "lk",
-    "sd",
-    "sr",
-    "sz",
-    "se",
-    "ch",
-    "sy",
-    "tw",
-    "tj",
-    "tz",
-    "th",
-    "tl",
-    "tg",
-    "tk",
-    "to",
-    "tt",
-    "tn",
+    "sri_lanka",
+    "sudan",
+    "suriname",
+    "swaziland",
+    "sweden",
+    "switzerland",
+    "syria",
+    "taiwan",
+    "tajikistan",
+    "tanzania",
+    "thailand",
+    "timor_leste",
+    "togo",
+    "tokelau",
+    "tonga",
+    "trinidad_tobago",
+    "tunisia",
     "tr",
     "turkmenistan",
-    "tc",
+    "turks_caicos_islands",
     "tuvalu",
-    "ug",
-    "ua",
-    "ae",
-    "gb",
+    "uganda",
+    "ukraine",
+    "united_arab_emirates",
+    "uk",
     "us",
-    "vi",
-    "uy",
-    "uz",
-    "vu",
-    "va",
-    "ve",
-    "vn",
-    "wf",
-    "eh",
-    "ye",
-    "zm",
-    "zw"
+    "us_virgin_islands",
+    "uruguay",
+    "uzbekistan",
+    "vanuatu",
+    "vatican_city",
+    "venezuela",
+    "vietnam",
+    "wallis_futuna",
+    "western_sahara",
+    "yemen",
+    "zambia",
+    "zimbabwe"
   ],
   "country": [
     "japan",
     "crossed_flags",
-    "af",
-    "ax",
-    "al",
-    "dz",
-    "as",
-    "ad",
-    "ao",
-    "ai",
-    "aq",
-    "ag",
-    "ar",
-    "am",
-    "aw",
-    "au",
-    "at",
-    "az",
-    "bs",
-    "bh",
-    "bd",
-    "bb",
-    "by",
-    "be",
-    "bz",
-    "bj",
-    "bm",
-    "bt",
-    "bo",
-    "bq",
-    "ba",
-    "bw",
-    "br",
-    "io",
-    "vg",
-    "bn",
-    "bg",
-    "bf",
-    "bi",
-    "cv",
-    "kh",
-    "cm",
-    "ca",
-    "ic",
-    "ky",
-    "cf",
-    "td",
+    "afghanistan",
+    "aland_islands",
+    "albania",
+    "algeria",
+    "american_samoa",
+    "andorra",
+    "angola",
+    "anguilla",
+    "antarctica",
+    "antigua_barbuda",
+    "argentina",
+    "armenia",
+    "aruba",
+    "australia",
+    "austria",
+    "azerbaijan",
+    "bahamas",
+    "bahrain",
+    "bangladesh",
+    "barbados",
+    "belarus",
+    "belgium",
+    "belize",
+    "benin",
+    "bermuda",
+    "bhutan",
+    "bolivia",
+    "caribbean_netherlands",
+    "bosnia_herzegovina",
+    "botswana",
+    "brazil",
+    "british_indian_ocean_territory",
+    "british_virgin_islands",
+    "brunei",
+    "bulgaria",
+    "burkina_faso",
+    "burundi",
+    "cape_verde",
+    "cambodia",
+    "cameroon",
+    "canada",
+    "canary_islands",
+    "cayman_islands",
+    "central_african_republic",
+    "chad",
     "chile",
     "cn",
-    "cx",
-    "cc",
-    "co",
-    "km",
-    "cg",
-    "drc",
-    "ck",
-    "cr",
-    "hr",
-    "cu",
-    "cw",
-    "cy",
-    "cz",
-    "dk",
-    "dj",
-    "dm",
-    "do",
-    "ec",
-    "eg",
-    "sv",
-    "gq",
-    "er",
-    "ee",
-    "et",
-    "fk",
-    "fo",
-    "fj",
-    "fi",
+    "christmas_island",
+    "cocos_islands",
+    "colombia",
+    "comoros",
+    "congo_brazzaville",
+    "congo_kinshasa",
+    "cook_islands",
+    "costa_rica",
+    "croatia",
+    "cuba",
+    "curacao",
+    "cyprus",
+    "czech_republic",
+    "denmark",
+    "djibouti",
+    "dominica",
+    "dominican_republic",
+    "ecuador",
+    "egypt",
+    "el_salvador",
+    "equatorial_guinea",
+    "eritrea",
+    "estonia",
+    "ethiopia",
+    "falkland_islands",
+    "faroe_islands",
+    "fiji",
+    "finland",
     "fr",
-    "gf",
-    "pf",
-    "tf",
-    "ga",
-    "gm",
-    "ge",
+    "french_guiana",
+    "french_polynesia",
+    "french_southern_territories",
+    "gabon",
+    "gambia",
+    "georgia",
     "de",
-    "gh",
-    "gi",
-    "gr",
-    "gl",
-    "gd",
-    "gp",
-    "gu",
-    "gt",
-    "gg",
-    "gn",
-    "gw",
-    "gy",
-    "ht",
-    "hn",
-    "hk",
-    "hu",
-    "is",
-    "in",
+    "ghana",
+    "gibraltar",
+    "greece",
+    "greenland",
+    "grenada",
+    "guadeloupe",
+    "guam",
+    "guatemala",
+    "guernsey",
+    "guinea",
+    "guinea_bissau",
+    "guyana",
+    "haiti",
+    "honduras",
+    "hong_kong",
+    "hungary",
+    "iceland",
+    "india",
     "indonesia",
-    "ir",
-    "iq",
-    "ie",
-    "im",
-    "il",
+    "iran",
+    "iraq",
+    "ireland",
+    "isle_of_man",
+    "israel",
     "it",
-    "ci",
-    "jm",
+    "cote_divoire",
+    "jamaica",
     "jp",
-    "je",
-    "jo",
-    "kz",
-    "ke",
-    "ki",
-    "xk",
-    "kw",
-    "kg",
-    "la",
-    "lv",
-    "lb",
-    "ls",
-    "lr",
-    "ly",
-    "li",
-    "lt",
-    "lu",
-    "mo",
-    "mk",
-    "mg",
-    "mw",
-    "my",
-    "mv",
-    "ml",
-    "mt",
-    "mh",
-    "mq",
-    "mr",
-    "mu",
-    "yt",
-    "mx",
-    "fm",
-    "md",
-    "mc",
-    "mn",
-    "me",
-    "ms",
-    "ma",
-    "mz",
-    "mm",
-    "na",
-    "nr",
-    "np",
-    "nl",
-    "nc",
-    "nz",
-    "ni",
-    "ne",
+    "jersey",
+    "jordan",
+    "kazakhstan",
+    "kenya",
+    "kiribati",
+    "kosovo",
+    "kuwait",
+    "kyrgyzstan",
+    "laos",
+    "latvia",
+    "lebanon",
+    "lesotho",
+    "liberia",
+    "libya",
+    "liechtenstein",
+    "lithuania",
+    "luxembourg",
+    "macau",
+    "macedonia",
+    "madagascar",
+    "malawi",
+    "malaysia",
+    "maldives",
+    "mali",
+    "malta",
+    "marshall_islands",
+    "martinique",
+    "mauritania",
+    "mauritius",
+    "mayotte",
+    "mexico",
+    "micronesia",
+    "moldova",
+    "monaco",
+    "mongolia",
+    "montenegro",
+    "montserrat",
+    "morocco",
+    "mozambique",
+    "myanmar",
+    "namibia",
+    "nauru",
+    "nepal",
+    "netherlands",
+    "new_caledonia",
+    "new_zealand",
+    "nicaragua",
+    "niger",
     "nigeria",
-    "nu",
-    "nf",
-    "mp",
-    "kp",
-    "no",
-    "om",
-    "pk",
-    "pw",
-    "ps",
-    "pa",
-    "pg",
-    "py",
-    "pe",
-    "ph",
-    "pn",
-    "pl",
-    "pt",
-    "pr",
-    "qa",
-    "re",
-    "ro",
+    "niue",
+    "norfolk_island",
+    "northern_mariana_islands",
+    "north_korea",
+    "norway",
+    "oman",
+    "pakistan",
+    "palau",
+    "palestinian_territories",
+    "panama",
+    "papua_new_guinea",
+    "paraguay",
+    "peru",
+    "philippines",
+    "pitcairn_islands",
+    "poland",
+    "portugal",
+    "puerto_rico",
+    "qatar",
+    "reunion",
+    "romania",
     "ru",
-    "rw",
-    "bl",
-    "sh",
-    "kn",
-    "lc",
-    "pm",
-    "vc",
-    "ws",
-    "sm",
-    "st",
+    "rwanda",
+    "st_barthelemy",
+    "st_helena",
+    "st_kitts_nevis",
+    "st_lucia",
+    "st_pierre_miquelon",
+    "st_vincent_grenadines",
+    "samoa",
+    "san_marino",
+    "sao_tome_principe",
     "saudi_arabia",
-    "sn",
-    "rs",
-    "sc",
-    "sl",
-    "sg",
-    "sx",
-    "sk",
-    "si",
-    "sb",
-    "so",
-    "za",
-    "gs",
+    "senegal",
+    "serbia",
+    "seychelles",
+    "sierra_leone",
+    "singapore",
+    "sint_maarten",
+    "slovakia",
+    "slovenia",
+    "solomon_islands",
+    "somalia",
+    "south_africa",
+    "south_georgia_south_sandwich_islands",
     "kr",
-    "ss",
+    "south_sudan",
     "es",
-    "lk",
-    "sd",
-    "sr",
-    "sz",
-    "se",
-    "ch",
-    "sy",
-    "tw",
-    "tj",
-    "tz",
-    "th",
-    "tl",
-    "tg",
-    "tk",
-    "to",
-    "tt",
-    "tn",
+    "sri_lanka",
+    "sudan",
+    "suriname",
+    "swaziland",
+    "sweden",
+    "switzerland",
+    "syria",
+    "taiwan",
+    "tajikistan",
+    "tanzania",
+    "thailand",
+    "timor_leste",
+    "togo",
+    "tokelau",
+    "tonga",
+    "trinidad_tobago",
+    "tunisia",
     "tr",
     "turkmenistan",
-    "tc",
+    "turks_caicos_islands",
     "tuvalu",
-    "ug",
-    "ua",
-    "ae",
-    "gb",
+    "uganda",
+    "ukraine",
+    "united_arab_emirates",
+    "uk",
     "us",
-    "vi",
-    "uy",
-    "uz",
-    "vu",
-    "va",
-    "ve",
-    "vn",
-    "wf",
-    "eh",
-    "ye",
-    "zm",
-    "zw"
+    "us_virgin_islands",
+    "uruguay",
+    "uzbekistan",
+    "vanuatu",
+    "vatican_city",
+    "venezuela",
+    "vietnam",
+    "wallis_futuna",
+    "western_sahara",
+    "yemen",
+    "zambia",
+    "zimbabwe"
   ],
   "outdoors": [
     "camping",
@@ -7346,10 +8113,10 @@
     "desert"
   ],
   "sand": [
-    "beach_with_umbrella"
+    "beach_umbrella"
   ],
-  "beach_with_umbrella": [
-    "beach_with_umbrella"
+  "beach_umbrella": [
+    "beach_umbrella"
   ],
   "desert_island": [
     "desert_island"
@@ -7365,8 +8132,8 @@
     "city_sunrise"
   ],
   "buildings": [
-    "buildings",
-    "city_sunset"
+    "city_sunset",
+    "houses"
   ],
   "city_sunset": [
     "city_sunset"
@@ -7382,7 +8149,7 @@
   ],
   "city": [
     "night_with_stars",
-    "va"
+    "vatican_city"
   ],
   "downtown": [
     "night_with_stars"
@@ -7410,7 +8177,7 @@
     "fireworks",
     "sparkle"
   ],
-  "unicorn": [
+  "unicorn_face": [
     "rainbow"
   ],
   "rainbow": [
@@ -7418,11 +8185,11 @@
     "rainbow_flag"
   ],
   "houses": [
-    "buildings"
+    "houses"
   ],
   "history": [
     "european_castle",
-    "museum",
+    "classical_building",
     "scroll"
   ],
   "european_castle": [
@@ -7439,7 +8206,7 @@
   ],
   "american": [
     "statue_of_liberty",
-    "as"
+    "american_samoa"
   ],
   "newyork": [
     "statue_of_liberty"
@@ -7477,14 +8244,21 @@
   ],
   "mall": [
     "department_store",
-    "shopping_bags"
+    "shopping"
   ],
   "department_store": [
     "department_store"
   ],
+  "envelope": [
+    "post_office",
+    "love_letter",
+    "postbox"
+  ],
+  "post_office": [
+    "post_office"
+  ],
   "email": [
     "email",
-    "post_office",
     "european_post_office",
     "envelope_with_arrow",
     "incoming_envelope",
@@ -7497,19 +8271,11 @@
     "inbox_tray",
     "outbox_tray"
   ],
-  "post_office": [
-    "post_office"
-  ],
   "european_post_office": [
     "european_post_office"
   ],
   "surgery": [
     "hospital"
-  ],
-  "doctor": [
-    "hospital",
-    "pill",
-    "syringe"
   ],
   "cash": [
     "bank",
@@ -7543,14 +8309,11 @@
   "love_hotel": [
     "love_hotel"
   ],
-  "groom": [
-    "wedding"
-  ],
   "culture": [
-    "museum"
+    "classical_building"
   ],
-  "museum": [
-    "museum"
+  "classical_building": [
+    "classical_building"
   ],
   "religion": [
     "church",
@@ -7593,7 +8356,7 @@
   "jewish": [
     "synagogue",
     "six_pointed_star",
-    "menorah_with_nine_branches"
+    "menorah"
   ],
   "synagogue": [
     "synagogue"
@@ -7726,10 +8489,10 @@
     "printer"
   ],
   "click": [
-    "three_button_mouse"
+    "computer_mouse"
   ],
-  "three_button_mouse": [
-    "three_button_mouse"
+  "computer_mouse": [
+    "computer_mouse"
   ],
   "trackpad": [
     "trackball"
@@ -7741,10 +8504,10 @@
     "joystick"
   ],
   "tool": [
-    "compression"
+    "clamp"
   ],
-  "compression": [
-    "compression"
+  "clamp": [
+    "clamp"
   ],
   "data": [
     "minidisc"
@@ -7809,14 +8572,11 @@
   ],
   "photography": [
     "camera",
-    "camera_with_flash",
-    "frame_with_picture"
+    "camera_flash",
+    "framed_picture"
   ],
-  "camera": [
-    "camera"
-  ],
-  "camera_with_flash": [
-    "camera_with_flash"
+  "camera_flash": [
+    "camera_flash"
   ],
   "video_camera": [
     "video_camera"
@@ -7831,19 +8591,14 @@
   "film_projector": [
     "film_projector"
   ],
-  "film_frames": [
-    "film_frames"
+  "film_strip": [
+    "film_strip"
   ],
   "telephone_receiver": [
     "telephone_receiver"
   ],
   "telephone": [
     "phone"
-  ],
-  "phone": [
-    "phone",
-    "vibration_mode",
-    "signal_strength"
   ],
   "bbcall": [
     "pager"
@@ -8053,7 +8808,7 @@
   ],
   "england": [
     "pound",
-    "gb"
+    "uk"
   ],
   "pound": [
     "pound"
@@ -8071,13 +8826,13 @@
     "gem"
   ],
   "fairness": [
-    "scales"
+    "balance_scale"
   ],
   "weight": [
-    "scales"
+    "balance_scale"
   ],
-  "scales": [
-    "scales"
+  "balance_scale": [
+    "balance_scale"
   ],
   "tools": [
     "wrench",
@@ -8147,7 +8902,7 @@
   "weapon": [
     "gun",
     "hocho",
-    "dagger_knife",
+    "dagger",
     "crossed_swords",
     "trident"
   ],
@@ -8172,8 +8927,8 @@
   "hocho": [
     "hocho"
   ],
-  "dagger_knife": [
-    "dagger_knife"
+  "dagger": [
+    "dagger"
   ],
   "crossed_swords": [
     "crossed_swords"
@@ -8321,7 +9076,7 @@
     "orange_book",
     "notebook_with_decorative_cover",
     "books",
-    "book",
+    "open_book",
     "memo",
     "pencil2"
   ],
@@ -8347,9 +9102,6 @@
     "syringe"
   ],
   "needle": [
-    "syringe"
-  ],
-  "nurse": [
     "syringe"
   ],
   "syringe": [
@@ -8421,7 +9173,7 @@
     "green_book",
     "blue_book",
     "orange_book",
-    "book"
+    "open_book"
   ],
   "chill": [
     "couch_and_lamp"
@@ -8431,10 +9183,10 @@
   ],
   "bed": [
     "bed",
-    "sleeping_accommodation"
+    "sleeping_bed"
   ],
-  "sleeping_accommodation": [
-    "sleeping_accommodation"
+  "sleeping_bed": [
+    "sleeping_bed"
   ],
   "entry": [
     "door"
@@ -8448,8 +9200,8 @@
   "bellhop_bell": [
     "bellhop_bell"
   ],
-  "frame_with_picture": [
-    "frame_with_picture"
+  "framed_picture": [
+    "framed_picture"
   ],
   "location": [
     "world_map",
@@ -8458,8 +9210,8 @@
   "world_map": [
     "world_map"
   ],
-  "umbrella_on_ground": [
-    "umbrella_on_ground"
+  "parasol_on_ground": [
+    "parasol_on_ground"
   ],
   "rock": [
     "moyai"
@@ -8474,13 +9226,16 @@
     "moyai"
   ],
   "buy": [
-    "shopping_bags"
+    "shopping"
   ],
   "purchase": [
-    "shopping_bags"
+    "shopping"
   ],
-  "shopping_bags": [
-    "shopping_bags"
+  "trolley": [
+    "shopping_cart"
+  ],
+  "shopping_cart": [
+    "shopping_cart"
   ],
   "balloon": [
     "balloon"
@@ -8493,253 +9248,253 @@
   ],
   "banner": [
     "flags",
-    "af",
-    "ax",
-    "al",
-    "dz",
-    "as",
-    "ad",
-    "ao",
-    "ai",
-    "aq",
-    "ag",
-    "ar",
-    "am",
-    "aw",
-    "au",
-    "at",
-    "az",
-    "bs",
-    "bh",
-    "bd",
-    "bb",
-    "by",
-    "be",
-    "bz",
-    "bj",
-    "bm",
-    "bt",
-    "bo",
-    "bq",
-    "ba",
-    "bw",
-    "br",
-    "io",
-    "vg",
-    "bn",
-    "bg",
-    "bf",
-    "bi",
-    "cv",
-    "kh",
-    "cm",
-    "ca",
-    "ic",
-    "ky",
-    "cf",
-    "td",
+    "afghanistan",
+    "aland_islands",
+    "albania",
+    "algeria",
+    "american_samoa",
+    "andorra",
+    "angola",
+    "anguilla",
+    "antarctica",
+    "antigua_barbuda",
+    "argentina",
+    "armenia",
+    "aruba",
+    "australia",
+    "austria",
+    "azerbaijan",
+    "bahamas",
+    "bahrain",
+    "bangladesh",
+    "barbados",
+    "belarus",
+    "belgium",
+    "belize",
+    "benin",
+    "bermuda",
+    "bhutan",
+    "bolivia",
+    "caribbean_netherlands",
+    "bosnia_herzegovina",
+    "botswana",
+    "brazil",
+    "british_indian_ocean_territory",
+    "british_virgin_islands",
+    "brunei",
+    "bulgaria",
+    "burkina_faso",
+    "burundi",
+    "cape_verde",
+    "cambodia",
+    "cameroon",
+    "canada",
+    "canary_islands",
+    "cayman_islands",
+    "central_african_republic",
+    "chad",
     "chile",
     "cn",
-    "cx",
-    "cc",
-    "co",
-    "km",
-    "cg",
-    "drc",
-    "ck",
-    "cr",
-    "hr",
-    "cu",
-    "cw",
-    "cy",
-    "cz",
-    "dk",
-    "dj",
-    "dm",
-    "do",
-    "ec",
-    "eg",
-    "sv",
-    "gq",
-    "er",
-    "ee",
-    "et",
+    "christmas_island",
+    "cocos_islands",
+    "colombia",
+    "comoros",
+    "congo_brazzaville",
+    "congo_kinshasa",
+    "cook_islands",
+    "costa_rica",
+    "croatia",
+    "cuba",
+    "curacao",
+    "cyprus",
+    "czech_republic",
+    "denmark",
+    "djibouti",
+    "dominica",
+    "dominican_republic",
+    "ecuador",
+    "egypt",
+    "el_salvador",
+    "equatorial_guinea",
+    "eritrea",
+    "estonia",
+    "ethiopia",
     "eu",
-    "fk",
-    "fo",
-    "fj",
-    "fi",
+    "falkland_islands",
+    "faroe_islands",
+    "fiji",
+    "finland",
     "fr",
-    "gf",
-    "pf",
-    "tf",
-    "ga",
-    "gm",
-    "ge",
+    "french_guiana",
+    "french_polynesia",
+    "french_southern_territories",
+    "gabon",
+    "gambia",
+    "georgia",
     "de",
-    "gh",
-    "gi",
-    "gr",
-    "gl",
-    "gd",
-    "gp",
-    "gu",
-    "gt",
-    "gg",
-    "gn",
-    "gw",
-    "gy",
-    "ht",
-    "hn",
-    "hk",
-    "hu",
-    "is",
-    "in",
+    "ghana",
+    "gibraltar",
+    "greece",
+    "greenland",
+    "grenada",
+    "guadeloupe",
+    "guam",
+    "guatemala",
+    "guernsey",
+    "guinea",
+    "guinea_bissau",
+    "guyana",
+    "haiti",
+    "honduras",
+    "hong_kong",
+    "hungary",
+    "iceland",
+    "india",
     "indonesia",
-    "ir",
-    "iq",
-    "ie",
-    "im",
-    "il",
+    "iran",
+    "iraq",
+    "ireland",
+    "isle_of_man",
+    "israel",
     "it",
-    "ci",
-    "jm",
+    "cote_divoire",
+    "jamaica",
     "jp",
-    "je",
-    "jo",
-    "kz",
-    "ke",
-    "ki",
-    "xk",
-    "kw",
-    "kg",
-    "la",
-    "lv",
-    "lb",
-    "ls",
-    "lr",
-    "ly",
-    "li",
-    "lt",
-    "lu",
-    "mo",
-    "mk",
-    "mg",
-    "mw",
-    "my",
-    "mv",
-    "ml",
-    "mt",
-    "mh",
-    "mq",
-    "mr",
-    "mu",
-    "yt",
-    "mx",
-    "fm",
-    "md",
-    "mc",
-    "mn",
-    "me",
-    "ms",
-    "ma",
-    "mz",
-    "mm",
-    "na",
-    "nr",
-    "np",
-    "nl",
-    "nc",
-    "nz",
-    "ni",
-    "ne",
+    "jersey",
+    "jordan",
+    "kazakhstan",
+    "kenya",
+    "kiribati",
+    "kosovo",
+    "kuwait",
+    "kyrgyzstan",
+    "laos",
+    "latvia",
+    "lebanon",
+    "lesotho",
+    "liberia",
+    "libya",
+    "liechtenstein",
+    "lithuania",
+    "luxembourg",
+    "macau",
+    "macedonia",
+    "madagascar",
+    "malawi",
+    "malaysia",
+    "maldives",
+    "mali",
+    "malta",
+    "marshall_islands",
+    "martinique",
+    "mauritania",
+    "mauritius",
+    "mayotte",
+    "mexico",
+    "micronesia",
+    "moldova",
+    "monaco",
+    "mongolia",
+    "montenegro",
+    "montserrat",
+    "morocco",
+    "mozambique",
+    "myanmar",
+    "namibia",
+    "nauru",
+    "nepal",
+    "netherlands",
+    "new_caledonia",
+    "new_zealand",
+    "nicaragua",
+    "niger",
     "nigeria",
-    "nu",
-    "nf",
-    "mp",
-    "kp",
-    "no",
-    "om",
-    "pk",
-    "pw",
-    "ps",
-    "pa",
-    "pg",
-    "py",
-    "pe",
-    "ph",
-    "pn",
-    "pl",
-    "pt",
-    "pr",
-    "qa",
-    "re",
-    "ro",
+    "niue",
+    "norfolk_island",
+    "northern_mariana_islands",
+    "north_korea",
+    "norway",
+    "oman",
+    "pakistan",
+    "palau",
+    "palestinian_territories",
+    "panama",
+    "papua_new_guinea",
+    "paraguay",
+    "peru",
+    "philippines",
+    "pitcairn_islands",
+    "poland",
+    "portugal",
+    "puerto_rico",
+    "qatar",
+    "reunion",
+    "romania",
     "ru",
-    "rw",
-    "bl",
-    "sh",
-    "kn",
-    "lc",
-    "pm",
-    "vc",
-    "ws",
-    "sm",
-    "st",
+    "rwanda",
+    "st_barthelemy",
+    "st_helena",
+    "st_kitts_nevis",
+    "st_lucia",
+    "st_pierre_miquelon",
+    "st_vincent_grenadines",
+    "samoa",
+    "san_marino",
+    "sao_tome_principe",
     "saudi_arabia",
-    "sn",
-    "rs",
-    "sc",
-    "sl",
-    "sg",
-    "sx",
-    "sk",
-    "si",
-    "sb",
-    "so",
-    "za",
-    "gs",
+    "senegal",
+    "serbia",
+    "seychelles",
+    "sierra_leone",
+    "singapore",
+    "sint_maarten",
+    "slovakia",
+    "slovenia",
+    "solomon_islands",
+    "somalia",
+    "south_africa",
+    "south_georgia_south_sandwich_islands",
     "kr",
-    "ss",
+    "south_sudan",
     "es",
-    "lk",
-    "sd",
-    "sr",
-    "sz",
-    "se",
-    "ch",
-    "sy",
-    "tw",
-    "tj",
-    "tz",
-    "th",
-    "tl",
-    "tg",
-    "tk",
-    "to",
-    "tt",
-    "tn",
+    "sri_lanka",
+    "sudan",
+    "suriname",
+    "swaziland",
+    "sweden",
+    "switzerland",
+    "syria",
+    "taiwan",
+    "tajikistan",
+    "tanzania",
+    "thailand",
+    "timor_leste",
+    "togo",
+    "tokelau",
+    "tonga",
+    "trinidad_tobago",
+    "tunisia",
     "tr",
     "turkmenistan",
-    "tc",
+    "turks_caicos_islands",
     "tuvalu",
-    "ug",
-    "ua",
-    "ae",
-    "gb",
+    "uganda",
+    "ukraine",
+    "united_arab_emirates",
+    "uk",
     "us",
-    "vi",
-    "uy",
-    "uz",
-    "vu",
-    "va",
-    "ve",
-    "vn",
-    "wf",
-    "eh",
-    "ye",
-    "zm",
-    "zw"
+    "us_virgin_islands",
+    "uruguay",
+    "uzbekistan",
+    "vanuatu",
+    "vatican_city",
+    "venezuela",
+    "vietnam",
+    "wallis_futuna",
+    "western_sahara",
+    "yemen",
+    "zambia",
+    "zimbabwe"
   ],
   "flags": [
     "flags"
@@ -8794,7 +9549,7 @@
     "izakaya_lantern"
   ],
   "letter": [
-    "envelope",
+    "email",
     "postbox",
     "a",
     "b",
@@ -8804,28 +9559,26 @@
     "information_source"
   ],
   "postal": [
-    "envelope"
+    "email"
   ],
   "inbox": [
-    "envelope",
-    "incoming_envelope",
     "email",
+    "incoming_envelope",
+    "e-mail",
     "mailbox_closed",
     "mailbox",
     "mailbox_with_mail",
     "mailbox_with_no_mail",
     "outbox_tray"
   ],
-  "envelope": [
-    "envelope",
-    "love_letter",
-    "postbox"
-  ],
   "envelope_with_arrow": [
     "envelope_with_arrow"
   ],
   "incoming_envelope": [
     "incoming_envelope"
+  ],
+  "e-mail": [
+    "e-mail"
   ],
   "love_letter": [
     "love_letter"
@@ -8946,7 +9699,7 @@
   "schedule": [
     "date",
     "calendar",
-    "spiral_calendar_pad",
+    "spiral_calendar",
     "clock1",
     "clock2",
     "clock3",
@@ -8974,10 +9727,10 @@
   ],
   "planning": [
     "calendar",
-    "spiral_calendar_pad"
+    "spiral_calendar"
   ],
-  "spiral_calendar_pad": [
-    "spiral_calendar_pad"
+  "spiral_calendar": [
+    "spiral_calendar"
   ],
   "card_index": [
     "card_index"
@@ -8986,17 +9739,17 @@
     "card_file_box"
   ],
   "election": [
-    "ballot_box_with_ballot",
+    "ballot_box",
     "white_check_mark",
     "ballot_box_with_check"
   ],
   "vote": [
-    "ballot_box_with_ballot",
+    "ballot_box",
     "white_check_mark",
     "ballot_box_with_check"
   ],
-  "ballot_box_with_ballot": [
-    "ballot_box_with_ballot"
+  "ballot_box": [
+    "ballot_box"
   ],
   "filing": [
     "file_cabinet"
@@ -9013,10 +9766,10 @@
   ],
   "memo": [
     "memo",
-    "spiral_note_pad"
+    "spiral_notepad"
   ],
-  "spiral_note_pad": [
-    "spiral_note_pad"
+  "spiral_notepad": [
+    "spiral_notepad"
   ],
   "file_folder": [
     "file_folder"
@@ -9031,15 +9784,15 @@
     "card_index_dividers"
   ],
   "press": [
-    "rolled_up_newspaper",
+    "newspaper_roll",
     "newspaper"
   ],
   "headline": [
-    "rolled_up_newspaper",
+    "newspaper_roll",
     "newspaper"
   ],
-  "rolled_up_newspaper": [
-    "rolled_up_newspaper"
+  "newspaper_roll": [
+    "newspaper_roll"
   ],
   "newspaper": [
     "newspaper"
@@ -9059,14 +9812,14 @@
     "blue_book",
     "orange_book",
     "books",
-    "book"
+    "open_book"
   ],
   "knowledge": [
     "closed_book",
     "green_book",
     "blue_book",
     "orange_book",
-    "book"
+    "open_book"
   ],
   "textbook": [
     "closed_book",
@@ -9095,16 +9848,16 @@
   ],
   "literature": [
     "books",
-    "book"
+    "open_book"
   ],
   "books": [
     "books"
   ],
-  "open_book": [
-    "book"
-  ],
   "book": [
-    "book"
+    "open_book"
+  ],
+  "open_book": [
+    "open_book"
   ],
   "rings": [
     "link"
@@ -9118,8 +9871,8 @@
   "paperclip": [
     "paperclip"
   ],
-  "linked_paperclips": [
-    "linked_paperclips"
+  "paperclips": [
+    "paperclips"
   ],
   "cut": [
     "scissors",
@@ -9155,8 +9908,8 @@
   ],
   "drawing": [
     "straight_ruler",
-    "lower_left_crayon",
-    "lower_left_paintbrush"
+    "crayon",
+    "paintbrush"
   ],
   "straight_ruler": [
     "straight_ruler"
@@ -9186,28 +9939,28 @@
     "triangular_flag_on_post"
   ],
   "losing": [
-    "waving_white_flag"
+    "white_flag"
   ],
   "loser": [
-    "waving_white_flag"
+    "white_flag"
   ],
   "lost": [
-    "waving_white_flag"
+    "white_flag"
   ],
   "surrender": [
-    "waving_white_flag"
+    "white_flag"
   ],
   "give up": [
-    "waving_white_flag"
+    "white_flag"
   ],
-  "waving_white_flag": [
-    "waving_white_flag"
+  "white_flag": [
+    "white_flag"
   ],
   "pirate": [
-    "waving_black_flag"
+    "black_flag"
   ],
-  "waving_black_flag": [
-    "waving_black_flag"
+  "black_flag": [
+    "black_flag"
   ],
   "rainbow_flag": [
     "rainbow_flag"
@@ -9231,17 +9984,18 @@
     "lock_with_ink_pen"
   ],
   "writing": [
-    "lower_left_ballpoint_pen",
-    "lower_left_fountain_pen",
+    "pen",
+    "fountain_pen",
     "black_nib",
     "memo",
     "pencil2"
   ],
-  "lower_left_ballpoint_pen": [
-    "lower_left_ballpoint_pen"
+  "pen": [
+    "pen",
+    "black_nib"
   ],
-  "lower_left_fountain_pen": [
-    "lower_left_fountain_pen"
+  "fountain_pen": [
+    "fountain_pen"
   ],
   "black_nib": [
     "black_nib"
@@ -9253,14 +10007,14 @@
     "pencil2"
   ],
   "creativity": [
-    "lower_left_crayon",
-    "lower_left_paintbrush"
+    "crayon",
+    "paintbrush"
   ],
-  "lower_left_crayon": [
-    "lower_left_crayon"
+  "crayon": [
+    "crayon"
   ],
-  "lower_left_paintbrush": [
-    "lower_left_paintbrush"
+  "paintbrush": [
+    "paintbrush"
   ],
   "search": [
     "mag",
@@ -9288,6 +10042,9 @@
   "purple_heart": [
     "purple_heart"
   ],
+  "black_heart": [
+    "black_heart"
+  ],
   "sorry": [
     "broken_heart"
   ],
@@ -9300,8 +10057,8 @@
   "broken_heart": [
     "broken_heart"
   ],
-  "heavy_heart_exclamation_mark_ornament": [
-    "heavy_heart_exclamation_mark_ornament"
+  "heavy_heart_exclamation": [
+    "heavy_heart_exclamation"
   ],
   "two_hearts": [
     "two_hearts"
@@ -9362,19 +10119,19 @@
     "star_and_crescent"
   ],
   "buddhism": [
-    "om_symbol",
+    "om",
     "wheel_of_dharma"
   ],
   "sikhism": [
-    "om_symbol",
+    "om",
     "wheel_of_dharma"
   ],
   "jainism": [
-    "om_symbol",
+    "om",
     "wheel_of_dharma"
   ],
-  "om_symbol": [
-    "om_symbol"
+  "om": [
+    "om"
   ],
   "wheel_of_dharma": [
     "wheel_of_dharma"
@@ -9389,16 +10146,13 @@
     "six_pointed_star"
   ],
   "hanukkah": [
-    "menorah_with_nine_branches"
+    "menorah"
   ],
   "candles": [
-    "menorah_with_nine_branches"
+    "menorah"
   ],
-  "menorah_with_nine_branches": [
-    "menorah_with_nine_branches"
-  ],
-  "balance": [
-    "yin_yang"
+  "menorah": [
+    "menorah"
   ],
   "yin_yang": [
     "yin_yang"
@@ -9564,13 +10318,13 @@
     "u5272"
   ],
   "nuclear": [
-    "radioactive_sign"
+    "radioactive"
   ],
-  "radioactive_sign": [
-    "radioactive_sign"
+  "radioactive": [
+    "radioactive"
   ],
-  "biohazard_sign": [
-    "biohazard_sign"
+  "biohazard": [
+    "biohazard"
   ],
   "mute": [
     "mute",
@@ -9628,6 +10382,9 @@
     "u55b6"
   ],
   "month": [
+    "u6708"
+  ],
+  "moon": [
     "u6708"
   ],
   "u6708": [
@@ -9813,6 +10570,9 @@
   ],
   "o": [
     "o"
+  ],
+  "stop_sign": [
+    "stop_sign"
   ],
   "anger": [
     "anger"
@@ -10187,9 +10947,9 @@
   ],
   "new": [
     "new",
-    "nc",
-    "nz",
-    "pg"
+    "new_caledonia",
+    "new_zealand",
+    "papua_new_guinea"
   ],
   "free": [
     "free"
@@ -10233,47 +10993,47 @@
   "keycap_ten": [
     "keycap_ten"
   ],
-  "asterisk": [
-    "keycap_star"
+  "keycap": [
+    "asterisk"
   ],
-  "keycap_star": [
-    "keycap_star"
+  "asterisk": [
+    "asterisk"
   ],
   "arrow_forward": [
     "arrow_forward"
   ],
   "pause": [
-    "double_vertical_bar",
-    "black_right_pointing_double_triangle_with_vertical_bar"
+    "pause_button",
+    "play_or_pause_button"
   ],
-  "double_vertical_bar": [
-    "double_vertical_bar"
+  "pause_button": [
+    "pause_button"
   ],
   "forward": [
-    "black_right_pointing_triangle_with_double_vertical_bar",
+    "next_track_button",
     "arrow_up_small"
   ],
   "next": [
-    "black_right_pointing_triangle_with_double_vertical_bar",
+    "next_track_button",
     "arrow_right"
   ],
-  "black_right_pointing_triangle_with_double_vertical_bar": [
-    "black_right_pointing_triangle_with_double_vertical_bar"
+  "next_track_button": [
+    "next_track_button"
   ],
-  "black_square_for_stop": [
-    "black_square_for_stop"
+  "stop_button": [
+    "stop_button"
   ],
-  "black_circle_for_record": [
-    "black_circle_for_record"
+  "record_button": [
+    "record_button"
   ],
-  "black_right_pointing_double_triangle_with_vertical_bar": [
-    "black_right_pointing_double_triangle_with_vertical_bar"
+  "play_or_pause_button": [
+    "play_or_pause_button"
   ],
   "backward": [
-    "black_left_pointing_double_triangle_with_vertical_bar"
+    "previous_track_button"
   ],
-  "black_left_pointing_double_triangle_with_vertical_bar": [
-    "black_left_pointing_double_triangle_with_vertical_bar"
+  "previous_track_button": [
+    "previous_track_button"
   ],
   "continue": [
     "fast_forward",
@@ -10933,319 +11693,319 @@
   "clock1230": [
     "clock1230"
   ],
-  "afghanistan": [
-    "af"
-  ],
   "af": [
-    "af"
+    "afghanistan"
+  ],
+  "afghanistan": [
+    "afghanistan"
   ],
   "Åland": [
-    "ax"
+    "aland_islands"
   ],
   "islands": [
-    "ax",
-    "vg",
-    "ic",
-    "ky",
-    "cc",
-    "ck",
-    "fk",
-    "fo",
-    "mh",
-    "mp",
-    "sb",
-    "gs",
-    "tc",
-    "vi"
+    "aland_islands",
+    "british_virgin_islands",
+    "canary_islands",
+    "cayman_islands",
+    "cocos_islands",
+    "cook_islands",
+    "falkland_islands",
+    "faroe_islands",
+    "marshall_islands",
+    "northern_mariana_islands",
+    "solomon_islands",
+    "south_georgia_south_sandwich_islands",
+    "turks_caicos_islands",
+    "us_virgin_islands"
   ],
-  "ax": [
-    "ax"
-  ],
-  "albania": [
-    "al"
+  "aland_islands": [
+    "aland_islands"
   ],
   "al": [
-    "al"
+    "albania"
   ],
-  "algeria": [
-    "dz"
+  "albania": [
+    "albania"
   ],
   "dz": [
-    "dz"
+    "algeria"
   ],
-  "samoa": [
-    "as",
-    "ws"
+  "algeria": [
+    "algeria"
   ],
-  "as": [
-    "as"
+  "ws": [
+    "american_samoa",
+    "samoa"
   ],
-  "andorra": [
-    "ad"
+  "american_samoa": [
+    "american_samoa"
   ],
   "ad": [
-    "ad"
+    "andorra"
   ],
-  "angola": [
-    "ao"
+  "andorra": [
+    "andorra"
   ],
   "ao": [
-    "ao"
+    "angola"
   ],
-  "anguilla": [
-    "ai"
+  "angola": [
+    "angola"
   ],
   "ai": [
-    "ai"
+    "anguilla"
   ],
-  "antarctica": [
-    "aq"
+  "anguilla": [
+    "anguilla"
   ],
   "aq": [
-    "aq"
+    "antarctica"
+  ],
+  "antarctica": [
+    "antarctica"
   ],
   "antigua": [
-    "ag"
+    "antigua_barbuda"
   ],
   "barbuda": [
-    "ag"
+    "antigua_barbuda"
   ],
-  "ag": [
-    "ag"
-  ],
-  "argentina": [
-    "ar"
+  "antigua_barbuda": [
+    "antigua_barbuda"
   ],
   "ar": [
-    "ar"
+    "argentina"
   ],
-  "armenia": [
-    "am"
+  "argentina": [
+    "argentina"
   ],
   "am": [
-    "am"
+    "armenia"
+  ],
+  "armenia": [
+    "armenia"
   ],
   "aruba": [
-    "aw"
-  ],
-  "australia": [
-    "au"
+    "aruba"
   ],
   "au": [
-    "au"
+    "australia"
   ],
-  "austria": [
-    "at"
+  "australia": [
+    "australia"
   ],
   "at": [
-    "at"
+    "austria"
   ],
-  "azerbaijan": [
-    "az"
+  "austria": [
+    "austria"
   ],
   "az": [
-    "az"
+    "azerbaijan"
   ],
-  "bahamas": [
-    "bs"
+  "azerbaijan": [
+    "azerbaijan"
   ],
   "bs": [
-    "bs"
+    "bahamas"
   ],
-  "bahrain": [
-    "bh"
+  "bahamas": [
+    "bahamas"
   ],
   "bh": [
-    "bh"
+    "bahrain"
   ],
-  "bangladesh": [
-    "bd"
+  "bahrain": [
+    "bahrain"
   ],
   "bd": [
-    "bd"
+    "bangladesh"
   ],
-  "barbados": [
-    "bb"
+  "bangladesh": [
+    "bangladesh"
   ],
   "bb": [
-    "bb"
+    "barbados"
   ],
-  "belarus": [
-    "by"
+  "barbados": [
+    "barbados"
   ],
   "by": [
-    "by"
+    "belarus"
   ],
-  "belgium": [
-    "be"
+  "belarus": [
+    "belarus"
   ],
   "be": [
-    "be"
+    "belgium"
   ],
-  "belize": [
-    "bz"
+  "belgium": [
+    "belgium"
   ],
   "bz": [
-    "bz"
+    "belize"
   ],
-  "benin": [
-    "bj"
+  "belize": [
+    "belize"
   ],
   "bj": [
-    "bj"
+    "benin"
   ],
-  "bermuda": [
-    "bm"
+  "benin": [
+    "benin"
   ],
   "bm": [
-    "bm"
+    "bermuda"
   ],
-  "bhutan": [
-    "bt"
+  "bermuda": [
+    "bermuda"
   ],
   "bt": [
-    "bt"
+    "bhutan"
   ],
-  "bolivia": [
-    "bo"
+  "bhutan": [
+    "bhutan"
   ],
   "bo": [
-    "bo"
+    "bolivia"
+  ],
+  "bolivia": [
+    "bolivia"
   ],
   "bonaire": [
-    "bq"
+    "caribbean_netherlands"
   ],
-  "bq": [
-    "bq"
+  "caribbean_netherlands": [
+    "caribbean_netherlands"
   ],
   "bosnia": [
-    "ba"
+    "bosnia_herzegovina"
   ],
   "herzegovina": [
-    "ba"
+    "bosnia_herzegovina"
   ],
-  "ba": [
-    "ba"
-  ],
-  "botswana": [
-    "bw"
+  "bosnia_herzegovina": [
+    "bosnia_herzegovina"
   ],
   "bw": [
-    "bw"
+    "botswana"
   ],
-  "brazil": [
-    "br"
+  "botswana": [
+    "botswana"
   ],
   "br": [
-    "br"
+    "brazil"
+  ],
+  "brazil": [
+    "brazil"
   ],
   "territory": [
-    "io"
+    "british_indian_ocean_territory"
   ],
-  "io": [
-    "io"
+  "british_indian_ocean_territory": [
+    "british_indian_ocean_territory"
   ],
   "virgin": [
-    "vg",
-    "vi"
+    "british_virgin_islands",
+    "us_virgin_islands"
   ],
   "bvi": [
-    "vg"
+    "british_virgin_islands"
   ],
-  "vg": [
-    "vg"
-  ],
-  "brunei": [
-    "bn"
-  ],
-  "darussalam": [
-    "bn"
+  "british_virgin_islands": [
+    "british_virgin_islands"
   ],
   "bn": [
-    "bn"
+    "brunei"
   ],
-  "bulgaria": [
-    "bg"
+  "darussalam": [
+    "brunei"
+  ],
+  "brunei": [
+    "brunei"
   ],
   "bg": [
-    "bg"
+    "bulgaria"
+  ],
+  "bulgaria": [
+    "bulgaria"
   ],
   "burkina": [
-    "bf"
+    "burkina_faso"
   ],
   "faso": [
-    "bf"
+    "burkina_faso"
   ],
-  "bf": [
-    "bf"
-  ],
-  "burundi": [
-    "bi"
+  "burkina_faso": [
+    "burkina_faso"
   ],
   "bi": [
-    "bi"
+    "burundi"
+  ],
+  "burundi": [
+    "burundi"
   ],
   "cabo": [
-    "cv"
+    "cape_verde"
   ],
   "verde": [
-    "cv"
+    "cape_verde"
   ],
-  "cv": [
-    "cv"
-  ],
-  "cambodia": [
-    "kh"
+  "cape_verde": [
+    "cape_verde"
   ],
   "kh": [
-    "kh"
+    "cambodia"
   ],
-  "cameroon": [
-    "cm"
+  "cambodia": [
+    "cambodia"
   ],
   "cm": [
-    "cm"
+    "cameroon"
   ],
-  "ca": [
-    "ca"
+  "cameroon": [
+    "cameroon"
+  ],
+  "canada": [
+    "canada"
   ],
   "canary": [
-    "ic"
+    "canary_islands"
   ],
-  "ic": [
-    "ic"
+  "canary_islands": [
+    "canary_islands"
   ],
   "cayman": [
-    "ky"
+    "cayman_islands"
   ],
-  "ky": [
-    "ky"
+  "cayman_islands": [
+    "cayman_islands"
   ],
   "central": [
-    "cf"
+    "central_african_republic"
   ],
   "african": [
-    "cf"
+    "central_african_republic"
   ],
   "republic": [
-    "cf",
-    "drc",
-    "do",
-    "ir",
-    "la",
-    "md",
-    "sy",
-    "tz",
-    "ve"
+    "central_african_republic",
+    "congo_kinshasa",
+    "dominican_republic",
+    "iran",
+    "laos",
+    "moldova",
+    "syria",
+    "tanzania",
+    "venezuela"
   ],
-  "cf": [
-    "cf"
-  ],
-  "chad": [
-    "td"
+  "central_african_republic": [
+    "central_african_republic"
   ],
   "td": [
-    "td"
+    "chad"
+  ],
+  "chad": [
+    "chad"
   ],
   "chile": [
     "chile"
@@ -11257,163 +12017,161 @@
     "cn"
   ],
   "island": [
-    "cx",
-    "nf"
+    "christmas_island",
+    "norfolk_island"
   ],
-  "cx": [
-    "cx"
+  "christmas_island": [
+    "christmas_island"
   ],
   "cocos": [
-    "cc"
+    "cocos_islands"
   ],
   "keeling": [
-    "cc"
+    "cocos_islands"
   ],
-  "cc": [
-    "cc"
-  ],
-  "colombia": [
-    "co"
+  "cocos_islands": [
+    "cocos_islands"
   ],
   "co": [
-    "co"
+    "colombia"
   ],
-  "comoros": [
-    "km"
+  "colombia": [
+    "colombia"
   ],
   "km": [
-    "km"
+    "comoros"
+  ],
+  "comoros": [
+    "comoros"
   ],
   "congo": [
-    "cg",
-    "drc"
+    "congo_brazzaville",
+    "congo_kinshasa"
   ],
-  "cg": [
-    "cg"
+  "congo_brazzaville": [
+    "congo_brazzaville"
   ],
   "democratic": [
-    "drc",
-    "la"
+    "congo_kinshasa",
+    "laos"
   ],
-  "drc": [
-    "drc"
+  "congo_kinshasa": [
+    "congo_kinshasa"
   ],
-  "ck": [
-    "ck"
+  "cook_islands": [
+    "cook_islands"
   ],
   "costa": [
-    "cr"
+    "costa_rica"
   ],
   "rica": [
-    "cr"
+    "costa_rica"
   ],
-  "cr": [
-    "cr"
-  ],
-  "croatia": [
-    "hr"
+  "costa_rica": [
+    "costa_rica"
   ],
   "hr": [
-    "hr"
+    "croatia"
   ],
-  "cuba": [
-    "cu"
+  "croatia": [
+    "croatia"
   ],
   "cu": [
-    "cu"
+    "cuba"
+  ],
+  "cuba": [
+    "cuba"
   ],
   "curaçao": [
-    "cw"
+    "curacao"
   ],
-  "cw": [
-    "cw"
-  ],
-  "cyprus": [
-    "cy"
+  "curacao": [
+    "curacao"
   ],
   "cy": [
-    "cy"
+    "cyprus"
   ],
-  "czech_republic": [
-    "cz"
+  "cyprus": [
+    "cyprus"
   ],
   "cz": [
-    "cz"
+    "czech_republic"
   ],
-  "denmark": [
-    "dk"
+  "czech_republic": [
+    "czech_republic"
   ],
   "dk": [
-    "dk"
+    "denmark"
   ],
-  "djibouti": [
-    "dj"
+  "denmark": [
+    "denmark"
   ],
   "dj": [
-    "dj"
+    "djibouti"
   ],
-  "dominica": [
-    "dm"
+  "djibouti": [
+    "djibouti"
   ],
   "dm": [
-    "dm"
+    "dominica"
+  ],
+  "dominica": [
+    "dominica"
   ],
   "dominican": [
-    "do"
+    "dominican_republic"
   ],
-  "do": [
-    "do"
-  ],
-  "ecuador": [
-    "ec"
+  "dominican_republic": [
+    "dominican_republic"
   ],
   "ec": [
-    "ec"
+    "ecuador"
   ],
-  "egypt": [
-    "eg"
+  "ecuador": [
+    "ecuador"
   ],
   "eg": [
-    "eg"
+    "egypt"
+  ],
+  "egypt": [
+    "egypt"
   ],
   "el": [
-    "sv"
+    "el_salvador"
   ],
   "salvador": [
-    "sv"
+    "el_salvador"
   ],
-  "sv": [
-    "sv"
+  "el_salvador": [
+    "el_salvador"
   ],
   "equatorial": [
-    "gq"
+    "equatorial_guinea"
   ],
-  "guinea": [
-    "gq",
-    "gn",
-    "gw",
-    "pg"
+  "gn": [
+    "equatorial_guinea",
+    "guinea"
   ],
-  "gq": [
-    "gq"
-  ],
-  "eritrea": [
-    "er"
+  "equatorial_guinea": [
+    "equatorial_guinea"
   ],
   "er": [
-    "er"
+    "eritrea"
   ],
-  "estonia": [
-    "ee"
+  "eritrea": [
+    "eritrea"
   ],
   "ee": [
-    "ee"
+    "estonia"
   ],
-  "ethiopia": [
-    "et"
+  "estonia": [
+    "estonia"
   ],
   "et": [
-    "et"
+    "ethiopia"
+  ],
+  "ethiopia": [
+    "ethiopia"
   ],
   "european": [
     "eu"
@@ -11425,84 +12183,78 @@
     "eu"
   ],
   "falkland": [
-    "fk"
+    "falkland_islands"
   ],
   "malvinas": [
-    "fk"
+    "falkland_islands"
   ],
-  "fk": [
-    "fk"
+  "falkland_islands": [
+    "falkland_islands"
   ],
   "faroe": [
-    "fo"
+    "faroe_islands"
   ],
-  "fo": [
-    "fo"
-  ],
-  "fiji": [
-    "fj"
+  "faroe_islands": [
+    "faroe_islands"
   ],
   "fj": [
-    "fj"
+    "fiji"
   ],
-  "finland": [
-    "fi"
+  "fiji": [
+    "fiji"
   ],
   "fi": [
-    "fi"
+    "finland"
+  ],
+  "finland": [
+    "finland"
   ],
   "france": [
     "fr"
-  ],
-  "french": [
-    "fr",
-    "gf",
-    "pf",
-    "tf"
   ],
   "fr": [
     "fr"
   ],
   "guiana": [
-    "gf"
+    "french_guiana"
   ],
-  "gf": [
-    "gf"
+  "french_guiana": [
+    "french_guiana"
   ],
   "polynesia": [
-    "pf"
+    "french_polynesia"
   ],
-  "pf": [
-    "pf"
+  "french_polynesia": [
+    "french_polynesia"
   ],
   "southern": [
-    "tf"
+    "french_southern_territories"
   ],
   "territories": [
-    "tf",
-    "ps"
+    "french_southern_territories",
+    "palestinian_territories"
   ],
-  "tf": [
-    "tf"
-  ],
-  "gabon": [
-    "ga"
+  "french_southern_territories": [
+    "french_southern_territories"
   ],
   "ga": [
-    "ga"
+    "gabon"
   ],
-  "gambia": [
-    "gm"
+  "gabon": [
+    "gabon"
   ],
   "gm": [
-    "gm"
+    "gambia"
   ],
-  "georgia": [
-    "ge",
-    "gs"
+  "gambia": [
+    "gambia"
   ],
   "ge": [
-    "ge"
+    "georgia"
+  ],
+  "georgia": [
+    "georgia",
+    "south_georgia_south_sandwich_islands"
   ],
   "german": [
     "de"
@@ -11510,150 +12262,154 @@
   "de": [
     "de"
   ],
-  "ghana": [
-    "gh"
-  ],
   "gh": [
-    "gh"
+    "ghana"
   ],
-  "gibraltar": [
-    "gi"
+  "ghana": [
+    "ghana"
   ],
   "gi": [
-    "gi"
+    "gibraltar"
   ],
-  "greece": [
-    "gr"
+  "gibraltar": [
+    "gibraltar"
   ],
   "gr": [
-    "gr"
+    "greece"
   ],
-  "greenland": [
-    "gl"
+  "greece": [
+    "greece"
   ],
   "gl": [
-    "gl"
+    "greenland"
   ],
-  "grenada": [
-    "gd"
+  "greenland": [
+    "greenland"
   ],
   "gd": [
-    "gd"
+    "grenada"
   ],
-  "guadeloupe": [
-    "gp"
+  "grenada": [
+    "grenada"
   ],
   "gp": [
-    "gp"
+    "guadeloupe"
   ],
-  "guam": [
-    "gu"
+  "guadeloupe": [
+    "guadeloupe"
   ],
   "gu": [
-    "gu"
+    "guam"
   ],
-  "guatemala": [
-    "gt"
+  "guam": [
+    "guam"
   ],
   "gt": [
-    "gt"
+    "guatemala"
   ],
-  "guernsey": [
-    "gg"
+  "guatemala": [
+    "guatemala"
   ],
   "gg": [
-    "gg"
+    "guernsey"
   ],
-  "gn": [
-    "gn"
+  "guernsey": [
+    "guernsey"
   ],
-  "bissau": [
-    "gw"
+  "guinea": [
+    "guinea",
+    "papua_new_guinea"
   ],
   "gw": [
-    "gw"
+    "guinea_bissau"
   ],
-  "guyana": [
-    "gy"
+  "bissau": [
+    "guinea_bissau"
+  ],
+  "guinea_bissau": [
+    "guinea_bissau"
   ],
   "gy": [
-    "gy"
+    "guyana"
   ],
-  "haiti": [
-    "ht"
+  "guyana": [
+    "guyana"
   ],
   "ht": [
-    "ht"
+    "haiti"
   ],
-  "honduras": [
-    "hn"
+  "haiti": [
+    "haiti"
   ],
   "hn": [
-    "hn"
+    "honduras"
+  ],
+  "honduras": [
+    "honduras"
   ],
   "hong": [
-    "hk"
+    "hong_kong"
   ],
   "kong": [
-    "hk"
+    "hong_kong"
   ],
-  "hk": [
-    "hk"
-  ],
-  "hungary": [
-    "hu"
+  "hong_kong": [
+    "hong_kong"
   ],
   "hu": [
-    "hu"
+    "hungary"
   ],
-  "iceland": [
-    "is"
+  "hungary": [
+    "hungary"
   ],
   "is": [
-    "is"
+    "iceland"
   ],
-  "india": [
-    "in"
+  "iceland": [
+    "iceland"
   ],
   "in": [
-    "in"
+    "india"
+  ],
+  "india": [
+    "india"
   ],
   "indonesia": [
     "indonesia"
   ],
   "iran,": [
-    "ir"
+    "iran"
   ],
   "islamic": [
-    "ir"
+    "iran"
   ],
-  "ir": [
-    "ir"
-  ],
-  "iraq": [
-    "iq"
+  "iran": [
+    "iran"
   ],
   "iq": [
-    "iq"
+    "iraq"
   ],
-  "ireland": [
-    "ie",
-    "gb"
+  "iraq": [
+    "iraq"
   ],
   "ie": [
-    "ie"
+    "ireland"
+  ],
+  "ireland": [
+    "ireland",
+    "uk"
   ],
   "isle": [
-    "im"
+    "isle_of_man"
   ],
-  "im": [
-    "im"
-  ],
-  "israel": [
-    "il"
+  "isle_of_man": [
+    "isle_of_man"
   ],
   "il": [
-    "il"
+    "israel"
+  ],
+  "israel": [
+    "israel"
   ],
   "italy": [
     "it"
@@ -11662,457 +12418,457 @@
     "it"
   ],
   "ivory": [
-    "ci"
+    "cote_divoire"
   ],
   "coast": [
-    "ci"
+    "cote_divoire"
   ],
-  "ci": [
-    "ci"
-  ],
-  "jamaica": [
-    "jm"
+  "cote_divoire": [
+    "cote_divoire"
   ],
   "jm": [
-    "jm"
+    "jamaica"
+  ],
+  "jamaica": [
+    "jamaica"
   ],
   "jp": [
     "jp"
   ],
-  "jersey": [
-    "je"
-  ],
   "je": [
-    "je"
+    "jersey"
   ],
-  "jordan": [
-    "jo"
+  "jersey": [
+    "jersey"
   ],
   "jo": [
-    "jo"
+    "jordan"
   ],
-  "kazakhstan": [
-    "kz"
+  "jordan": [
+    "jordan"
   ],
   "kz": [
-    "kz"
+    "kazakhstan"
   ],
-  "kenya": [
-    "ke"
+  "kazakhstan": [
+    "kazakhstan"
   ],
   "ke": [
-    "ke"
+    "kenya"
   ],
-  "kiribati": [
-    "ki"
+  "kenya": [
+    "kenya"
   ],
   "ki": [
-    "ki"
+    "kiribati"
   ],
-  "kosovo": [
-    "xk"
+  "kiribati": [
+    "kiribati"
   ],
   "xk": [
-    "xk"
+    "kosovo"
   ],
-  "kuwait": [
-    "kw"
+  "kosovo": [
+    "kosovo"
   ],
   "kw": [
-    "kw"
+    "kuwait"
   ],
-  "kyrgyzstan": [
-    "kg"
+  "kuwait": [
+    "kuwait"
   ],
   "kg": [
-    "kg"
+    "kyrgyzstan"
+  ],
+  "kyrgyzstan": [
+    "kyrgyzstan"
   ],
   "lao": [
-    "la"
+    "laos"
   ],
-  "la": [
-    "la"
-  ],
-  "latvia": [
-    "lv"
+  "laos": [
+    "laos"
   ],
   "lv": [
-    "lv"
+    "latvia"
   ],
-  "lebanon": [
-    "lb"
+  "latvia": [
+    "latvia"
   ],
   "lb": [
-    "lb"
+    "lebanon"
   ],
-  "lesotho": [
-    "ls"
+  "lebanon": [
+    "lebanon"
   ],
   "ls": [
-    "ls"
+    "lesotho"
   ],
-  "liberia": [
-    "lr"
+  "lesotho": [
+    "lesotho"
   ],
   "lr": [
-    "lr"
+    "liberia"
   ],
-  "libya": [
-    "ly"
+  "liberia": [
+    "liberia"
   ],
   "ly": [
-    "ly"
+    "libya"
   ],
-  "liechtenstein": [
-    "li"
+  "libya": [
+    "libya"
   ],
   "li": [
-    "li"
+    "liechtenstein"
   ],
-  "lithuania": [
-    "lt"
+  "liechtenstein": [
+    "liechtenstein"
   ],
   "lt": [
-    "lt"
+    "lithuania"
   ],
-  "luxembourg": [
-    "lu"
+  "lithuania": [
+    "lithuania"
   ],
   "lu": [
-    "lu"
+    "luxembourg"
+  ],
+  "luxembourg": [
+    "luxembourg"
   ],
   "macao": [
-    "mo"
+    "macau"
   ],
-  "mo": [
-    "mo"
+  "macau": [
+    "macau"
   ],
   "macedonia,": [
-    "mk"
+    "macedonia"
   ],
-  "mk": [
-    "mk"
-  ],
-  "madagascar": [
-    "mg"
+  "macedonia": [
+    "macedonia"
   ],
   "mg": [
-    "mg"
+    "madagascar"
   ],
-  "malawi": [
-    "mw"
+  "madagascar": [
+    "madagascar"
   ],
   "mw": [
-    "mw"
+    "malawi"
   ],
-  "malaysia": [
-    "my"
+  "malawi": [
+    "malawi"
   ],
   "my": [
-    "my"
+    "malaysia"
   ],
-  "maldives": [
-    "mv"
+  "malaysia": [
+    "malaysia"
   ],
   "mv": [
-    "mv"
+    "maldives"
   ],
-  "mali": [
-    "ml"
+  "maldives": [
+    "maldives"
   ],
   "ml": [
-    "ml"
+    "mali"
   ],
-  "malta": [
-    "mt"
+  "mali": [
+    "mali"
   ],
   "mt": [
-    "mt"
+    "malta"
+  ],
+  "malta": [
+    "malta"
   ],
   "marshall": [
-    "mh"
+    "marshall_islands"
   ],
-  "mh": [
-    "mh"
-  ],
-  "martinique": [
-    "mq"
+  "marshall_islands": [
+    "marshall_islands"
   ],
   "mq": [
-    "mq"
+    "martinique"
   ],
-  "mauritania": [
-    "mr"
+  "martinique": [
+    "martinique"
   ],
   "mr": [
-    "mr"
+    "mauritania"
   ],
-  "mauritius": [
-    "mu"
+  "mauritania": [
+    "mauritania"
   ],
   "mu": [
-    "mu"
+    "mauritius"
   ],
-  "mayotte": [
-    "yt"
+  "mauritius": [
+    "mauritius"
   ],
   "yt": [
-    "yt"
+    "mayotte"
   ],
-  "mexico": [
-    "mx"
+  "mayotte": [
+    "mayotte"
   ],
   "mx": [
-    "mx"
+    "mexico"
+  ],
+  "mexico": [
+    "mexico"
   ],
   "micronesia,": [
-    "fm"
+    "micronesia"
   ],
   "federated": [
-    "fm"
+    "micronesia"
   ],
   "states": [
-    "fm",
+    "micronesia",
     "us"
   ],
-  "fm": [
-    "fm"
+  "micronesia": [
+    "micronesia"
   ],
   "moldova,": [
-    "md"
+    "moldova"
   ],
-  "md": [
-    "md"
-  ],
-  "monaco": [
-    "mc"
+  "moldova": [
+    "moldova"
   ],
   "mc": [
-    "mc"
+    "monaco"
   ],
-  "mongolia": [
-    "mn"
+  "monaco": [
+    "monaco"
   ],
   "mn": [
-    "mn"
+    "mongolia"
   ],
-  "montenegro": [
-    "me"
+  "mongolia": [
+    "mongolia"
   ],
   "me": [
-    "me"
+    "montenegro"
   ],
-  "montserrat": [
-    "ms"
+  "montenegro": [
+    "montenegro"
   ],
   "ms": [
-    "ms"
+    "montserrat"
   ],
-  "morocco": [
-    "ma"
+  "montserrat": [
+    "montserrat"
   ],
   "ma": [
-    "ma"
+    "morocco"
   ],
-  "mozambique": [
-    "mz"
+  "morocco": [
+    "morocco"
   ],
   "mz": [
-    "mz"
+    "mozambique"
   ],
-  "myanmar": [
-    "mm"
+  "mozambique": [
+    "mozambique"
   ],
   "mm": [
-    "mm"
+    "myanmar"
   ],
-  "namibia": [
-    "na"
+  "myanmar": [
+    "myanmar"
   ],
   "na": [
-    "na"
+    "namibia"
   ],
-  "nauru": [
-    "nr"
+  "namibia": [
+    "namibia"
   ],
   "nr": [
-    "nr"
+    "nauru"
   ],
-  "nepal": [
-    "np"
+  "nauru": [
+    "nauru"
   ],
   "np": [
-    "np"
+    "nepal"
   ],
-  "netherlands": [
-    "nl"
+  "nepal": [
+    "nepal"
   ],
   "nl": [
-    "nl"
+    "netherlands"
+  ],
+  "netherlands": [
+    "netherlands"
   ],
   "caledonia": [
-    "nc"
+    "new_caledonia"
   ],
-  "nc": [
-    "nc"
+  "new_caledonia": [
+    "new_caledonia"
   ],
   "zealand": [
-    "nz"
+    "new_zealand"
   ],
-  "nz": [
-    "nz"
-  ],
-  "nicaragua": [
-    "ni"
+  "new_zealand": [
+    "new_zealand"
   ],
   "ni": [
-    "ni"
+    "nicaragua"
   ],
-  "niger": [
-    "ne"
+  "nicaragua": [
+    "nicaragua"
   ],
   "ne": [
-    "ne"
+    "niger"
+  ],
+  "niger": [
+    "niger"
   ],
   "nigeria": [
     "nigeria"
   ],
-  "niue": [
-    "nu"
-  ],
   "nu": [
-    "nu"
+    "niue"
+  ],
+  "niue": [
+    "niue"
   ],
   "norfolk": [
-    "nf"
+    "norfolk_island"
   ],
-  "nf": [
-    "nf"
+  "norfolk_island": [
+    "norfolk_island"
   ],
   "northern": [
-    "mp",
-    "gb"
+    "northern_mariana_islands",
+    "uk"
   ],
   "mariana": [
-    "mp"
+    "northern_mariana_islands"
   ],
-  "mp": [
-    "mp"
+  "northern_mariana_islands": [
+    "northern_mariana_islands"
   ],
   "north": [
-    "kp"
+    "north_korea"
   ],
   "korea": [
-    "kp",
+    "north_korea",
     "kr"
   ],
-  "kp": [
-    "kp"
+  "north_korea": [
+    "north_korea"
   ],
   "norway": [
-    "no"
+    "norway"
+  ],
+  "om_symbol": [
+    "oman"
   ],
   "oman": [
-    "om"
-  ],
-  "om": [
-    "om"
-  ],
-  "pakistan": [
-    "pk"
+    "oman"
   ],
   "pk": [
-    "pk"
+    "pakistan"
   ],
-  "palau": [
-    "pw"
+  "pakistan": [
+    "pakistan"
   ],
   "pw": [
-    "pw"
+    "palau"
+  ],
+  "palau": [
+    "palau"
   ],
   "palestine": [
-    "ps"
+    "palestinian_territories"
   ],
   "palestinian": [
-    "ps"
+    "palestinian_territories"
   ],
-  "ps": [
-    "ps"
-  ],
-  "panama": [
-    "pa"
+  "palestinian_territories": [
+    "palestinian_territories"
   ],
   "pa": [
-    "pa"
+    "panama"
+  ],
+  "panama": [
+    "panama"
   ],
   "papua": [
-    "pg"
+    "papua_new_guinea"
   ],
-  "pg": [
-    "pg"
-  ],
-  "paraguay": [
-    "py"
+  "papua_new_guinea": [
+    "papua_new_guinea"
   ],
   "py": [
-    "py"
+    "paraguay"
   ],
-  "peru": [
-    "pe"
+  "paraguay": [
+    "paraguay"
   ],
   "pe": [
-    "pe"
+    "peru"
   ],
-  "philippines": [
-    "ph"
+  "peru": [
+    "peru"
   ],
   "ph": [
-    "ph"
+    "philippines"
+  ],
+  "philippines": [
+    "philippines"
   ],
   "pitcairn": [
-    "pn"
+    "pitcairn_islands"
   ],
-  "pn": [
-    "pn"
-  ],
-  "poland": [
-    "pl"
+  "pitcairn_islands": [
+    "pitcairn_islands"
   ],
   "pl": [
-    "pl"
+    "poland"
   ],
-  "portugal": [
-    "pt"
+  "poland": [
+    "poland"
   ],
   "pt": [
-    "pt"
+    "portugal"
+  ],
+  "portugal": [
+    "portugal"
   ],
   "puerto": [
-    "pr"
+    "puerto_rico"
   ],
   "rico": [
-    "pr"
+    "puerto_rico"
   ],
-  "pr": [
-    "pr"
-  ],
-  "qatar": [
-    "qa"
+  "puerto_rico": [
+    "puerto_rico"
   ],
   "qa": [
-    "qa"
+    "qatar"
+  ],
+  "qatar": [
+    "qatar"
   ],
   "réunion": [
-    "re"
+    "reunion"
   ],
-  "re": [
-    "re"
-  ],
-  "romania": [
-    "ro"
+  "reunion": [
+    "reunion"
   ],
   "ro": [
-    "ro"
+    "romania"
+  ],
+  "romania": [
+    "romania"
   ],
   "russian": [
     "ru"
@@ -12123,197 +12879,197 @@
   "ru": [
     "ru"
   ],
-  "rwanda": [
-    "rw"
-  ],
   "rw": [
-    "rw"
+    "rwanda"
+  ],
+  "rwanda": [
+    "rwanda"
   ],
   "saint": [
-    "bl",
-    "sh",
-    "kn",
-    "lc",
-    "pm",
-    "vc"
+    "st_barthelemy",
+    "st_helena",
+    "st_kitts_nevis",
+    "st_lucia",
+    "st_pierre_miquelon",
+    "st_vincent_grenadines"
   ],
   "barthélemy": [
-    "bl"
+    "st_barthelemy"
   ],
-  "bl": [
-    "bl"
+  "st_barthelemy": [
+    "st_barthelemy"
   ],
   "helena": [
-    "sh"
+    "st_helena"
   ],
   "ascension": [
-    "sh"
+    "st_helena"
   ],
   "tristan": [
-    "sh"
+    "st_helena"
   ],
   "cunha": [
-    "sh"
+    "st_helena"
   ],
-  "sh": [
-    "sh"
+  "st_helena": [
+    "st_helena"
   ],
   "kitts": [
-    "kn"
+    "st_kitts_nevis"
   ],
   "nevis": [
-    "kn"
+    "st_kitts_nevis"
   ],
-  "kn": [
-    "kn"
+  "st_kitts_nevis": [
+    "st_kitts_nevis"
   ],
   "lucia": [
-    "lc"
+    "st_lucia"
   ],
-  "lc": [
-    "lc"
+  "st_lucia": [
+    "st_lucia"
   ],
   "pierre": [
-    "pm"
+    "st_pierre_miquelon"
   ],
   "miquelon": [
-    "pm"
+    "st_pierre_miquelon"
   ],
-  "pm": [
-    "pm"
+  "st_pierre_miquelon": [
+    "st_pierre_miquelon"
   ],
   "vincent": [
-    "vc"
+    "st_vincent_grenadines"
   ],
   "grenadines": [
-    "vc"
+    "st_vincent_grenadines"
   ],
-  "vc": [
-    "vc"
+  "st_vincent_grenadines": [
+    "st_vincent_grenadines"
   ],
-  "ws": [
-    "ws"
+  "samoa": [
+    "samoa"
   ],
   "san": [
-    "sm"
+    "san_marino"
   ],
   "marino": [
-    "sm"
+    "san_marino"
   ],
-  "sm": [
-    "sm"
+  "san_marino": [
+    "san_marino"
   ],
   "sao": [
-    "st"
+    "sao_tome_principe"
   ],
   "tome": [
-    "st"
+    "sao_tome_principe"
   ],
   "principe": [
-    "st"
+    "sao_tome_principe"
   ],
-  "st": [
-    "st"
+  "sao_tome_principe": [
+    "sao_tome_principe"
   ],
   "saudi_arabia": [
     "saudi_arabia"
   ],
-  "senegal": [
-    "sn"
-  ],
   "sn": [
-    "sn"
+    "senegal"
   ],
-  "serbia": [
-    "rs"
+  "senegal": [
+    "senegal"
   ],
   "rs": [
-    "rs"
+    "serbia"
   ],
-  "seychelles": [
-    "sc"
+  "serbia": [
+    "serbia"
   ],
   "sc": [
-    "sc"
+    "seychelles"
+  ],
+  "seychelles": [
+    "seychelles"
   ],
   "sierra": [
-    "sl"
+    "sierra_leone"
   ],
   "leone": [
-    "sl"
+    "sierra_leone"
   ],
-  "sl": [
-    "sl"
-  ],
-  "singapore": [
-    "sg"
+  "sierra_leone": [
+    "sierra_leone"
   ],
   "sg": [
-    "sg"
+    "singapore"
+  ],
+  "singapore": [
+    "singapore"
   ],
   "sint": [
-    "sx"
+    "sint_maarten"
   ],
   "maarten": [
-    "sx"
+    "sint_maarten"
   ],
   "dutch": [
-    "sx"
+    "sint_maarten"
   ],
-  "sx": [
-    "sx"
-  ],
-  "slovakia": [
-    "sk"
+  "sint_maarten": [
+    "sint_maarten"
   ],
   "sk": [
-    "sk"
+    "slovakia"
   ],
-  "slovenia": [
-    "si"
+  "slovakia": [
+    "slovakia"
   ],
   "si": [
-    "si"
+    "slovenia"
+  ],
+  "slovenia": [
+    "slovenia"
   ],
   "solomon": [
-    "sb"
+    "solomon_islands"
   ],
-  "sb": [
-    "sb"
-  ],
-  "somalia": [
-    "so"
+  "solomon_islands": [
+    "solomon_islands"
   ],
   "so": [
-    "so"
+    "somalia"
+  ],
+  "somalia": [
+    "somalia"
   ],
   "south": [
-    "za",
-    "gs",
+    "south_africa",
+    "south_georgia_south_sandwich_islands",
     "kr",
-    "ss"
+    "south_sudan"
   ],
   "africa": [
-    "za"
+    "south_africa"
   ],
-  "za": [
-    "za"
+  "south_africa": [
+    "south_africa"
   ],
   "sandwich": [
-    "gs"
+    "south_georgia_south_sandwich_islands"
   ],
-  "gs": [
-    "gs"
+  "south_georgia_south_sandwich_islands": [
+    "south_georgia_south_sandwich_islands"
   ],
   "kr": [
     "kr"
   ],
-  "sudan": [
-    "ss",
-    "sd"
+  "sd": [
+    "south_sudan",
+    "sudan"
   ],
-  "ss": [
-    "ss"
+  "south_sudan": [
+    "south_sudan"
   ],
   "spain": [
     "es"
@@ -12322,119 +13078,119 @@
     "es"
   ],
   "sri": [
-    "lk"
+    "sri_lanka"
   ],
   "lanka": [
-    "lk"
+    "sri_lanka"
   ],
-  "lk": [
-    "lk"
+  "sri_lanka": [
+    "sri_lanka"
   ],
-  "sd": [
-    "sd"
-  ],
-  "suriname": [
-    "sr"
+  "sudan": [
+    "sudan"
   ],
   "sr": [
-    "sr"
+    "suriname"
   ],
-  "swaziland": [
-    "sz"
+  "suriname": [
+    "suriname"
   ],
   "sz": [
-    "sz"
+    "swaziland"
   ],
-  "sweden": [
-    "se"
+  "swaziland": [
+    "swaziland"
   ],
   "se": [
-    "se"
+    "sweden"
   ],
-  "switzerland": [
-    "ch"
+  "sweden": [
+    "sweden"
   ],
   "ch": [
-    "ch"
+    "switzerland"
+  ],
+  "switzerland": [
+    "switzerland"
   ],
   "syrian": [
-    "sy"
+    "syria"
   ],
   "arab": [
-    "sy",
-    "ae"
+    "syria",
+    "united_arab_emirates"
   ],
-  "sy": [
-    "sy"
-  ],
-  "taiwan": [
-    "tw"
+  "syria": [
+    "syria"
   ],
   "tw": [
-    "tw"
+    "taiwan"
   ],
-  "tajikistan": [
-    "tj"
+  "taiwan": [
+    "taiwan"
   ],
   "tj": [
-    "tj"
+    "tajikistan"
+  ],
+  "tajikistan": [
+    "tajikistan"
   ],
   "tanzania,": [
-    "tz"
+    "tanzania"
   ],
   "united": [
-    "tz",
-    "ae",
-    "gb",
+    "tanzania",
+    "united_arab_emirates",
+    "uk",
     "us"
   ],
-  "tz": [
-    "tz"
+  "tanzania": [
+    "tanzania"
   ],
-  "th": [
-    "th"
+  "thailand": [
+    "thailand"
   ],
   "timor": [
-    "tl"
+    "timor_leste"
   ],
   "leste": [
-    "tl"
+    "timor_leste"
   ],
-  "tl": [
-    "tl"
-  ],
-  "togo": [
-    "tg"
+  "timor_leste": [
+    "timor_leste"
   ],
   "tg": [
-    "tg"
+    "togo"
   ],
-  "tokelau": [
-    "tk"
+  "togo": [
+    "togo"
   ],
   "tk": [
-    "tk"
+    "tokelau"
   ],
-  "tonga": [
-    "to"
+  "tokelau": [
+    "tokelau"
   ],
   "to": [
-    "to"
+    "tonga"
+  ],
+  "tonga": [
+    "tonga"
   ],
   "trinidad": [
-    "tt"
+    "trinidad_tobago"
   ],
   "tobago": [
-    "tt"
+    "trinidad_tobago"
   ],
-  "tt": [
-    "tt"
-  ],
-  "tunisia": [
-    "tn"
+  "trinidad_tobago": [
+    "trinidad_tobago"
   ],
   "tn": [
-    "tn"
+    "tunisia"
+  ],
+  "tunisia": [
+    "tunisia"
   ],
   "tr": [
     "tr"
@@ -12443,140 +13199,140 @@
     "turkmenistan"
   ],
   "turks": [
-    "tc"
+    "turks_caicos_islands"
   ],
   "caicos": [
-    "tc"
+    "turks_caicos_islands"
   ],
-  "tc": [
-    "tc"
+  "turks_caicos_islands": [
+    "turks_caicos_islands"
   ],
   "tuvalu": [
     "tuvalu"
   ],
-  "uganda": [
-    "ug"
-  ],
   "ug": [
-    "ug"
+    "uganda"
   ],
-  "ukraine": [
-    "ua"
+  "uganda": [
+    "uganda"
   ],
   "ua": [
-    "ua"
+    "ukraine"
+  ],
+  "ukraine": [
+    "ukraine"
   ],
   "emirates": [
-    "ae"
+    "united_arab_emirates"
   ],
-  "ae": [
-    "ae"
+  "united_arab_emirates": [
+    "united_arab_emirates"
   ],
   "kingdom": [
-    "gb"
+    "uk"
   ],
   "great": [
-    "gb"
+    "uk"
   ],
   "britain": [
-    "gb"
+    "uk"
   ],
   "UK": [
-    "gb"
+    "uk"
   ],
   "english": [
-    "gb"
+    "uk"
   ],
   "union jack": [
-    "gb"
+    "uk"
   ],
   "america": [
     "us"
   ],
   "us": [
     "us",
-    "vi"
+    "us_virgin_islands"
   ],
-  "vi": [
-    "vi"
-  ],
-  "uruguay": [
-    "uy"
+  "us_virgin_islands": [
+    "us_virgin_islands"
   ],
   "uy": [
-    "uy"
+    "uruguay"
   ],
-  "uzbekistan": [
-    "uz"
+  "uruguay": [
+    "uruguay"
   ],
   "uz": [
-    "uz"
+    "uzbekistan"
   ],
-  "vanuatu": [
-    "vu"
+  "uzbekistan": [
+    "uzbekistan"
   ],
   "vu": [
-    "vu"
+    "vanuatu"
+  ],
+  "vanuatu": [
+    "vanuatu"
   ],
   "vatican": [
-    "va"
+    "vatican_city"
   ],
-  "va": [
-    "va"
-  ],
-  "venezuela": [
-    "ve"
-  ],
-  "bolivarian": [
-    "ve"
+  "vatican_city": [
+    "vatican_city"
   ],
   "ve": [
-    "ve"
+    "venezuela"
+  ],
+  "bolivarian": [
+    "venezuela"
+  ],
+  "venezuela": [
+    "venezuela"
   ],
   "viet": [
-    "vn"
+    "vietnam"
   ],
   "nam": [
-    "vn"
+    "vietnam"
   ],
-  "vn": [
-    "vn"
+  "vietnam": [
+    "vietnam"
   ],
   "wallis": [
-    "wf"
+    "wallis_futuna"
   ],
   "futuna": [
-    "wf"
+    "wallis_futuna"
   ],
-  "wf": [
-    "wf"
+  "wallis_futuna": [
+    "wallis_futuna"
   ],
   "western": [
-    "eh"
+    "western_sahara"
   ],
   "sahara": [
-    "eh"
+    "western_sahara"
   ],
-  "eh": [
-    "eh"
-  ],
-  "yemen": [
-    "ye"
+  "western_sahara": [
+    "western_sahara"
   ],
   "ye": [
-    "ye"
+    "yemen"
   ],
-  "zambia": [
-    "zm"
+  "yemen": [
+    "yemen"
   ],
   "zm": [
-    "zm"
+    "zambia"
   ],
-  "zimbabwe": [
-    "zw"
+  "zambia": [
+    "zambia"
   ],
   "zw": [
-    "zw"
+    "zimbabwe"
+  ],
+  "zimbabwe": [
+    "zimbabwe"
   ],
   "github": [
     "octocat"
@@ -12585,8 +13341,6 @@
     "octocat",
     "shipit",
     "neckbeard",
-    "metal",
-    "fu",
     "trollface",
     "suspect",
     "hurtrealbad"
@@ -12602,21 +13356,6 @@
   ],
   "neckbeard": [
     "neckbeard"
-  ],
-  "rocknroll": [
-    "metal"
-  ],
-  "band": [
-    "metal"
-  ],
-  "fuck": [
-    "fu"
-  ],
-  "disapprove": [
-    "fu"
-  ],
-  "fu": [
-    "fu"
   ],
   "meme": [
     "trollface"

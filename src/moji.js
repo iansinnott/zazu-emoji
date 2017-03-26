@@ -7,21 +7,12 @@ const keywordIndex = require('./keywordIndex.json');
 
 const DEFAULT_LIMIT = 250;
 
-// console.log(
-//   R.compose(
-//     R.head,
-//     R.sort((a, b) => b-a),
-//     R.map(arr => arr.length),
-//     R.values
-//   )(keywordIndex)
-// );
-
 /**
  * The actual search. This is the meat of what translates user input into
  * keywords to be looked up via the keyword index. This could be more advanced
  * (fuzzy matching) but for now this will do.
  */
-const search = (query) => R.filter(x => x.includes(query));
+const search = query => R.filter(x => x.includes(query));
 
 const searchByQuery = R.curry((opts, query) =>
   IO.of(keywordIndex)
