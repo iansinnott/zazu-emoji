@@ -27,7 +27,7 @@
     "eslint-plugin-standard": "^2.0.1"
   },
   "dependencies": {
-    "debug": "^2.6.0",
+    "debug": "^2.6.9",
     "emojilib": "^2.0.6",
     "ramda": "^0.23.0",
     "shirt": "^0.2.1"
